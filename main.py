@@ -1,24 +1,20 @@
 import json
+import tempfile
 import textwrap
 import time
 from pathlib import Path
 
 import yt_dlp
-from deep_translator import GoogleTranslator  # pip install deep-translator
 
 # ---------- SETTINGS ----------
-KEYWORD = "landslide"        # write this in English
+KEYWORD = "landslide"        # English; translations below are written for this word
 RESULTS_PER_COUNTRY = 3
 GET_TRANSCRIPTS = True
-TRANSLATE_KEYWORD = True
-COUNTRY_LIMIT = 3            # test with a few countries first; set to None for all
-DELAY_SECONDS = 3            # pause between video requests
-TRANSLATE_DELAY = 1          # pause between translation requests
+USE_TRANSLATIONS = True
+COUNTRY_LIMIT = None            # test with a few first; set to None for all
+DELAY_SECONDS = 3            # pause between requests
 
-# Files are saved next to the script
-BASE_DIR = Path(__file__).resolve().parent
-OUTPUT_FILE = BASE_DIR / "results.txt"
-CACHE_FILE = BASE_DIR / "translations.json"
+OUTPUT_FILE = Path(__file__).resolve().parent / "results2T.txt"
 
 # Optional: real per-country proxies, e.g. {"DE": "http://user:pass@host:port"}
 PROXIES = {}
@@ -77,52 +73,38 @@ LANGUAGES = {
     "UY": "es", "VE": "es", "VN": "vi", "YE": "ar", "ZW": "en",
 }
 
+# ---------- HAND-WRITTEN TRANSLATIONS OF "landslide" ----------
+MANUAL_TRANSLATIONS = {
+    "ar": "انهيار أرضي", "es": "deslizamiento de tierra", "de": "Erdrutsch",
+    "az": "torpaq sürüşməsi", "bn": "ভূমিধস", "be": "апалзень",
+    "nl": "aardverschuiving", "bs": "klizište", "pt": "deslizamento de terra",
+    "bg": "свлачище", "hr": "klizište", "el": "κατολίσθηση", "cs": "sesuv půdy",
+    "da": "jordskred", "et": "maalihe", "fi": "maanvyörymä",
+    "fr": "glissement de terrain", "ka": "მეწყერი", "hu": "földcsuszamlás",
+    "is": "aurskriða", "hi": "भूस्खलन", "id": "tanah longsor",
+    "iw": "מפולת אדמה", "it": "frana", "ja": "地すべり", "kk": "жер көшкіні",
+    "sw": "maporomoko ya ardhi", "lv": "zemes nogruvums", "lt": "nuošliauža",
+    "ms": "tanah runtuh", "mt": "frana", "sr": "клизиште", "ne": "पहिरो",
+    "mk": "свлечиште", "no": "jordskred", "ur": "لینڈ سلائیڈ",
+    "tl": "pagguho ng lupa", "pl": "osuwisko", "ro": "alunecare de teren",
+    "ru": "оползень", "sk": "zosuv pôdy", "sl": "plaz", "ko": "산사태",
+    "si": "නායයෑම", "sv": "jordskred", "th": "ดินถล่ม", "tr": "heyelan",
+    "uk": "зсув", "vi": "sạt lở đất", "zh-TW": "山崩",
+}
+
 if COUNTRY_LIMIT:
     COUNTRIES = dict(list(COUNTRIES.items())[:COUNTRY_LIMIT])
 
 video_cache = {}  # video id -> details
 
 
-# ---------- TRANSLATION (saved to translations.json) ----------
-translation_cache = {}
-if CACHE_FILE.exists():
-    try:
-        saved = json.loads(CACHE_FILE.read_text(encoding="utf-8"))
-        if saved.get("keyword") == KEYWORD:  # only reuse if keyword is unchanged
-            translation_cache = saved.get("translations", {})
-    except Exception:
-        pass
-
-
-def save_cache():
-    CACHE_FILE.write_text(
-        json.dumps({"keyword": KEYWORD, "translations": translation_cache},
-                   ensure_ascii=False, indent=2),
-        encoding="utf-8",
-    )
-
-
-def translate_keyword(lang):
-    if not TRANSLATE_KEYWORD or lang == "en":
+def get_term(code):
+    lang = LANGUAGES.get(code, "en")
+    if not USE_TRANSLATIONS or lang == "en":
         return KEYWORD
-    if lang in translation_cache:
-        return translation_cache[lang]
-
-    for attempt in range(3):
-        try:
-            result = GoogleTranslator(source="en", target=lang).translate(KEYWORD)
-            translation_cache[lang] = result
-            save_cache()
-            time.sleep(TRANSLATE_DELAY)
-            return result
-        except Exception as e:
-            print(f"  Translation to '{lang}' failed: {e}")
-            time.sleep(10 * (attempt + 1))
-
-    return KEYWORD  # not cached, so the next run retries this language
+    return MANUAL_TRANSLATIONS.get(lang, KEYWORD)
 
 
-# ---------- YOUTUBE ----------
 def make_opts(code, flat=False):
     opts = {
         "quiet": True,
@@ -147,39 +129,61 @@ def search_ids(code, term):
     return [e["id"] for e in info.get("entries", []) if e.get("id")]
 
 
-def fetch_transcript(info, ydl):
-    """Manual subs first, then auto captions; video's language, then English."""
-    langs = [l for l in (info.get("language"), "en") if l]
-    for source in (info.get("subtitles") or {}, info.get("automatic_captions") or {}):
-        for lang in langs:
-            key = next((k for k in source if k == lang or k.startswith(lang + "-")), None)
-            if not key:
-                continue
-            fmt = next((f for f in source[key] if f.get("ext") == "json3"), None)
-            if not fmt:
-                continue
-            try:
-                data = json.loads(ydl.urlopen(fmt["url"]).read().decode("utf-8"))
-                text = " ".join(
-                    seg.get("utf8", "")
-                    for ev in data.get("events", [])
-                    for seg in ev.get("segs", [])
-                ).replace("\n", " ")
-                time.sleep(DELAY_SECONDS)
-                return " ".join(text.split())
-            except Exception as e:
-                print(f"  Transcript fetch failed: {e}")
-                continue
-    return None
+def read_transcript(folder, preferred_langs):
+    """Read a downloaded subtitle file (json3) from the temp folder."""
+    files = list(Path(folder).glob("*.json3"))
+    if not files:
+        return None
+
+    def file_lang(p):
+        return p.name.split(".")[-2]  # e.g. "abc123.en.json3" -> "en"
+
+    chosen = None
+    for lang in preferred_langs:
+        chosen = next((p for p in files
+                       if file_lang(p) == lang or file_lang(p).startswith(lang + "-")), None)
+        if chosen:
+            break
+    chosen = chosen or files[0]
+
+    try:
+        data = json.loads(chosen.read_text(encoding="utf-8"))
+        text = " ".join(
+            seg.get("utf8", "")
+            for ev in data.get("events", [])
+            for seg in ev.get("segs", [])
+        ).replace("\n", " ")
+        return " ".join(text.split()) or None
+    except Exception as e:
+        print(f"  Could not read transcript: {e}")
+        return None
 
 
 def get_video(code, vid):
     if vid in video_cache:
         return video_cache[vid]
     url = f"https://www.youtube.com/watch?v={vid}"
-    with yt_dlp.YoutubeDL(make_opts(code)) as ydl:
-        info = ydl.extract_info(url, download=False)
-        transcript = fetch_transcript(info, ydl) if GET_TRANSCRIPTS else None
+
+    country_lang = LANGUAGES.get(code, "en").split("-")[0]
+    wanted = list(dict.fromkeys([country_lang, "en"]))
+
+    with tempfile.TemporaryDirectory() as tmp:
+        opts = make_opts(code)
+        if GET_TRANSCRIPTS:
+            opts.update({
+                "writesubtitles": True,        # manual captions
+                "writeautomaticsub": True,     # auto-generated captions
+                "subtitleslangs": [f"{l}.*" for l in wanted],
+                "subtitlesformat": "json3",
+                "sleep_interval_subtitles": DELAY_SECONDS,
+                "outtmpl": str(Path(tmp) / "%(id)s.%(ext)s"),
+            })
+        with yt_dlp.YoutubeDL(opts) as ydl:
+            info = ydl.extract_info(url, download=GET_TRANSCRIPTS)
+        video_lang = info.get("language")
+        langs = ([video_lang] if video_lang else []) + wanted
+        transcript = read_transcript(tmp, langs) if GET_TRANSCRIPTS else None
+
     details = {
         "title": info.get("title"),
         "channel": info.get("uploader"),
@@ -197,22 +201,14 @@ def fmt(n):
     return f"{n:,}" if isinstance(n, int) else "N/A"
 
 
-# ---------- MAIN ----------
 def main():
-    # Translate everything first, separate from the YouTube searches
-    if TRANSLATE_KEYWORD:
-        print("Translating keyword...")
-        for lang in sorted({LANGUAGES.get(c, "en") for c in COUNTRIES}):
-            translate_keyword(lang)
-        print("Translations done.\n")
-
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         f.write(f'YouTube search results for: "{KEYWORD}"\n')
         f.write("=" * 70 + "\n\n")
 
         for code, country in COUNTRIES.items():
-            term = translate_keyword(LANGUAGES.get(code, "en"))
-            print(f"Searching {country} ({code}) for '{term}'...")
+            term = get_term(code)
+            print(f"Searching {country} ({code})...")
             f.write(f"{'#' * 70}\n# {country} ({code})\n{'#' * 70}\n")
             f.write(f"  Search term: {term}\n\n")
 
