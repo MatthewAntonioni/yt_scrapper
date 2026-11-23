@@ -11,28 +11,33 @@ import yt_dlp
 KEYWORD = "landslide"             # English; translations below are written for this word
 EXTRA_MATCH_TERMS = ["mudslide"]  # extra words that count as relevant
 RESULTS_PER_COUNTRY = 10
-COUNTRY_LIMIT = None                 # test with a few first; set to None for all
+COUNTRY_LIMIT = 1                 # test with a few first; set to None for all
 USE_TRANSLATIONS = True
-GET_TRANSCRIPTS = True
 
-# False = fetch every video (recommended for raw data).
-# True = only fetch videos whose search-result title/description matches.
-FILTER_BEFORE_ENRICH = False
+# Which stages to run. Remove one to skip it.
+STAGES = ["search", "details", "transcripts"]
 
-# Delays (seconds)
+# Stage 3 (transcripts) pacing: this is the part YouTube throttles hardest
+TRANSCRIPTS_PER_RUN = 15              # stop after this many per run (None = no cap)
+TRANSCRIPT_DELAY = (30, 60)           # seconds between transcript fetches
+REST_EVERY = 10                       # longer rest after this many transcripts
+REST_SECONDS = 600
+TRANSCRIPTS_ONLY_FOR_MATCHES = False  # True = skip videos whose title/description/tags don't match
+
+# Other delays (seconds)
 SEARCH_DELAY = (5, 10)            # between country searches
-VIDEO_DELAY = (8, 15)             # between video fetches (randomized)
-BREAK_EVERY = 100                 # long break after this many video fetches
-BREAK_SECONDS = 300               # also the wait after a 429 before one retry
+VIDEO_DELAY = (8, 15)             # between metadata fetches
+BREAK_SECONDS = 300               # wait after a 429 in stage 2 before one retry
 
 # Optional: real per-country proxies, e.g. {"DE": "http://user:pass@host:port"}
 PROXIES = {}
 
 BASE_DIR = Path(__file__).resolve().parent
-SEARCH_FILE = BASE_DIR / "searchLand.jsonl"    # stage 1 progress (one line per country)
-DETAILS_FILE = BASE_DIR / "detailsLand.jsonl"  # stage 2 progress (one line per video)
-OUTPUT_TXT = BASE_DIR / "resultsLand.txt"
-OUTPUT_CSV = BASE_DIR / "resultsLand.csv"
+SEARCH_FILE = BASE_DIR / "search.jsonl"            # stage 1: one line per country
+DETAILS_FILE = BASE_DIR / "details.jsonl"          # stage 2: one line per video
+TRANSCRIPTS_FILE = BASE_DIR / "transcripts.jsonl"  # stage 3: one line per video
+OUTPUT_TXT = BASE_DIR / "results.txt"
+OUTPUT_CSV = BASE_DIR / "results.csv"
 
 # ---------- COUNTRIES (code: name) ----------
 COUNTRIES = {
@@ -148,9 +153,22 @@ def append_jsonl(path, obj):
 
 
 def is_valid_detail(r):
-    """A saved video record counts only if it has the current fields and no error.
+    """Counts only if it has the current fields and no error.
     Old-format or failed records are ignored and re-fetched."""
-    return "upload_date" in r and not r.get("error")
+    return "upload_date" in r and "has_captions" in r and not r.get("error")
+
+
+def load_transcripts():
+    """video id -> (status, text). status is 'ok' or 'none' (no captions found).
+    Also picks up transcripts saved by older versions of this script."""
+    out = {}
+    for r in load_jsonl(DETAILS_FILE):
+        if r.get("transcript"):
+            out[r["id"]] = ("ok", r["transcript"])
+    for r in load_jsonl(TRANSCRIPTS_FILE):
+        if r.get("status") in ("ok", "none"):
+            out[r["id"]] = (r["status"], r.get("transcript"))
+    return out
 
 
 def is_blocked(e):
@@ -225,7 +243,65 @@ def stage1():
     return True
 
 
-# ---------- STAGE 2: full details for each video ----------
+# ---------- STAGE 2: metadata for every video (no transcripts) ----------
+def fetch_details(vid, code):
+    url = f"https://www.youtube.com/watch?v={vid}"
+    with yt_dlp.YoutubeDL(make_opts(code)) as ydl:
+        info = ydl.extract_info(url, download=False)
+    return {
+        "id": vid,
+        "title": info.get("title"),
+        "channel": info.get("uploader"),
+        "channel_id": info.get("channel_id"),
+        "channel_url": info.get("channel_url") or info.get("uploader_url"),
+        "url": url,
+        "upload_date": fmt_date(info.get("upload_date")),
+        "duration_sec": info.get("duration"),
+        "views": info.get("view_count"),
+        "likes": info.get("like_count"),
+        "comments": info.get("comment_count"),
+        "language": info.get("language"),
+        "tags": info.get("tags") or [],
+        "description": info.get("description"),
+        # lets stage 3 skip videos that have no captions at all
+        "has_captions": bool(info.get("subtitles") or info.get("automatic_captions")),
+    }
+
+
+def stage2():
+    searches = load_jsonl(SEARCH_FILE)
+    already = {r["id"] for r in load_jsonl(DETAILS_FILE) if is_valid_detail(r)}
+
+    todo = {}  # deduplicated by video id
+    for rec in searches:
+        if rec["code"] not in COUNTRIES:
+            continue
+        for v in rec["videos"]:
+            if v["id"] not in already and v["id"] not in todo:
+                todo[v["id"]] = rec["code"]
+
+    print(f"[Stage 2] {len(todo)} videos to fetch")
+    for n, (vid, code) in enumerate(todo.items(), 1):
+        print(f"  {n}/{len(todo)}  {vid}")
+        for attempt in (1, 2):
+            try:
+                append_jsonl(DETAILS_FILE, fetch_details(vid, code))
+                break
+            except Exception as e:
+                if is_blocked(e):
+                    if attempt == 1:
+                        print(f"  Blocked (429). Waiting {BREAK_SECONDS}s, then retrying once...")
+                        time.sleep(BREAK_SECONDS)
+                        continue
+                    print("  Still blocked. Stopping; rerun later to resume.")
+                    return False
+                append_jsonl(DETAILS_FILE, {"id": vid, "error": str(e)})
+                break
+        pause(VIDEO_DELAY)
+    return True
+
+
+# ---------- STAGE 3: transcripts, slow and resumable ----------
 def fetch_transcript(info, ydl, langs):
     """One caption file per video: manual subs first, then auto captions."""
     for source in (info.get("subtitles") or {}, info.get("automatic_captions") or {}):
@@ -246,89 +322,86 @@ def fetch_transcript(info, ydl, langs):
                 return " ".join(text.split()) or None
             except Exception as e:
                 if is_blocked(e):
-                    raise  # let stage 2 handle the 429 wait/stop logic
+                    raise  # stop the run on a 429
                 continue
     return None
 
 
-def fetch_details(vid, code):
+def fetch_transcript_for(vid, code):
+    # caption links expire, so the video page is re-read to get fresh ones
     url = f"https://www.youtube.com/watch?v={vid}"
     country_lang = LANGUAGES.get(code, "en").split("-")[0]
     with yt_dlp.YoutubeDL(make_opts(code)) as ydl:
         info = ydl.extract_info(url, download=False)
         langs = [l for l in (info.get("language"), country_lang, "en") if l]
-        transcript = fetch_transcript(info, ydl, langs) if GET_TRANSCRIPTS else None
-
-    return {
-        "id": vid,
-        "title": info.get("title"),
-        "channel": info.get("uploader"),
-        "channel_id": info.get("channel_id"),
-        "channel_url": info.get("channel_url") or info.get("uploader_url"),
-        "url": url,
-        "upload_date": fmt_date(info.get("upload_date")),
-        "duration_sec": info.get("duration"),
-        "views": info.get("view_count"),
-        "likes": info.get("like_count"),
-        "comments": info.get("comment_count"),
-        "language": info.get("language"),
-        "tags": info.get("tags") or [],
-        "description": info.get("description"),
-        "transcript": transcript,
-    }
+        return fetch_transcript(info, ydl, langs)
 
 
-def stage2():
-    searches = load_jsonl(SEARCH_FILE)
-    already = {r["id"] for r in load_jsonl(DETAILS_FILE) if is_valid_detail(r)}
+def stage3():
+    details = {r["id"]: r for r in load_jsonl(DETAILS_FILE) if is_valid_detail(r)}
+    done = set(load_transcripts())
 
-    # Build the to-do list, deduplicated by video ID
-    todo = {}
-    for rec in searches:
-        if rec["code"] not in COUNTRIES:
+    code_of = {}
+    for rec in load_jsonl(SEARCH_FILE):
+        if rec["code"] in COUNTRIES:
+            for v in rec["videos"]:
+                code_of.setdefault(v["id"], rec["code"])
+
+    todo = []  # (priority, video id, country code)
+    for vid, code in code_of.items():
+        d = details.get(vid)
+        if not d or vid in done:
             continue
-        terms = match_terms(rec["code"])
-        for v in rec["videos"]:
-            if v["id"] in already or v["id"] in todo:
-                continue
-            if FILTER_BEFORE_ENRICH and not find_matches(
-                    f"{v['title']} {v.get('description') or ''}", terms):
-                continue
-            todo[v["id"]] = rec["code"]
+        if not d.get("has_captions"):  # nothing to download, so don't waste a request
+            append_jsonl(TRANSCRIPTS_FILE, {"id": vid, "status": "none", "transcript": None})
+            continue
+        text = " ".join([d.get("title") or "", d.get("description") or "",
+                         " ".join(d.get("tags") or [])])
+        matched = bool(find_matches(text, match_terms(code)))
+        if TRANSCRIPTS_ONLY_FOR_MATCHES and not matched:
+            continue
+        todo.append((0 if matched else 1, vid, code))
+    todo.sort(key=lambda t: t[0])  # videos that already look relevant go first
 
-    print(f"[Stage 2] {len(todo)} videos to fetch")
-    for n, (vid, code) in enumerate(todo.items(), 1):
-        print(f"  {n}/{len(todo)}  {vid}")
-        for attempt in (1, 2):
-            try:
-                append_jsonl(DETAILS_FILE, fetch_details(vid, code))
-                break
-            except Exception as e:
-                if is_blocked(e):
-                    if attempt == 1:
-                        print(f"  Blocked (429). Waiting {BREAK_SECONDS}s, then retrying once...")
-                        time.sleep(BREAK_SECONDS)
-                        continue
-                    print("  Still blocked. Stopping; rerun later to resume.")
-                    return
-                append_jsonl(DETAILS_FILE, {"id": vid, "error": str(e)})
-                break
-        if n % BREAK_EVERY == 0:
-            print(f"  Taking a {BREAK_SECONDS}s break...")
-            time.sleep(BREAK_SECONDS)
-        pause(VIDEO_DELAY)
+    batch = todo[:TRANSCRIPTS_PER_RUN] if TRANSCRIPTS_PER_RUN else todo
+    print(f"[Stage 3] {len(todo)} transcripts pending; fetching {len(batch)} this run")
+
+    for n, (_, vid, code) in enumerate(batch, 1):
+        print(f"  {n}/{len(batch)}  {vid}")
+        try:
+            transcript = fetch_transcript_for(vid, code)
+        except Exception as e:
+            if is_blocked(e):
+                print("  Blocked (429). Stopping. Wait a few hours (or switch connection) and rerun.")
+                return False
+            append_jsonl(TRANSCRIPTS_FILE, {"id": vid, "status": "error", "error": str(e)})
+        else:
+            append_jsonl(TRANSCRIPTS_FILE, {"id": vid, "status": "ok" if transcript else "none",
+                                            "transcript": transcript})
+        if n < len(batch):
+            if n % REST_EVERY == 0:
+                print(f"  Resting {REST_SECONDS}s...")
+                time.sleep(REST_SECONDS)
+            else:
+                pause(TRANSCRIPT_DELAY)
+
+    remaining = len(todo) - len(batch)
+    if remaining > 0:
+        print(f"  {remaining} transcripts still pending. Rerun later to continue.")
+    return True
 
 
 # ---------- REPORTS ----------
 def report():
     details = {r["id"]: r for r in load_jsonl(DETAILS_FILE) if is_valid_detail(r)}
     searches = {r["code"]: r for r in load_jsonl(SEARCH_FILE)}
+    transcripts = load_transcripts()
 
     cols = ["country", "code", "search_term", "rank", "relevant", "matched_terms",
             "title", "channel", "channel_id", "channel_url", "url", "upload_date",
             "duration_sec", "views", "likes", "comments", "language", "tags",
-            "description", "transcript_available", "transcript"]
-    total = relevant_total = 0
+            "description", "transcript_status", "transcript_available", "transcript"]
+    total = relevant_total = pending_total = 0
 
     with open(OUTPUT_TXT, "w", encoding="utf-8") as f, \
             open(OUTPUT_CSV, "w", newline="", encoding="utf-8-sig") as cf:
@@ -337,6 +410,7 @@ def report():
         f.write(f'YouTube search results for: "{KEYWORD}"\n')
         f.write("Relevant = title, description, tags or transcript contains a match term.\n")
         f.write("Relevant videos are shown in full; the rest are one-liners.\n")
+        f.write("Transcript status: ok = found, none = no captions, pending = not fetched yet.\n")
         f.write("=" * 70 + "\n\n")
 
         for code, country in COUNTRIES.items():
@@ -345,23 +419,23 @@ def report():
                 continue
             terms = match_terms(code)
 
-            rows = []  # (rank, details, matched)
+            rows = []  # (rank, details, matched, status, transcript)
             for rank, v in enumerate(rec["videos"], 1):
                 d = details.get(v["id"])
                 if not d:
-                    continue  # not fetched (blocked, filtered out, or failed)
+                    continue  # metadata not fetched yet
+                status, transcript = transcripts.get(v["id"], ("pending", None))
                 text = " ".join([d.get("title") or "", d.get("description") or "",
-                                 " ".join(d.get("tags") or []),
-                                 d.get("transcript") or ""])
-                rows.append((rank, d, find_matches(text, terms)))
+                                 " ".join(d.get("tags") or []), transcript or ""])
+                rows.append((rank, d, find_matches(text, terms), status, transcript))
 
-            n_rel = sum(1 for _, _, m in rows if m)
+            n_rel = sum(1 for r in rows if r[2])
             f.write(f"{'#' * 70}\n# {country} ({code})\n{'#' * 70}\n")
             f.write(f"  Search term: {rec['term']}\n")
             f.write(f"  Searched: {len(rec['videos'])}   Fetched: {len(rows)}   "
                     f"Relevant: {n_rel}\n\n")
 
-            for rank, d, matched in rows:
+            for rank, d, matched, status, transcript in rows:
                 if matched:
                     f.write(f"  #{rank}  [RELEVANT] {d.get('title')}\n")
                     f.write(f"     Channel:  {d.get('channel')}\n")
@@ -372,14 +446,15 @@ def report():
                     f.write(f"     Likes:    {fmt(d.get('likes'))}\n")
                     f.write(f"     Comments: {fmt(d.get('comments'))}\n")
                     f.write(f"     Matched:  {', '.join(matched)}\n")
-                    if GET_TRANSCRIPTS:
-                        f.write("     Transcript:\n")
-                        if d.get("transcript"):
-                            f.write(textwrap.fill(d["transcript"], width=90,
-                                                  initial_indent="       ",
-                                                  subsequent_indent="       ") + "\n")
-                        else:
-                            f.write("       (not available)\n")
+                    f.write("     Transcript:\n")
+                    if transcript:
+                        f.write(textwrap.fill(transcript, width=90,
+                                              initial_indent="       ",
+                                              subsequent_indent="       ") + "\n")
+                    elif status == "none":
+                        f.write("       (no captions available)\n")
+                    else:
+                        f.write("       (pending: not fetched yet)\n")
                     f.write("\n")
                 else:
                     f.write(f"  #{rank}  [not relevant] {d.get('title')} | "
@@ -397,20 +472,27 @@ def report():
                     "language": d.get("language"),
                     "tags": "; ".join(d.get("tags") or []),
                     "description": (d.get("description") or "")[:1000],
-                    "transcript_available": "yes" if d.get("transcript") else "no",
-                    "transcript": d.get("transcript") or "",
+                    "transcript_status": status,
+                    "transcript_available": "yes" if transcript else "no",
+                    "transcript": transcript or "",
                 })
                 total += 1
                 relevant_total += 1 if matched else 0
+                pending_total += 1 if status == "pending" else 0
             f.write("\n")
 
     print(f"Reports written: {OUTPUT_TXT.name} and {OUTPUT_CSV.name} "
-          f"({total} videos, {relevant_total} relevant)")
+          f"({total} videos, {relevant_total} relevant, {pending_total} transcripts pending)")
 
 
 def main():
-    if stage1():
-        stage2()
+    ok = True
+    if ok and "search" in STAGES:
+        ok = stage1()
+    if ok and "details" in STAGES:
+        ok = stage2()
+    if ok and "transcripts" in STAGES:
+        stage3()
     report()
 
 
