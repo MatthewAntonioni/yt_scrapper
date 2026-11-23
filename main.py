@@ -1,5 +1,6 @@
+import csv
 import json
-import tempfile
+import random
 import textwrap
 import time
 from pathlib import Path
@@ -7,17 +8,31 @@ from pathlib import Path
 import yt_dlp
 
 # ---------- SETTINGS ----------
-KEYWORD = "landslide"        # English; translations below are written for this word
-RESULTS_PER_COUNTRY = 3
-GET_TRANSCRIPTS = True
+KEYWORD = "landslide"             # English; translations below are written for this word
+EXTRA_MATCH_TERMS = ["mudslide"]  # extra words that count as relevant
+RESULTS_PER_COUNTRY = 10
+COUNTRY_LIMIT = None                 # test with a few first; set to None for all
 USE_TRANSLATIONS = True
-COUNTRY_LIMIT = None            # test with a few first; set to None for all
-DELAY_SECONDS = 3            # pause between requests
+GET_TRANSCRIPTS = True
 
-OUTPUT_FILE = Path(__file__).resolve().parent / "results2T.txt"
+# False = fetch every video (recommended for raw data).
+# True = only fetch videos whose search-result title/description matches.
+FILTER_BEFORE_ENRICH = False
+
+# Delays (seconds)
+SEARCH_DELAY = (5, 10)            # between country searches
+VIDEO_DELAY = (8, 15)             # between video fetches (randomized)
+BREAK_EVERY = 100                 # long break after this many video fetches
+BREAK_SECONDS = 300               # also the wait after a 429 before one retry
 
 # Optional: real per-country proxies, e.g. {"DE": "http://user:pass@host:port"}
 PROXIES = {}
+
+BASE_DIR = Path(__file__).resolve().parent
+SEARCH_FILE = BASE_DIR / "searchLand.jsonl"    # stage 1 progress (one line per country)
+DETAILS_FILE = BASE_DIR / "detailsLand.jsonl"  # stage 2 progress (one line per video)
+OUTPUT_TXT = BASE_DIR / "resultsLand.txt"
+OUTPUT_CSV = BASE_DIR / "resultsLand.csv"
 
 # ---------- COUNTRIES (code: name) ----------
 COUNTRIES = {
@@ -95,14 +110,56 @@ MANUAL_TRANSLATIONS = {
 if COUNTRY_LIMIT:
     COUNTRIES = dict(list(COUNTRIES.items())[:COUNTRY_LIMIT])
 
-video_cache = {}  # video id -> details
 
-
+# ---------- HELPERS ----------
 def get_term(code):
     lang = LANGUAGES.get(code, "en")
     if not USE_TRANSLATIONS or lang == "en":
         return KEYWORD
     return MANUAL_TRANSLATIONS.get(lang, KEYWORD)
+
+
+def match_terms(code):
+    """Words that make a video relevant for this country."""
+    return list(dict.fromkeys([KEYWORD, get_term(code)] + EXTRA_MATCH_TERMS))
+
+
+def find_matches(text, terms):
+    text = (text or "").lower()
+    return [t for t in terms if t.lower() in text]
+
+
+def load_jsonl(path):
+    if not path.exists():
+        return []
+    rows = []
+    for line in path.read_text(encoding="utf-8").splitlines():
+        if line.strip():
+            try:
+                rows.append(json.loads(line))
+            except json.JSONDecodeError:
+                pass
+    return rows
+
+
+def append_jsonl(path, obj):
+    with open(path, "a", encoding="utf-8") as f:
+        f.write(json.dumps(obj, ensure_ascii=False) + "\n")
+
+
+def is_valid_detail(r):
+    """A saved video record counts only if it has the current fields and no error.
+    Old-format or failed records are ignored and re-fetched."""
+    return "upload_date" in r and not r.get("error")
+
+
+def is_blocked(e):
+    s = str(e)
+    return "429" in s or "Too Many Requests" in s
+
+
+def pause(span):
+    time.sleep(random.uniform(*span))
 
 
 def make_opts(code, flat=False):
@@ -121,128 +178,240 @@ def make_opts(code, flat=False):
     return opts
 
 
-def search_ids(code, term):
-    query = f"ytsearch{RESULTS_PER_COUNTRY}:{term}"
-    with yt_dlp.YoutubeDL(make_opts(code, flat=True)) as ydl:
-        info = ydl.extract_info(query, download=False)
-    time.sleep(DELAY_SECONDS)
-    return [e["id"] for e in info.get("entries", []) if e.get("id")]
-
-
-def read_transcript(folder, preferred_langs):
-    """Read a downloaded subtitle file (json3) from the temp folder."""
-    files = list(Path(folder).glob("*.json3"))
-    if not files:
-        return None
-
-    def file_lang(p):
-        return p.name.split(".")[-2]  # e.g. "abc123.en.json3" -> "en"
-
-    chosen = None
-    for lang in preferred_langs:
-        chosen = next((p for p in files
-                       if file_lang(p) == lang or file_lang(p).startswith(lang + "-")), None)
-        if chosen:
-            break
-    chosen = chosen or files[0]
-
-    try:
-        data = json.loads(chosen.read_text(encoding="utf-8"))
-        text = " ".join(
-            seg.get("utf8", "")
-            for ev in data.get("events", [])
-            for seg in ev.get("segs", [])
-        ).replace("\n", " ")
-        return " ".join(text.split()) or None
-    except Exception as e:
-        print(f"  Could not read transcript: {e}")
-        return None
-
-
-def get_video(code, vid):
-    if vid in video_cache:
-        return video_cache[vid]
-    url = f"https://www.youtube.com/watch?v={vid}"
-
-    country_lang = LANGUAGES.get(code, "en").split("-")[0]
-    wanted = list(dict.fromkeys([country_lang, "en"]))
-
-    with tempfile.TemporaryDirectory() as tmp:
-        opts = make_opts(code)
-        if GET_TRANSCRIPTS:
-            opts.update({
-                "writesubtitles": True,        # manual captions
-                "writeautomaticsub": True,     # auto-generated captions
-                "subtitleslangs": [f"{l}.*" for l in wanted],
-                "subtitlesformat": "json3",
-                "sleep_interval_subtitles": DELAY_SECONDS,
-                "outtmpl": str(Path(tmp) / "%(id)s.%(ext)s"),
-            })
-        with yt_dlp.YoutubeDL(opts) as ydl:
-            info = ydl.extract_info(url, download=GET_TRANSCRIPTS)
-        video_lang = info.get("language")
-        langs = ([video_lang] if video_lang else []) + wanted
-        transcript = read_transcript(tmp, langs) if GET_TRANSCRIPTS else None
-
-    details = {
-        "title": info.get("title"),
-        "channel": info.get("uploader"),
-        "url": url,
-        "views": info.get("view_count"),
-        "likes": info.get("like_count"),
-        "comments": info.get("comment_count"),
-        "transcript": transcript,
-    }
-    video_cache[vid] = details
-    return details
-
-
 def fmt(n):
     return f"{n:,}" if isinstance(n, int) else "N/A"
 
 
-def main():
-    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+def fmt_date(d):
+    """YYYYMMDD -> YYYY-MM-DD"""
+    if d and len(d) == 8 and d.isdigit():
+        return f"{d[:4]}-{d[4:6]}-{d[6:]}"
+    return d or ""
+
+
+# ---------- STAGE 1: one cheap search per country ----------
+def stage1():
+    done = {r["code"] for r in load_jsonl(SEARCH_FILE)}
+    for code, country in COUNTRIES.items():
+        if code in done:
+            continue
+        term = get_term(code)
+        print(f"[Stage 1] Searching {country} ({code})...")
+        try:
+            query = f"ytsearch{RESULTS_PER_COUNTRY}:{term}"
+            with yt_dlp.YoutubeDL(make_opts(code, flat=True)) as ydl:
+                info = ydl.extract_info(query, download=False)
+        except Exception as e:
+            if is_blocked(e):
+                print("  Blocked (429). Stopping; rerun later to resume.")
+                return False
+            print(f"  Search failed: {e}")
+            continue  # not saved, so it's retried next run
+
+        videos = []
+        for e in info.get("entries", []):
+            if not e or not e.get("id"):
+                continue
+            videos.append({
+                "id": e["id"],
+                "title": e.get("title"),
+                "description": e.get("description"),
+            })
+        # list order = search rank (1 = top result)
+        append_jsonl(SEARCH_FILE, {"code": code, "country": country,
+                                   "term": term, "videos": videos})
+        print(f"  Found {len(videos)} videos")
+        pause(SEARCH_DELAY)
+    return True
+
+
+# ---------- STAGE 2: full details for each video ----------
+def fetch_transcript(info, ydl, langs):
+    """One caption file per video: manual subs first, then auto captions."""
+    for source in (info.get("subtitles") or {}, info.get("automatic_captions") or {}):
+        for lang in langs:
+            key = next((k for k in source if k == lang or k.startswith(lang + "-")), None)
+            if not key:
+                continue
+            fmt_ = next((f for f in source[key] if f.get("ext") == "json3"), None)
+            if not fmt_:
+                continue
+            try:
+                data = json.loads(ydl.urlopen(fmt_["url"]).read().decode("utf-8"))
+                text = " ".join(
+                    seg.get("utf8", "")
+                    for ev in data.get("events", [])
+                    for seg in ev.get("segs", [])
+                ).replace("\n", " ")
+                return " ".join(text.split()) or None
+            except Exception as e:
+                if is_blocked(e):
+                    raise  # let stage 2 handle the 429 wait/stop logic
+                continue
+    return None
+
+
+def fetch_details(vid, code):
+    url = f"https://www.youtube.com/watch?v={vid}"
+    country_lang = LANGUAGES.get(code, "en").split("-")[0]
+    with yt_dlp.YoutubeDL(make_opts(code)) as ydl:
+        info = ydl.extract_info(url, download=False)
+        langs = [l for l in (info.get("language"), country_lang, "en") if l]
+        transcript = fetch_transcript(info, ydl, langs) if GET_TRANSCRIPTS else None
+
+    return {
+        "id": vid,
+        "title": info.get("title"),
+        "channel": info.get("uploader"),
+        "channel_id": info.get("channel_id"),
+        "channel_url": info.get("channel_url") or info.get("uploader_url"),
+        "url": url,
+        "upload_date": fmt_date(info.get("upload_date")),
+        "duration_sec": info.get("duration"),
+        "views": info.get("view_count"),
+        "likes": info.get("like_count"),
+        "comments": info.get("comment_count"),
+        "language": info.get("language"),
+        "tags": info.get("tags") or [],
+        "description": info.get("description"),
+        "transcript": transcript,
+    }
+
+
+def stage2():
+    searches = load_jsonl(SEARCH_FILE)
+    already = {r["id"] for r in load_jsonl(DETAILS_FILE) if is_valid_detail(r)}
+
+    # Build the to-do list, deduplicated by video ID
+    todo = {}
+    for rec in searches:
+        if rec["code"] not in COUNTRIES:
+            continue
+        terms = match_terms(rec["code"])
+        for v in rec["videos"]:
+            if v["id"] in already or v["id"] in todo:
+                continue
+            if FILTER_BEFORE_ENRICH and not find_matches(
+                    f"{v['title']} {v.get('description') or ''}", terms):
+                continue
+            todo[v["id"]] = rec["code"]
+
+    print(f"[Stage 2] {len(todo)} videos to fetch")
+    for n, (vid, code) in enumerate(todo.items(), 1):
+        print(f"  {n}/{len(todo)}  {vid}")
+        for attempt in (1, 2):
+            try:
+                append_jsonl(DETAILS_FILE, fetch_details(vid, code))
+                break
+            except Exception as e:
+                if is_blocked(e):
+                    if attempt == 1:
+                        print(f"  Blocked (429). Waiting {BREAK_SECONDS}s, then retrying once...")
+                        time.sleep(BREAK_SECONDS)
+                        continue
+                    print("  Still blocked. Stopping; rerun later to resume.")
+                    return
+                append_jsonl(DETAILS_FILE, {"id": vid, "error": str(e)})
+                break
+        if n % BREAK_EVERY == 0:
+            print(f"  Taking a {BREAK_SECONDS}s break...")
+            time.sleep(BREAK_SECONDS)
+        pause(VIDEO_DELAY)
+
+
+# ---------- REPORTS ----------
+def report():
+    details = {r["id"]: r for r in load_jsonl(DETAILS_FILE) if is_valid_detail(r)}
+    searches = {r["code"]: r for r in load_jsonl(SEARCH_FILE)}
+
+    cols = ["country", "code", "search_term", "rank", "relevant", "matched_terms",
+            "title", "channel", "channel_id", "channel_url", "url", "upload_date",
+            "duration_sec", "views", "likes", "comments", "language", "tags",
+            "description", "transcript_available", "transcript"]
+    total = relevant_total = 0
+
+    with open(OUTPUT_TXT, "w", encoding="utf-8") as f, \
+            open(OUTPUT_CSV, "w", newline="", encoding="utf-8-sig") as cf:
+        writer = csv.DictWriter(cf, fieldnames=cols)
+        writer.writeheader()
         f.write(f'YouTube search results for: "{KEYWORD}"\n')
+        f.write("Relevant = title, description, tags or transcript contains a match term.\n")
+        f.write("Relevant videos are shown in full; the rest are one-liners.\n")
         f.write("=" * 70 + "\n\n")
 
         for code, country in COUNTRIES.items():
-            term = get_term(code)
-            print(f"Searching {country} ({code})...")
-            f.write(f"{'#' * 70}\n# {country} ({code})\n{'#' * 70}\n")
-            f.write(f"  Search term: {term}\n\n")
-
-            try:
-                ids = search_ids(code, term)
-            except Exception as e:
-                f.write(f"  Search failed: {e}\n\n")
+            rec = searches.get(code)
+            if not rec:
                 continue
+            terms = match_terms(code)
 
-            for i, vid in enumerate(ids, 1):
-                try:
-                    v = get_video(code, vid)
-                except Exception as e:
-                    f.write(f"  {i}. [{vid}] failed: {e}\n\n")
-                    continue
-                f.write(f"  {i}. {v['title']}\n")
-                f.write(f"     Channel:  {v['channel']}\n")
-                f.write(f"     URL:      {v['url']}\n")
-                f.write(f"     Views:    {fmt(v['views'])}\n")
-                f.write(f"     Likes:    {fmt(v['likes'])}\n")
-                f.write(f"     Comments: {fmt(v['comments'])}\n")
-                if GET_TRANSCRIPTS:
-                    f.write("     Transcript:\n")
-                    if v["transcript"]:
-                        f.write(textwrap.fill(v["transcript"], width=90,
-                                              initial_indent="       ",
-                                              subsequent_indent="       ") + "\n")
-                    else:
-                        f.write("       (not available)\n")
-                f.write("\n")
-                time.sleep(DELAY_SECONDS)
-            f.flush()
+            rows = []  # (rank, details, matched)
+            for rank, v in enumerate(rec["videos"], 1):
+                d = details.get(v["id"])
+                if not d:
+                    continue  # not fetched (blocked, filtered out, or failed)
+                text = " ".join([d.get("title") or "", d.get("description") or "",
+                                 " ".join(d.get("tags") or []),
+                                 d.get("transcript") or ""])
+                rows.append((rank, d, find_matches(text, terms)))
 
-    print(f"Done. Saved to {OUTPUT_FILE}")
+            n_rel = sum(1 for _, _, m in rows if m)
+            f.write(f"{'#' * 70}\n# {country} ({code})\n{'#' * 70}\n")
+            f.write(f"  Search term: {rec['term']}\n")
+            f.write(f"  Searched: {len(rec['videos'])}   Fetched: {len(rows)}   "
+                    f"Relevant: {n_rel}\n\n")
+
+            for rank, d, matched in rows:
+                if matched:
+                    f.write(f"  #{rank}  [RELEVANT] {d.get('title')}\n")
+                    f.write(f"     Channel:  {d.get('channel')}\n")
+                    f.write(f"     URL:      {d.get('url')}\n")
+                    f.write(f"     Uploaded: {d.get('upload_date') or 'N/A'}   "
+                            f"Duration: {d.get('duration_sec') or 'N/A'}s\n")
+                    f.write(f"     Views:    {fmt(d.get('views'))}\n")
+                    f.write(f"     Likes:    {fmt(d.get('likes'))}\n")
+                    f.write(f"     Comments: {fmt(d.get('comments'))}\n")
+                    f.write(f"     Matched:  {', '.join(matched)}\n")
+                    if GET_TRANSCRIPTS:
+                        f.write("     Transcript:\n")
+                        if d.get("transcript"):
+                            f.write(textwrap.fill(d["transcript"], width=90,
+                                                  initial_indent="       ",
+                                                  subsequent_indent="       ") + "\n")
+                        else:
+                            f.write("       (not available)\n")
+                    f.write("\n")
+                else:
+                    f.write(f"  #{rank}  [not relevant] {d.get('title')} | "
+                            f"{fmt(d.get('views'))} views | {d.get('url')}\n")
+
+                writer.writerow({
+                    "country": country, "code": code, "search_term": rec["term"],
+                    "rank": rank, "relevant": "yes" if matched else "no",
+                    "matched_terms": "; ".join(matched),
+                    "title": d.get("title"), "channel": d.get("channel"),
+                    "channel_id": d.get("channel_id"), "channel_url": d.get("channel_url"),
+                    "url": d.get("url"), "upload_date": d.get("upload_date"),
+                    "duration_sec": d.get("duration_sec"), "views": d.get("views"),
+                    "likes": d.get("likes"), "comments": d.get("comments"),
+                    "language": d.get("language"),
+                    "tags": "; ".join(d.get("tags") or []),
+                    "description": (d.get("description") or "")[:1000],
+                    "transcript_available": "yes" if d.get("transcript") else "no",
+                    "transcript": d.get("transcript") or "",
+                })
+                total += 1
+                relevant_total += 1 if matched else 0
+            f.write("\n")
+
+    print(f"Reports written: {OUTPUT_TXT.name} and {OUTPUT_CSV.name} "
+          f"({total} videos, {relevant_total} relevant)")
+
+
+def main():
+    if stage1():
+        stage2()
+    report()
 
 
 if __name__ == "__main__":
