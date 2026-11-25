@@ -1,0 +1,1803 @@
+{
+  "keyword": "earthquake",
+  "translations": {
+    "ar": "زلزال",
+    "az": "zəlzələ",
+    "be": "землятрус",
+    "bg": "земетресение",
+    "bn": "ভূমিকম্প",
+    "bs": "zemljotres",
+    "cs": "zemětřesení",
+    "da": "jordskælv",
+    "de": "Erdbeben",
+    "el": "σεισμός",
+    "es": "terremoto",
+    "et": "maavärin",
+    "fi": "maanjäristys",
+    "fr": "séisme",
+    "hi": "भूकंप",
+    "hr": "potres",
+    "hu": "földrengés",
+    "id": "gempa bumi",
+    "is": "jarðskjálfti",
+    "it": "terremoto",
+    "iw": "רעידת אדמה",
+    "ja": "地震",
+    "ka": "მიწისძვრა",
+    "kk": "жер сілкінісі",
+    "ko": "지진",
+    "lt": "žemės drebėjimas",
+    "lv": "zemestrīce",
+    "mk": "земјотрес",
+    "ms": "gempa bumi",
+    "mt": "terremot",
+    "ne": "भूकम्प",
+    "nl": "aardbeving",
+    "no": "jordskjelv",
+    "pl": "trzęsienie ziemi",
+    "pt": "terremoto",
+    "ro": "cutremur",
+    "ru": "землетрясение",
+    "si": "භූමිකම්පාව",
+    "sk": "zemetrasenie",
+    "sl": "potres",
+    "sr": "земљотрес",
+    "sv": "jordbävning",
+    "sw": "tetemeko la ardhi",
+    "th": "แผ่นดินไหว",
+    "tl": "lindol",
+    "tr": "deprem",
+    "uk": "землетрус",
+    "ur": "زلزلہ",
+    "vi": "động đất",
+    "zh-TW": "地震"
+  },
+  "terms": {
+    "ar": {
+      "match": [
+        "زلزال",
+        "هزة أرضية"
+      ],
+      "context": [
+        "أضرار",
+        "دمار",
+        "إجلاء",
+        "إنقاذ",
+        "ضحايا",
+        "ضربت",
+        "قوة الزلزال",
+        "مركز الزلزال",
+        "هزات ارتدادية"
+      ],
+      "related": [],
+      "offtopic": [
+        "فيديو كليب",
+        "كلمات الأغنية",
+        "لعبة فيديو"
+      ],
+      "human": [],
+      "non_event": [
+        "محاكاة",
+        "تجربة علمية",
+        "ما هو",
+        "كيف يحدث",
+        "تحذير من",
+        "للأطفال",
+        "فيديو تعليمي",
+        "شرح مبسط",
+        "تجميع مقاطع"
+      ]
+    },
+    "az": {
+      "match": [
+        "zəlzələ",
+        "yeraltı təkan"
+      ],
+      "context": [
+        "dağıntı",
+        "zərər",
+        "təxliyə",
+        "xilasetmə",
+        "baş verib"
+      ],
+      "related": [],
+      "offtopic": [
+        "mahnı sözləri",
+        "musiqi klipi",
+        "video oyun"
+      ],
+      "human": [],
+      "non_event": [
+        "simulyasiya",
+        "nədir",
+        "xəbərdarlıq",
+        "uşaqlar üçün",
+        "maarifləndirici video",
+        "necə baş verir",
+        "video toplusu"
+      ]
+    },
+    "be": {
+      "match": [
+        "землятрус"
+      ],
+      "context": [
+        "разбурэнні",
+        "эвакуацыя",
+        "пашкоджанні",
+        "пацярпелыя",
+        "выратаванне"
+      ],
+      "related": [],
+      "offtopic": [
+        "тэкст песні",
+        "музычны кліп",
+        "відэагульня"
+      ],
+      "human": [],
+      "non_event": [
+        "сімуляцыя",
+        "што такое",
+        "папярэджанне",
+        "для дзяцей",
+        "навучальнае відэа",
+        "як адбываецца",
+        "падборка відэа"
+      ]
+    },
+    "bg": {
+      "match": [
+        "земетресение",
+        "земетресения",
+        "земен трус"
+      ],
+      "context": [
+        "щети",
+        "разрушения",
+        "евакуация",
+        "спасяване",
+        "пострадали"
+      ],
+      "related": [],
+      "offtopic": [
+        "текст на песен",
+        "музикален клип",
+        "видеоигра"
+      ],
+      "human": [],
+      "non_event": [
+        "симулация",
+        "какво е",
+        "предупреждение",
+        "за деца",
+        "образователно видео",
+        "как възниква",
+        "компилация"
+      ]
+    },
+    "bn": {
+      "match": [
+        "ভূমিকম্প"
+      ],
+      "context": [
+        "ক্ষয়ক্ষতি",
+        "ধ্বংস",
+        "উদ্ধার",
+        "নিহত",
+        "আহত",
+        "মাত্রার ভূমিকম্প",
+        "উৎপত্তিস্থল",
+        "কম্পন"
+      ],
+      "related": [],
+      "offtopic": [
+        "গানের কথা",
+        "মিউজিক ভিডিও",
+        "ভিডিও গেম"
+      ],
+      "human": [],
+      "non_event": [
+        "সিমুলেশন",
+        "কীভাবে হয়",
+        "সতর্কতা",
+        "শিশুদের জন্য",
+        "শিক্ষামূলক ভিডিও",
+        "কীভাবে ঘটে",
+        "ভিডিও সংকলন"
+      ]
+    },
+    "bs": {
+      "match": [
+        "zemljotres",
+        "potres"
+      ],
+      "context": [
+        "šteta",
+        "razaranje",
+        "evakuacija",
+        "spašavanje",
+        "pogođeni"
+      ],
+      "related": [],
+      "offtopic": [
+        "tekst pjesme",
+        "muzički spot",
+        "videoigra"
+      ],
+      "human": [],
+      "non_event": [
+        "simulacija",
+        "šta je",
+        "upozorenje",
+        "za djecu",
+        "edukativni video",
+        "kako nastaje",
+        "kompilacija"
+      ]
+    },
+    "cs": {
+      "match": [
+        "zemětřesení",
+        "otřesy půdy"
+      ],
+      "context": [
+        "škody",
+        "evakuace",
+        "záchranáři",
+        "oběti",
+        "zasáhlo"
+      ],
+      "related": [],
+      "offtopic": [
+        "text písně",
+        "hudební video",
+        "videohra"
+      ],
+      "human": [],
+      "non_event": [
+        "simulace",
+        "co je",
+        "varování",
+        "pro děti",
+        "výukové video",
+        "jak vzniká",
+        "kompilace"
+      ]
+    },
+    "da": {
+      "match": [
+        "jordskælv"
+      ],
+      "context": [
+        "skader",
+        "ødelæggelser",
+        "evakuering",
+        "redning",
+        "ramte"
+      ],
+      "related": [],
+      "offtopic": [
+        "sangtekst",
+        "musikvideo",
+        "videospil"
+      ],
+      "human": [],
+      "non_event": [
+        "simulering",
+        "hvad er",
+        "advarsel",
+        "for børn",
+        "undervisningsvideo",
+        "hvordan opstår",
+        "samlevideo"
+      ]
+    },
+    "de": {
+      "match": [
+        "Erdbeben",
+        "Nachbeben"
+      ],
+      "context": [
+        "Schäden",
+        "Zerstörung",
+        "Evakuierung",
+        "Rettung",
+        "Verletzte",
+        "traf",
+        "Magnitude",
+        "Epizentrum",
+        "Nachbeben"
+      ],
+      "related": [],
+      "offtopic": [
+        "Songtext",
+        "Musikvideo",
+        "Videospiel"
+      ],
+      "human": [],
+      "non_event": [
+        "Simulation",
+        "was ist",
+        "Warnung",
+        "Erklärung",
+        "für Kinder",
+        "Lernvideo",
+        "wie entsteht",
+        "Zusammenschnitt",
+        "Dokumentation"
+      ]
+    },
+    "el": {
+      "match": [
+        "σεισμός",
+        "σεισμοί",
+        "σεισμό",
+        "μετασεισμός"
+      ],
+      "context": [
+        "ζημιές",
+        "καταστροφές",
+        "εκκένωση",
+        "διάσωση",
+        "θύματα"
+      ],
+      "related": [],
+      "offtopic": [
+        "στίχοι",
+        "μουσικό βίντεο",
+        "βιντεοπαιχνίδι"
+      ],
+      "human": [],
+      "non_event": [
+        "προσομοίωση",
+        "τι είναι",
+        "προειδοποίηση",
+        "για παιδιά",
+        "εκπαιδευτικό βίντεο",
+        "πώς συμβαίνει",
+        "συλλογή βίντεο"
+      ]
+    },
+    "en": {
+      "match": [
+        "earthquake",
+        "earthquakes",
+        "aftershock",
+        "seismic tremor"
+      ],
+      "context": [
+        "damage",
+        "destroyed",
+        "destruction",
+        "evacuat",
+        "rescue",
+        "collapsed",
+        "injured",
+        "victims",
+        "struck",
+        "hit the",
+        "occurred",
+        "reported",
+        "swept away",
+        "displaced",
+        "magnitude",
+        "epicenter",
+        "epicentre",
+        "aftershock",
+        "ground shaking",
+        "buildings shook"
+      ],
+      "related": [
+        "seismic activity",
+        "seismograph",
+        "tectonic plates",
+        "fault line",
+        "tsunami",
+        "landslide"
+      ],
+      "offtopic": [
+        "music video",
+        "lyric video",
+        "song lyrics",
+        "gameplay",
+        "video game",
+        "karaoke",
+        "earthquake song",
+        "earthquake dance challenge",
+        "earthquake movie trailer",
+        "earthquake game"
+      ],
+      "human": [
+        "induced seismicity",
+        "hydraulic fracturing"
+      ],
+      "non_event": [
+        "what is",
+        "how does",
+        "how do",
+        "simulation",
+        "explained",
+        "science experiment",
+        "warning issued",
+        "forecast",
+        "prediction",
+        "anniversary",
+        "compilation",
+        "top 10",
+        "for kids",
+        "learning videos",
+        "dr. binocs",
+        "peekaboo kidz",
+        "warning levels",
+        "disaster preparedness",
+        "top 5",
+        "largest in the world",
+        "biggest ever",
+        "documentary",
+        "how to stay safe",
+        "school lesson",
+        "earthquake drill",
+        "earthquake simulator",
+        "types of earthquakes",
+        "earthquake preparedness"
+      ]
+    },
+    "es": {
+      "match": [
+        "terremoto",
+        "sismo",
+        "seísmo",
+        "temblor",
+        "réplica sísmica"
+      ],
+      "context": [
+        "daños",
+        "destrucción",
+        "evacuación",
+        "rescate",
+        "heridos",
+        "afectados",
+        "golpeó",
+        "magnitud",
+        "epicentro",
+        "réplicas",
+        "tembló"
+      ],
+      "related": [],
+      "offtopic": [
+        "video musical",
+        "letra de la canción",
+        "videojuego"
+      ],
+      "human": [],
+      "non_event": [
+        "simulación",
+        "qué es",
+        "cómo se forma",
+        "alerta",
+        "pronóstico",
+        "para niños",
+        "video educativo",
+        "vídeo educativo",
+        "cómo se produce",
+        "recopilación",
+        "los más grandes del mundo"
+      ]
+    },
+    "et": {
+      "match": [
+        "maavärin"
+      ],
+      "context": [
+        "kahju",
+        "purustused",
+        "evakueerimine",
+        "päästetööd",
+        "kannatanud"
+      ],
+      "related": [],
+      "offtopic": [
+        "laulusõnad",
+        "muusikavideo",
+        "videomäng"
+      ],
+      "human": [],
+      "non_event": [
+        "simulatsioon",
+        "mis on",
+        "hoiatus",
+        "lastele",
+        "õppevideo",
+        "kuidas tekib",
+        "videokogumik"
+      ]
+    },
+    "fi": {
+      "match": [
+        "maanjäristys",
+        "maanjäristykset",
+        "jälkijäristys"
+      ],
+      "context": [
+        "vahingot",
+        "tuhoja",
+        "evakuointi",
+        "pelastus",
+        "loukkaantuneet"
+      ],
+      "related": [],
+      "offtopic": [
+        "laulun sanat",
+        "musiikkivideo",
+        "videopeli"
+      ],
+      "human": [],
+      "non_event": [
+        "simulaatio",
+        "mikä on",
+        "varoitus",
+        "lapsille",
+        "opetusvideo",
+        "miten syntyy",
+        "kooste"
+      ]
+    },
+    "fr": {
+      "match": [
+        "séisme",
+        "tremblement de terre",
+        "réplique sismique"
+      ],
+      "context": [
+        "dégâts",
+        "destruction",
+        "évacuation",
+        "secours",
+        "victimes",
+        "frappé",
+        "sinistrés",
+        "magnitude",
+        "épicentre",
+        "répliques"
+      ],
+      "related": [],
+      "offtopic": [
+        "clip musical",
+        "paroles de chanson",
+        "jeu vidéo"
+      ],
+      "human": [],
+      "non_event": [
+        "simulation",
+        "qu'est-ce",
+        "comment se forme",
+        "alerte",
+        "prévision",
+        "pour enfants",
+        "vidéo éducative",
+        "comment se produit",
+        "compilation",
+        "les plus grands du monde"
+      ]
+    },
+    "hi": {
+      "match": [
+        "भूकंप",
+        "भूकम्प"
+      ],
+      "context": [
+        "नुकसान",
+        "तबाही",
+        "बचाव",
+        "मलबा",
+        "घायल",
+        "मौत",
+        "तीव्रता",
+        "भूकंप का केंद्र",
+        "झटके"
+      ],
+      "related": [],
+      "offtopic": [
+        "गाने के बोल",
+        "म्यूजिक वीडियो",
+        "वीडियो गेम"
+      ],
+      "human": [],
+      "non_event": [
+        "सिमुलेशन",
+        "क्या है",
+        "कैसे आता है",
+        "चेतावनी",
+        "बच्चों के लिए",
+        "शैक्षिक वीडियो",
+        "कैसे होता है",
+        "वीडियो संकलन"
+      ]
+    },
+    "hr": {
+      "match": [
+        "potres",
+        "zemljotres",
+        "potresi"
+      ],
+      "context": [
+        "šteta",
+        "razaranje",
+        "evakuacija",
+        "spašavanje",
+        "ozlijeđeni"
+      ],
+      "related": [],
+      "offtopic": [
+        "tekst pjesme",
+        "glazbeni spot",
+        "videoigra"
+      ],
+      "human": [],
+      "non_event": [
+        "simulacija",
+        "što je",
+        "upozorenje",
+        "za djecu",
+        "edukativni video",
+        "kako nastaje",
+        "kompilacija"
+      ]
+    },
+    "hu": {
+      "match": [
+        "földrengés",
+        "utórengés"
+      ],
+      "context": [
+        "károk",
+        "pusztítás",
+        "evakuálás",
+        "mentés",
+        "sérültek"
+      ],
+      "related": [],
+      "offtopic": [
+        "dalszöveg",
+        "zenei videó",
+        "videójáték"
+      ],
+      "human": [],
+      "non_event": [
+        "szimuláció",
+        "mi az",
+        "figyelmeztetés",
+        "gyerekeknek",
+        "oktatóvideó",
+        "hogyan alakul ki",
+        "válogatás"
+      ]
+    },
+    "id": {
+      "match": [
+        "gempa bumi",
+        "gempa",
+        "guncangan"
+      ],
+      "context": [
+        "kerusakan",
+        "evakuasi",
+        "korban",
+        "melanda",
+        "penyelamatan",
+        "hancur",
+        "magnitudo",
+        "episentrum",
+        "gempa susulan"
+      ],
+      "related": [],
+      "offtopic": [
+        "lirik lagu",
+        "video musik",
+        "gim video"
+      ],
+      "human": [],
+      "non_event": [
+        "simulasi",
+        "apa itu",
+        "peringatan",
+        "prakiraan",
+        "untuk anak",
+        "video edukasi",
+        "bagaimana terjadi",
+        "kompilasi"
+      ]
+    },
+    "is": {
+      "match": [
+        "jarðskjálfti",
+        "jarðskjálftar"
+      ],
+      "context": [
+        "skemmdir",
+        "eyðilegging",
+        "rýming",
+        "björgun",
+        "særðir"
+      ],
+      "related": [],
+      "offtopic": [
+        "lagatexti",
+        "tónlistarmyndband",
+        "tölvuleikur"
+      ],
+      "human": [],
+      "non_event": [
+        "hermun",
+        "hvað er",
+        "viðvörun",
+        "fyrir börn",
+        "fræðslumyndband",
+        "hvernig verður",
+        "myndbandasafn"
+      ]
+    },
+    "it": {
+      "match": [
+        "terremoto",
+        "sisma",
+        "scossa sismica"
+      ],
+      "context": [
+        "danni",
+        "distruzione",
+        "evacuazione",
+        "soccorsi",
+        "vittime",
+        "colpito"
+      ],
+      "related": [],
+      "offtopic": [
+        "video musicale",
+        "testo della canzone",
+        "videogioco"
+      ],
+      "human": [],
+      "non_event": [
+        "simulazione",
+        "che cos'è",
+        "allerta",
+        "previsioni",
+        "per bambini",
+        "video educativo",
+        "come si forma",
+        "compilation"
+      ]
+    },
+    "iw": {
+      "match": [
+        "רעידת אדמה",
+        "רעידות אדמה"
+      ],
+      "context": [
+        "נזקים",
+        "הרס",
+        "פינוי",
+        "חילוץ",
+        "נפגעים"
+      ],
+      "related": [],
+      "offtopic": [
+        "מילות השיר",
+        "קליפ מוזיקלי",
+        "משחק וידאו"
+      ],
+      "human": [],
+      "non_event": [
+        "הדמיה",
+        "מה זה",
+        "אזהרה",
+        "לילדים",
+        "סרטון לימודי",
+        "איך נוצר",
+        "אוסף סרטונים"
+      ]
+    },
+    "ja": {
+      "match": [
+        "地震",
+        "余震"
+      ],
+      "context": [
+        "被害",
+        "発生",
+        "倒壊",
+        "避難",
+        "救助",
+        "負傷",
+        "襲った",
+        "震度",
+        "マグニチュード",
+        "震源",
+        "揺れ"
+      ],
+      "related": [],
+      "offtopic": [
+        "歌詞",
+        "ミュージックビデオ",
+        "ゲーム実況"
+      ],
+      "human": [],
+      "non_event": [
+        "シミュレーション",
+        "とは",
+        "仕組み",
+        "警報",
+        "予報",
+        "子供版",
+        "子ども向け",
+        "子供向け",
+        "学習動画",
+        "警戒レベルに関する映像",
+        "防災教育",
+        "総集編",
+        "とは何",
+        "ドキュメンタリー",
+        "地震の仕組み",
+        "避難訓練"
+      ]
+    },
+    "ka": {
+      "match": [
+        "მიწისძვრა",
+        "მიწისძვრები"
+      ],
+      "context": [
+        "ზარალი",
+        "ნგრევა",
+        "ევაკუაცია",
+        "მაშველები",
+        "დაშავებული"
+      ],
+      "related": [],
+      "offtopic": [
+        "სიმღერის ტექსტი",
+        "მუსიკალური კლიპი",
+        "ვიდეოთამაში"
+      ],
+      "human": [],
+      "non_event": [
+        "სიმულაცია",
+        "რა არის",
+        "გაფრთხილება",
+        "ბავშვებისთვის",
+        "სასწავლო ვიდეო",
+        "როგორ ხდება",
+        "ვიდეოების კრებული"
+      ]
+    },
+    "kk": {
+      "match": [
+        "жер сілкінісі",
+        "жер сілкінді"
+      ],
+      "context": [
+        "залал",
+        "қирау",
+        "эвакуация",
+        "құтқару",
+        "зардап шеккен"
+      ],
+      "related": [],
+      "offtopic": [
+        "ән мәтіні",
+        "музыкалық бейне",
+        "бейнеойын"
+      ],
+      "human": [],
+      "non_event": [
+        "симуляция",
+        "деген не",
+        "ескерту",
+        "балаларға арналған",
+        "оқу бейнесі",
+        "қалай пайда болады",
+        "бейне жинағы"
+      ]
+    },
+    "ko": {
+      "match": [
+        "지진",
+        "여진"
+      ],
+      "context": [
+        "피해",
+        "발생",
+        "붕괴",
+        "대피",
+        "구조",
+        "부상",
+        "규모",
+        "진앙",
+        "여진",
+        "흔들림"
+      ],
+      "related": [],
+      "offtopic": [
+        "가사",
+        "뮤직비디오",
+        "게임 영상"
+      ],
+      "human": [],
+      "non_event": [
+        "시뮬레이션",
+        "원리",
+        "경보",
+        "예보",
+        "어린이용",
+        "교육 영상",
+        "어떻게 발생",
+        "영상 모음",
+        "다큐멘터리"
+      ]
+    },
+    "lt": {
+      "match": [
+        "žemės drebėjimas",
+        "žemės drebėjimo"
+      ],
+      "context": [
+        "žala",
+        "nuostoliai",
+        "evakuacija",
+        "gelbėjimas",
+        "nukentėję"
+      ],
+      "related": [],
+      "offtopic": [
+        "dainos žodžiai",
+        "muzikinis klipas",
+        "vaizdo žaidimas"
+      ],
+      "human": [],
+      "non_event": [
+        "simuliacija",
+        "kas yra",
+        "perspėjimas",
+        "vaikams",
+        "mokomasis vaizdo įrašas",
+        "kaip susidaro",
+        "vaizdo įrašų rinkinys"
+      ]
+    },
+    "lv": {
+      "match": [
+        "zemestrīce",
+        "zemestrīces"
+      ],
+      "context": [
+        "postījumi",
+        "zaudējumi",
+        "evakuācija",
+        "glābšana",
+        "cietušie"
+      ],
+      "related": [],
+      "offtopic": [
+        "dziesmas vārdi",
+        "mūzikas video",
+        "videospēle"
+      ],
+      "human": [],
+      "non_event": [
+        "simulācija",
+        "kas ir",
+        "brīdinājums",
+        "bērniem",
+        "mācību video",
+        "kā rodas",
+        "video apkopojums"
+      ]
+    },
+    "mk": {
+      "match": [
+        "земјотрес",
+        "земјотреси"
+      ],
+      "context": [
+        "штета",
+        "разурнување",
+        "евакуација",
+        "спасување",
+        "повредени"
+      ],
+      "related": [],
+      "offtopic": [
+        "текст на песна",
+        "музичко видео",
+        "видеоигра"
+      ],
+      "human": [],
+      "non_event": [
+        "симулација",
+        "што е",
+        "предупредување",
+        "за деца",
+        "едукативно видео",
+        "како настанува",
+        "компилација"
+      ]
+    },
+    "ms": {
+      "match": [
+        "gempa bumi",
+        "gempa"
+      ],
+      "context": [
+        "kerosakan",
+        "kemusnahan",
+        "pemindahan",
+        "menyelamat",
+        "mangsa"
+      ],
+      "related": [],
+      "offtopic": [
+        "lirik lagu",
+        "video muzik",
+        "permainan video"
+      ],
+      "human": [],
+      "non_event": [
+        "simulasi",
+        "apa itu",
+        "amaran",
+        "ramalan",
+        "untuk kanak-kanak",
+        "video pendidikan",
+        "bagaimana berlaku",
+        "kompilasi"
+      ]
+    },
+    "mt": {
+      "match": [
+        "terremot",
+        "terremoti"
+      ],
+      "context": [
+        "ħsarat",
+        "qerda",
+        "evakwazzjoni",
+        "salvataġġ",
+        "vittmi"
+      ],
+      "related": [],
+      "offtopic": [
+        "lirika tal-kanzunetta",
+        "vidjo mużikali",
+        "logħba tal-vidjo"
+      ],
+      "human": [],
+      "non_event": [
+        "simulazzjoni",
+        "x'inhu",
+        "twissija",
+        "għat-tfal",
+        "vidjo edukattiv",
+        "kif iseħħ",
+        "ġabra ta’ vidjows"
+      ]
+    },
+    "ne": {
+      "match": [
+        "भूकम्प",
+        "भूकंप"
+      ],
+      "context": [
+        "क्षति",
+        "विनाश",
+        "उद्धार",
+        "घाइते",
+        "प्रभावित"
+      ],
+      "related": [],
+      "offtopic": [
+        "गीतका शब्द",
+        "म्युजिक भिडियो",
+        "भिडियो गेम"
+      ],
+      "human": [],
+      "non_event": [
+        "सिमुलेशन",
+        "के हो",
+        "चेतावनी",
+        "बालबालिकाका लागि",
+        "शैक्षिक भिडियो",
+        "कसरी हुन्छ",
+        "भिडियो सङ्कलन"
+      ]
+    },
+    "nl": {
+      "match": [
+        "aardbeving",
+        "aardbevingen",
+        "naschok"
+      ],
+      "context": [
+        "schade",
+        "verwoesting",
+        "evacuatie",
+        "redding",
+        "gewonden",
+        "getroffen"
+      ],
+      "related": [],
+      "offtopic": [
+        "songtekst",
+        "muziekvideo",
+        "videospel"
+      ],
+      "human": [],
+      "non_event": [
+        "simulatie",
+        "wat is",
+        "waarschuwing",
+        "voorspelling",
+        "voor kinderen",
+        "educatieve video",
+        "hoe ontstaat",
+        "compilatie"
+      ]
+    },
+    "no": {
+      "match": [
+        "jordskjelv"
+      ],
+      "context": [
+        "skader",
+        "ødeleggelser",
+        "evakuering",
+        "redning",
+        "rammet"
+      ],
+      "related": [],
+      "offtopic": [
+        "sangtekst",
+        "musikkvideo",
+        "videospill"
+      ],
+      "human": [],
+      "non_event": [
+        "simulering",
+        "hva er",
+        "varsel",
+        "for barn",
+        "undervisningsvideo",
+        "hvordan oppstår",
+        "samlevideo"
+      ]
+    },
+    "pl": {
+      "match": [
+        "trzęsienie ziemi",
+        "trzęsienia ziemi",
+        "wstrząs sejsmiczny"
+      ],
+      "context": [
+        "szkody",
+        "zniszczenia",
+        "ewakuacja",
+        "ratownicy",
+        "ofiary",
+        "uderzył"
+      ],
+      "related": [],
+      "offtopic": [
+        "tekst piosenki",
+        "teledysk",
+        "gra wideo"
+      ],
+      "human": [],
+      "non_event": [
+        "symulacja",
+        "co to jest",
+        "ostrzeżenie",
+        "prognoza",
+        "dla dzieci",
+        "film edukacyjny",
+        "jak powstaje",
+        "kompilacja"
+      ]
+    },
+    "pt": {
+      "match": [
+        "terremoto",
+        "sismo",
+        "tremor de terra",
+        "réplica sísmica"
+      ],
+      "context": [
+        "danos",
+        "destruição",
+        "evacuação",
+        "resgate",
+        "feridos",
+        "atingiu",
+        "desabamento",
+        "magnitude",
+        "epicentro",
+        "réplicas"
+      ],
+      "related": [],
+      "offtopic": [
+        "videoclipe",
+        "letra da música",
+        "jogo eletrônico"
+      ],
+      "human": [],
+      "non_event": [
+        "simulação",
+        "o que é",
+        "como se forma",
+        "alerta",
+        "previsão",
+        "para crianças",
+        "vídeo educativo",
+        "como acontece",
+        "maiores do mundo",
+        "compilação",
+        "documentário",
+        "desastres naturais em",
+        "movimentos de massa",
+        "simulação de terremoto",
+        "tipos de terremoto"
+      ]
+    },
+    "ro": {
+      "match": [
+        "cutremur",
+        "seism",
+        "replică seismică"
+      ],
+      "context": [
+        "pagube",
+        "distrugeri",
+        "evacuare",
+        "salvare",
+        "victime",
+        "lovit"
+      ],
+      "related": [],
+      "offtopic": [
+        "versuri",
+        "videoclip muzical",
+        "joc video"
+      ],
+      "human": [],
+      "non_event": [
+        "simulare",
+        "ce este",
+        "avertizare",
+        "pentru copii",
+        "video educativ",
+        "cum se produce",
+        "compilație"
+      ]
+    },
+    "ru": {
+      "match": [
+        "землетрясение",
+        "землетрясения",
+        "подземные толчки",
+        "афтершок"
+      ],
+      "context": [
+        "разрушения",
+        "ущерб",
+        "эвакуация",
+        "спасатели",
+        "пострадавшие",
+        "обрушился",
+        "магнитуда",
+        "эпицентр",
+        "подземные толчки"
+      ],
+      "related": [],
+      "offtopic": [
+        "текст песни",
+        "музыкальный клип",
+        "видеоигра"
+      ],
+      "human": [],
+      "non_event": [
+        "симуляция",
+        "что такое",
+        "предупреждение",
+        "прогноз",
+        "для детей",
+        "обучающее видео",
+        "как происходит",
+        "подборка видео",
+        "документальный фильм"
+      ]
+    },
+    "si": {
+      "match": [
+        "භූමිකම්පාව",
+        "භූ කම්පනය"
+      ],
+      "context": [
+        "හානි",
+        "විනාශ",
+        "ඉවත් කිරීම",
+        "ගලවා ගැනීම",
+        "තුවාල"
+      ],
+      "related": [],
+      "offtopic": [
+        "ගීත පද",
+        "සංගීත වීඩියෝ",
+        "වීඩියෝ ක්‍රීඩා"
+      ],
+      "human": [],
+      "non_event": [
+        "අනුකරණය",
+        "යනු කුමක්ද",
+        "අනතුරු ඇඟවීම",
+        "ළමුන් සඳහා",
+        "අධ්‍යාපනික වීඩියෝ",
+        "වීඩියෝ එකතුව"
+      ]
+    },
+    "sk": {
+      "match": [
+        "zemetrasenie",
+        "zemetrasenia"
+      ],
+      "context": [
+        "škody",
+        "evakuácia",
+        "záchranári",
+        "obete",
+        "zasiahlo"
+      ],
+      "related": [],
+      "offtopic": [
+        "text piesne",
+        "hudobné video",
+        "videohra"
+      ],
+      "human": [],
+      "non_event": [
+        "simulácia",
+        "čo je",
+        "varovanie",
+        "pre deti",
+        "vzdelávacie video",
+        "ako vzniká",
+        "kompilácia"
+      ]
+    },
+    "sl": {
+      "match": [
+        "potres",
+        "potresi"
+      ],
+      "context": [
+        "škoda",
+        "uničenje",
+        "evakuacija",
+        "reševanje",
+        "poškodovani"
+      ],
+      "related": [],
+      "offtopic": [
+        "besedilo pesmi",
+        "glasbeni video",
+        "videoigra"
+      ],
+      "human": [],
+      "non_event": [
+        "simulacija",
+        "kaj je",
+        "opozorilo",
+        "za otroke",
+        "izobraževalni video",
+        "kako nastane",
+        "kompilacija"
+      ]
+    },
+    "sr": {
+      "match": [
+        "земљотрес",
+        "земљотреси",
+        "zemljotres",
+        "potres"
+      ],
+      "context": [
+        "штета",
+        "разарање",
+        "евакуација",
+        "спасавање",
+        "повређени",
+        "šteta",
+        "evakuacija",
+        "spasavanje"
+      ],
+      "related": [],
+      "offtopic": [
+        "текст песме",
+        "музички спот",
+        "видео игра",
+        "tekst pesme",
+        "muzički spot",
+        "video igra"
+      ],
+      "human": [],
+      "non_event": [
+        "симулација",
+        "шта је",
+        "упозорење",
+        "simulacija",
+        "šta je",
+        "upozorenje",
+        "за децу",
+        "образовни видео",
+        "како настаје",
+        "компилација"
+      ]
+    },
+    "sv": {
+      "match": [
+        "jordbävning",
+        "jordskalv"
+      ],
+      "context": [
+        "skador",
+        "förstörelse",
+        "evakuering",
+        "räddning",
+        "drabbade"
+      ],
+      "related": [],
+      "offtopic": [
+        "sångtext",
+        "musikvideo",
+        "tv-spel"
+      ],
+      "human": [],
+      "non_event": [
+        "simulering",
+        "vad är",
+        "varning",
+        "för barn",
+        "utbildningsvideo",
+        "hur uppstår",
+        "sammanställning"
+      ]
+    },
+    "sw": {
+      "match": [
+        "tetemeko la ardhi",
+        "matetemeko ya ardhi"
+      ],
+      "context": [
+        "uharibifu",
+        "maafa",
+        "uokoaji",
+        "waathirika",
+        "majeruhi"
+      ],
+      "related": [],
+      "offtopic": [
+        "maneno ya wimbo",
+        "video ya muziki",
+        "mchezo wa video"
+      ],
+      "human": [],
+      "non_event": [
+        "uigaji",
+        "ni nini",
+        "onyo",
+        "kwa watoto",
+        "video ya elimu",
+        "jinsi inavyotokea",
+        "mkusanyiko wa video"
+      ]
+    },
+    "th": {
+      "match": [
+        "แผ่นดินไหว",
+        "อาฟเตอร์ช็อก"
+      ],
+      "context": [
+        "ความเสียหาย",
+        "ถล่ม",
+        "อพยพ",
+        "กู้ภัย",
+        "บาดเจ็บ",
+        "เกิดขึ้น",
+        "ขนาดแผ่นดินไหว",
+        "จุดศูนย์กลาง",
+        "แรงสั่นสะเทือน"
+      ],
+      "related": [],
+      "offtopic": [
+        "เนื้อเพลง",
+        "มิวสิกวิดีโอ",
+        "วิดีโอเกม"
+      ],
+      "human": [],
+      "non_event": [
+        "การจำลอง",
+        "คืออะไร",
+        "เตือนภัย",
+        "พยากรณ์",
+        "สำหรับเด็ก",
+        "วิดีโอการศึกษา",
+        "เกิดขึ้นได้อย่างไร",
+        "รวมคลิป"
+      ]
+    },
+    "tl": {
+      "match": [
+        "lindol",
+        "paglindol"
+      ],
+      "context": [
+        "pinsala",
+        "nasira",
+        "paglikas",
+        "pagsagip",
+        "nasugatan",
+        "tumama",
+        "magnitude",
+        "epicenter",
+        "pagyanig"
+      ],
+      "related": [],
+      "offtopic": [
+        "lyrics ng kanta",
+        "music video",
+        "video game"
+      ],
+      "human": [],
+      "non_event": [
+        "simulasyon",
+        "ano ang",
+        "babala",
+        "pagtataya",
+        "para sa mga bata",
+        "bidyong pang-edukasyon",
+        "paano nangyayari",
+        "kompilasyon"
+      ]
+    },
+    "tr": {
+      "match": [
+        "deprem",
+        "artçı deprem",
+        "yer sarsıntısı"
+      ],
+      "context": [
+        "hasar",
+        "yıkım",
+        "tahliye",
+        "kurtarma",
+        "yaralı",
+        "hayatını kaybetti",
+        "büyüklüğünde",
+        "merkez üssü",
+        "artçı sarsıntı"
+      ],
+      "related": [],
+      "offtopic": [
+        "şarkı sözleri",
+        "müzik klibi",
+        "video oyunu"
+      ],
+      "human": [],
+      "non_event": [
+        "simülasyon",
+        "nedir",
+        "uyarı",
+        "tahmin",
+        "çocuklar için",
+        "eğitici video",
+        "nasıl oluşur",
+        "derleme"
+      ]
+    },
+    "uk": {
+      "match": [
+        "землетрус",
+        "землетруси",
+        "підземні поштовхи"
+      ],
+      "context": [
+        "руйнування",
+        "збитки",
+        "евакуація",
+        "рятувальники",
+        "постраждалі"
+      ],
+      "related": [],
+      "offtopic": [
+        "текст пісні",
+        "музичний кліп",
+        "відеогра"
+      ],
+      "human": [],
+      "non_event": [
+        "симуляція",
+        "що таке",
+        "попередження",
+        "прогноз",
+        "для дітей",
+        "навчальне відео",
+        "як виникає",
+        "добірка відео"
+      ]
+    },
+    "ur": {
+      "match": [
+        "زلزلہ",
+        "زلزلے"
+      ],
+      "context": [
+        "نقصان",
+        "تباہی",
+        "انخلا",
+        "امدادی کارروائی",
+        "زخمی"
+      ],
+      "related": [],
+      "offtopic": [
+        "گانے کے بول",
+        "میوزک ویڈیو",
+        "ویڈیو گیم"
+      ],
+      "human": [],
+      "non_event": [
+        "سیمولیشن",
+        "کیا ہے",
+        "انتباہ",
+        "پیش گوئی",
+        "بچوں کے لیے",
+        "تعلیمی ویڈیو",
+        "کیسے ہوتا ہے",
+        "ویڈیو مجموعہ"
+      ]
+    },
+    "vi": {
+      "match": [
+        "động đất",
+        "dư chấn"
+      ],
+      "context": [
+        "thiệt hại",
+        "tàn phá",
+        "sơ tán",
+        "cứu hộ",
+        "nạn nhân",
+        "đổ bộ",
+        "độ lớn",
+        "tâm chấn",
+        "dư chấn"
+      ],
+      "related": [],
+      "offtopic": [
+        "lời bài hát",
+        "video ca nhạc",
+        "trò chơi điện tử"
+      ],
+      "human": [],
+      "non_event": [
+        "mô phỏng",
+        "là gì",
+        "cảnh báo",
+        "dự báo",
+        "cho trẻ em",
+        "video giáo dục",
+        "hình thành như thế nào",
+        "tổng hợp video"
+      ]
+    },
+    "zh-TW": {
+      "match": [
+        "地震",
+        "餘震",
+        "余震"
+      ],
+      "context": [
+        "災情",
+        "灾情",
+        "損失",
+        "损失",
+        "撤離",
+        "撤离",
+        "救援",
+        "倒塌",
+        "受傷",
+        "受伤",
+        "規模",
+        "震央",
+        "震源",
+        "震度",
+        "烈度"
+      ],
+      "related": [],
+      "offtopic": [
+        "歌詞",
+        "歌词",
+        "音樂影片",
+        "音乐视频",
+        "遊戲實況",
+        "游戏实况"
+      ],
+      "human": [],
+      "non_event": [
+        "模擬",
+        "模拟",
+        "是什麼",
+        "是什么",
+        "警報",
+        "预警",
+        "預報",
+        "兒童版",
+        "給小朋友",
+        "教學影片",
+        "如何形成",
+        "影片合集",
+        "紀錄片"
+      ]
+    }
+  },
+  "search_terms": {
+    "en": "earthquake news",
+    "ar": "زلزال أخبار",
+    "az": "zəlzələ xəbərlər",
+    "be": "землятрус навіны",
+    "bg": "земетресение новини",
+    "bn": "ভূমিকম্প খবর",
+    "bs": "zemljotres vijesti",
+    "cs": "zemětřesení zprávy",
+    "da": "jordskælv nyheder",
+    "de": "Erdbeben Nachrichten",
+    "el": "σεισμός ειδήσεις",
+    "es": "terremoto noticias",
+    "et": "maavärin uudised",
+    "fi": "maanjäristys uutiset",
+    "fr": "séisme actualités",
+    "hi": "भूकंप समाचार",
+    "hr": "potres vijesti",
+    "hu": "földrengés hírek",
+    "id": "gempa bumi berita",
+    "is": "jarðskjálfti fréttir",
+    "it": "terremoto notizie",
+    "iw": "רעידת אדמה חדשות",
+    "ja": "地震 ニュース",
+    "ka": "მიწისძვრა ახალი ამბები",
+    "kk": "жер сілкінісі жаңалықтар",
+    "ko": "지진 뉴스",
+    "lt": "žemės drebėjimas naujienos",
+    "lv": "zemestrīce ziņas",
+    "mk": "земјотрес вести",
+    "ms": "gempa bumi berita",
+    "mt": "terremot aħbarijiet",
+    "ne": "भूकम्प समाचार",
+    "nl": "aardbeving nieuws",
+    "no": "jordskjelv nyheter",
+    "pl": "trzęsienie ziemi wiadomości",
+    "pt": "terremoto notícias",
+    "ro": "cutremur știri",
+    "ru": "землетрясение новости",
+    "si": "භූමිකම්පාව පුවත්",
+    "sk": "zemetrasenie správy",
+    "sl": "potres novice",
+    "sr": "земљотрес вести",
+    "sv": "jordbävning nyheter",
+    "sw": "tetemeko la ardhi habari",
+    "th": "แผ่นดินไหว ข่าว",
+    "tl": "lindol balita",
+    "tr": "deprem haberleri",
+    "uk": "землетрус новини",
+    "ur": "زلزلہ خبریں",
+    "vi": "động đất tin tức",
+    "zh-TW": "地震 新聞"
+  }
+}

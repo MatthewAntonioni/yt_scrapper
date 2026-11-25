@@ -1,0 +1,1593 @@
+{
+  "profile": {
+    "keyword": "landslide",
+    "translations": {
+      "ar": "انهيار أرضي",
+      "es": "deslizamiento de tierra",
+      "de": "Erdrutsch",
+      "az": "torpaq sürüşməsi",
+      "bn": "ভূমিধস",
+      "be": "апалзень",
+      "nl": "aardverschuiving",
+      "bs": "klizište",
+      "pt": "deslizamento de terra",
+      "bg": "свлачище",
+      "hr": "klizište",
+      "el": "κατολίσθηση",
+      "cs": "sesuv půdy",
+      "da": "jordskred",
+      "et": "maalihe",
+      "fi": "maanvyörymä",
+      "fr": "glissement de terrain",
+      "ka": "მეწყერი",
+      "hu": "földcsuszamlás",
+      "is": "aurskriða",
+      "hi": "भूस्खलन",
+      "id": "tanah longsor",
+      "iw": "מפולת אדמה",
+      "it": "frana",
+      "ja": "地すべり",
+      "kk": "жер көшкіні",
+      "sw": "maporomoko ya ardhi",
+      "lv": "zemes nogruvums",
+      "lt": "nuošliauža",
+      "ms": "tanah runtuh",
+      "mt": "frana",
+      "sr": "клизиште",
+      "ne": "पहिरो",
+      "mk": "свлечиште",
+      "no": "jordskred",
+      "ur": "لینڈ سلائیڈ",
+      "tl": "pagguho ng lupa",
+      "pl": "osuwisko",
+      "ro": "alunecare de teren",
+      "ru": "оползень",
+      "sk": "zosuv pôdy",
+      "sl": "plaz",
+      "ko": "산사태",
+      "si": "නායයෑම",
+      "sv": "jordskred",
+      "th": "ดินถล่ม",
+      "tr": "heyelan",
+      "uk": "зсув",
+      "vi": "sạt lở đất",
+      "zh-TW": "山崩"
+    },
+    "terms": {
+      "en": {
+        "match": [
+          "landslide",
+          "mudslide",
+          "mud slide",
+          "rockslide",
+          "rock slide",
+          "debris flow",
+          "slope failure"
+        ],
+        "context": [
+          "heavy rain",
+          "rainfall",
+          "monsoon",
+          "hillside",
+          "slope",
+          "evacuat",
+          "rescue",
+          "buried",
+          "debris",
+          "killed",
+          "victims",
+          "trapped",
+          "destroyed",
+          "collapsed",
+          "blocked",
+          "struck",
+          "occurred",
+          "happened",
+          "swept away",
+          "damaged",
+          "at the scene",
+          "cameras were rolling",
+          "raw video"
+        ],
+        "related": [
+          "flood",
+          "avalanche",
+          "sinkhole",
+          "rockfall",
+          "rock fall",
+          "collapse",
+          "erosion",
+          "mudflow",
+          "mud flow",
+          "cyclone",
+          "typhoon"
+        ],
+        "offtopic": [
+          "election",
+          "landslide victory",
+          "landslide win",
+          "voters",
+          "ballot",
+          "candidate",
+          "presidential race",
+          "lyrics",
+          "fleetwood mac",
+          "stevie nicks",
+          "official music video",
+          "lyric video",
+          "karaoke",
+          "guitar tutorial",
+          "chords",
+          "acoustic cover",
+          "guitar cover",
+          "piano cover",
+          "the chicks",
+          "dixie chicks",
+          "remaster"
+        ],
+        "human": [
+          "excavation",
+          "under construction",
+          "construction site",
+          "digging"
+        ],
+        "non_event": [
+          "for kids",
+          "learning videos",
+          "dr. binocs",
+          "peekaboo kidz",
+          "warning levels",
+          "disaster preparedness",
+          "top 5",
+          "top 10",
+          "largest in the world",
+          "biggest ever",
+          "documentary",
+          "how to stay safe",
+          "school lesson",
+          "what causes landslides",
+          "types of landslides",
+          "landslide prevention",
+          "landslide safety for kids",
+          "landslides | national geographic",
+          "10 mountain collapses",
+          "mountain collapses compilation"
+        ]
+      },
+      "ar": {
+        "match": [
+          "انهيار أرضي",
+          "انهيارات أرضية",
+          "انهيار صخري",
+          "انهيارات صخرية",
+          "انهيار طيني",
+          "انهيارات طينية",
+          "انزلاق أرضي",
+          "انزلاقات أرضية",
+          "انزلاق التربة",
+          "انزلاق صخري"
+        ],
+        "context": [
+          "أمطار",
+          "سيول",
+          "إخلاء",
+          "إنقاذ",
+          "منحدر",
+          "ردم",
+          "ضحايا",
+          "طين"
+        ],
+        "related": [
+          "فيضان",
+          "زلزال",
+          "انجراف",
+          "انهيار"
+        ],
+        "offtopic": [
+          "انتخابات",
+          "فوز ساحق",
+          "أغنية",
+          "فيديو كليب"
+        ],
+        "human": [
+          "أعمال حفر",
+          "تحت الإنشاء"
+        ],
+        "non_event": [
+          "للأطفال",
+          "فيديو تعليمي",
+          "شرح مبسط",
+          "كيف يحدث",
+          "تجميع مقاطع"
+        ]
+      },
+      "fr": {
+        "match": [
+          "glissement de terrain",
+          "glissements de terrain",
+          "éboulement",
+          "coulée de boue",
+          "coulées de boue",
+          "glissement de boue"
+        ],
+        "context": [
+          "pluie",
+          "évacuation",
+          "secours",
+          "sinistr",
+          "victimes",
+          "enseveli"
+        ],
+        "related": [
+          "inondation",
+          "séisme",
+          "tremblement de terre",
+          "avalanche",
+          "effondrement",
+          "crue"
+        ],
+        "offtopic": [
+          "élection",
+          "victoire écrasante",
+          "paroles",
+          "clip officiel"
+        ],
+        "human": [
+          "chantier",
+          "excavation"
+        ],
+        "non_event": [
+          "pour enfants",
+          "vidéo éducative",
+          "comment se produit",
+          "compilation",
+          "les plus grands du monde"
+        ]
+      },
+      "es": {
+        "match": [
+          "deslizamiento de tierra",
+          "deslizamientos de tierra",
+          "deslave",
+          "corrimiento de tierra",
+          "alud de lodo",
+          "movimiento en masa"
+        ],
+        "context": [
+          "lluvia",
+          "evacuaci",
+          "rescate",
+          "sepultad",
+          "ladera",
+          "tormenta"
+        ],
+        "related": [
+          "derrumbe",
+          "inundaci",
+          "terremoto",
+          "sismo",
+          "avalancha",
+          "huaico"
+        ],
+        "offtopic": [
+          "elecciones",
+          "victoria arrolladora",
+          "lyrics"
+        ],
+        "human": [
+          "excavaci",
+          "obra en construcci"
+        ],
+        "non_event": [
+          "para niños",
+          "video educativo",
+          "vídeo educativo",
+          "cómo se produce",
+          "recopilación",
+          "los más grandes del mundo"
+        ]
+      },
+      "pt": {
+        "match": [
+          "deslizamento de terra",
+          "deslizamentos de terra",
+          "deslizamento de encosta",
+          "escorregamento de terra"
+        ],
+        "context": [
+          "chuva",
+          "resgate",
+          "soterrad",
+          "encosta",
+          "evacua",
+          "destrói",
+          "destruiu",
+          "casas destruídas",
+          "casas atingidas",
+          "atingiu",
+          "destruição"
+        ],
+        "related": [
+          "desabamento",
+          "enchente",
+          "inundação",
+          "terremoto",
+          "avalanche"
+        ],
+        "offtopic": [
+          "eleição",
+          "eleições",
+          "lyrics"
+        ],
+        "human": [
+          "escavação",
+          "obra"
+        ],
+        "non_event": [
+          "para crianças",
+          "vídeo educativo",
+          "como acontece",
+          "como se forma",
+          "maiores do mundo",
+          "compilação",
+          "documentário",
+          "desastres naturais em",
+          "movimentos de massa",
+          "tipos de deslizamento",
+          "como evitar deslizamentos",
+          "maiores deslizamentos de terra do mundo"
+        ]
+      },
+      "de": {
+        "match": [
+          "erdrutsch",
+          "hangrutsch",
+          "bergrutsch",
+          "murgang",
+          "schlammlawine",
+          "Erdrutsch"
+        ],
+        "context": [
+          "starkregen",
+          "regenfall",
+          "dauerregen",
+          "unwetter",
+          "evakuier",
+          "rettung",
+          "verschüttet"
+        ],
+        "related": [
+          "hochwasser",
+          "überschwemmung",
+          "erdbeben",
+          "lawine",
+          "einsturz"
+        ],
+        "offtopic": [
+          "bundestagswahl",
+          "landtagswahl",
+          "wahlsieg",
+          "songtext"
+        ],
+        "human": [
+          "baustelle",
+          "ausgrabung"
+        ],
+        "non_event": [
+          "für Kinder",
+          "Lernvideo",
+          "wie entsteht",
+          "Zusammenschnitt",
+          "Dokumentation"
+        ]
+      },
+      "id": {
+        "match": [
+          "tanah longsor",
+          "longsor"
+        ],
+        "context": [
+          "hujan",
+          "evakuasi",
+          "korban",
+          "bencana",
+          "lereng",
+          "bpbd",
+          "basarnas"
+        ],
+        "related": [
+          "banjir",
+          "gempa",
+          "erosi",
+          "amblas"
+        ],
+        "offtopic": [
+          "pemilu",
+          "pilkada",
+          "lirik"
+        ],
+        "human": [
+          "galian",
+          "proyek"
+        ],
+        "non_event": [
+          "untuk anak",
+          "video edukasi",
+          "bagaimana terjadi",
+          "kompilasi"
+        ]
+      },
+      "ru": {
+        "match": [
+          "оползен",
+          "оползн",
+          "оползень"
+        ],
+        "context": [
+          "дожд",
+          "эвакуац",
+          "спасател",
+          "склон",
+          "погиб"
+        ],
+        "related": [
+          "наводнени",
+          "землетрясени",
+          "лавин",
+          "обвал"
+        ],
+        "offtopic": [
+          "выборы",
+          "текст песни",
+          "клип"
+        ],
+        "human": [
+          "стройк",
+          "котлован"
+        ],
+        "non_event": [
+          "для детей",
+          "обучающее видео",
+          "как происходит",
+          "подборка видео",
+          "документальный фильм"
+        ]
+      },
+      "ja": {
+        "match": [
+          "地すべり",
+          "土砂崩れ",
+          "土砂災害",
+          "山崩れ",
+          "土石流",
+          "地滑り",
+          "土砂崩れ",
+          "土石流",
+          "斜面崩壊"
+        ],
+        "context": [
+          "大雨",
+          "豪雨",
+          "避難",
+          "救助",
+          "被害",
+          "発生",
+          "崩落",
+          "避難",
+          "被害",
+          "豪雨",
+          "大雨",
+          "倒壊"
+        ],
+        "offtopic": [
+          "選挙",
+          "歌詞"
+        ],
+        "human": [
+          "工事",
+          "掘削"
+        ],
+        "non_event": [
+          "子供版",
+          "子ども向け",
+          "子供向け",
+          "学習動画",
+          "警戒レベルに関する映像",
+          "防災教育",
+          "総集編",
+          "仕組み",
+          "とは何",
+          "ドキュメンタリー",
+          "土砂災害から身を守る",
+          "土砂災害のメカニズム"
+        ]
+      },
+      "zh": {
+        "match": [
+          "山崩",
+          "滑坡",
+          "山体滑坡",
+          "山體滑坡",
+          "泥石流",
+          "土石流"
+        ],
+        "context": [
+          "暴雨",
+          "救援",
+          "撤离",
+          "撤離",
+          "灾害",
+          "災害"
+        ],
+        "offtopic": [
+          "選舉",
+          "选举",
+          "歌詞",
+          "歌词"
+        ],
+        "human": [
+          "施工",
+          "挖掘"
+        ]
+      },
+      "ko": {
+        "match": [
+          "산사태",
+          "토사 붕괴"
+        ],
+        "context": [
+          "폭우",
+          "대피",
+          "구조",
+          "피해"
+        ],
+        "offtopic": [
+          "선거",
+          "가사"
+        ],
+        "human": [
+          "공사",
+          "굴착"
+        ],
+        "non_event": [
+          "어린이용",
+          "교육 영상",
+          "어떻게 발생",
+          "영상 모음",
+          "다큐멘터리"
+        ]
+      },
+      "hi": {
+        "match": [
+          "भूस्खलन",
+          "भू-स्खलन"
+        ],
+        "context": [
+          "बारिश",
+          "बचाव",
+          "मलबा",
+          "आपदा"
+        ],
+        "offtopic": [
+          "चुनाव",
+          "गीत"
+        ],
+        "human": [
+          "निर्माण",
+          "खुदाई"
+        ],
+        "non_event": [
+          "बच्चों के लिए",
+          "शैक्षिक वीडियो",
+          "कैसे होता है",
+          "वीडियो संकलन"
+        ]
+      },
+      "ne": {
+        "match": [
+          "पहिरो",
+          "भूस्खलन"
+        ],
+        "context": [
+          "वर्षा",
+          "उद्धार",
+          "क्षति"
+        ],
+        "offtopic": [
+          "निर्वाचन",
+          "गीत"
+        ],
+        "non_event": [
+          "बालबालिकाका लागि",
+          "शैक्षिक भिडियो",
+          "कसरी हुन्छ",
+          "भिडियो सङ्कलन"
+        ]
+      },
+      "tr": {
+        "match": [
+          "heyelan",
+          "toprak kayması"
+        ],
+        "context": [
+          "yağmur",
+          "sel",
+          "kurtarma",
+          "afet"
+        ],
+        "offtopic": [
+          "seçim",
+          "şarkı"
+        ],
+        "human": [
+          "inşaat",
+          "kazı"
+        ],
+        "non_event": [
+          "çocuklar için",
+          "eğitici video",
+          "nasıl oluşur",
+          "derleme"
+        ]
+      },
+      "it": {
+        "match": [
+          "frana",
+          "frane",
+          "smottamento"
+        ],
+        "context": [
+          "pioggia",
+          "alluvione",
+          "soccorso",
+          "evacuazione"
+        ],
+        "offtopic": [
+          "elezioni",
+          "testo della canzone"
+        ],
+        "human": [
+          "cantiere",
+          "scavo"
+        ],
+        "non_event": [
+          "per bambini",
+          "video educativo",
+          "come si forma",
+          "compilation"
+        ]
+      },
+      "vi": {
+        "match": [
+          "sạt lở đất",
+          "sạt lở",
+          "lở đất"
+        ],
+        "context": [
+          "mưa",
+          "cứu hộ",
+          "thiệt hại"
+        ],
+        "offtopic": [
+          "bầu cử",
+          "lời bài hát"
+        ],
+        "human": [
+          "thi công",
+          "đào đất"
+        ],
+        "non_event": [
+          "cho trẻ em",
+          "video giáo dục",
+          "hình thành như thế nào",
+          "tổng hợp video"
+        ]
+      },
+      "th": {
+        "match": [
+          "ดินถล่ม",
+          "โคลนถล่ม"
+        ],
+        "context": [
+          "ฝนตก",
+          "ช่วยเหลือ",
+          "อพยพ"
+        ],
+        "offtopic": [
+          "เลือกตั้ง",
+          "เนื้อเพลง"
+        ],
+        "non_event": [
+          "สำหรับเด็ก",
+          "วิดีโอการศึกษา",
+          "เกิดขึ้นได้อย่างไร",
+          "รวมคลิป"
+        ]
+      },
+      "pl": {
+        "match": [
+          "osuwisko",
+          "osuwiska",
+          "osunięcie ziemi"
+        ],
+        "context": [
+          "deszcz",
+          "ewakuacja",
+          "ratunek"
+        ],
+        "offtopic": [
+          "wybory",
+          "tekst piosenki"
+        ],
+        "non_event": [
+          "dla dzieci",
+          "film edukacyjny",
+          "jak powstaje",
+          "kompilacja"
+        ]
+      },
+      "az": {
+        "non_event": [
+          "uşaqlar üçün",
+          "maarifləndirici video",
+          "necə baş verir",
+          "video toplusu"
+        ],
+        "match": [
+          "torpaq sürüşməsi"
+        ]
+      },
+      "bn": {
+        "non_event": [
+          "শিশুদের জন্য",
+          "শিক্ষামূলক ভিডিও",
+          "কীভাবে ঘটে",
+          "ভিডিও সংকলন"
+        ],
+        "match": [
+          "ভূমিধস"
+        ]
+      },
+      "be": {
+        "non_event": [
+          "для дзяцей",
+          "навучальнае відэа",
+          "як адбываецца",
+          "падборка відэа"
+        ],
+        "match": [
+          "апалзень"
+        ]
+      },
+      "nl": {
+        "non_event": [
+          "voor kinderen",
+          "educatieve video",
+          "hoe ontstaat",
+          "compilatie"
+        ],
+        "match": [
+          "aardverschuiving"
+        ]
+      },
+      "bs": {
+        "non_event": [
+          "za djecu",
+          "edukativni video",
+          "kako nastaje",
+          "kompilacija"
+        ],
+        "match": [
+          "klizište"
+        ]
+      },
+      "bg": {
+        "non_event": [
+          "за деца",
+          "образователно видео",
+          "как възниква",
+          "компилация"
+        ],
+        "match": [
+          "свлачище"
+        ]
+      },
+      "hr": {
+        "non_event": [
+          "za djecu",
+          "edukativni video",
+          "kako nastaje",
+          "kompilacija"
+        ],
+        "match": [
+          "klizište"
+        ]
+      },
+      "el": {
+        "non_event": [
+          "για παιδιά",
+          "εκπαιδευτικό βίντεο",
+          "πώς συμβαίνει",
+          "συλλογή βίντεο"
+        ],
+        "match": [
+          "κατολίσθηση"
+        ]
+      },
+      "cs": {
+        "non_event": [
+          "pro děti",
+          "výukové video",
+          "jak vzniká",
+          "kompilace"
+        ],
+        "match": [
+          "sesuv půdy"
+        ]
+      },
+      "da": {
+        "non_event": [
+          "for børn",
+          "undervisningsvideo",
+          "hvordan opstår",
+          "samlevideo"
+        ],
+        "match": [
+          "jordskred"
+        ]
+      },
+      "et": {
+        "non_event": [
+          "lastele",
+          "õppevideo",
+          "kuidas tekib",
+          "videokogumik"
+        ],
+        "match": [
+          "maalihe"
+        ]
+      },
+      "fi": {
+        "non_event": [
+          "lapsille",
+          "opetusvideo",
+          "miten syntyy",
+          "kooste"
+        ],
+        "match": [
+          "maanvyörymä"
+        ]
+      },
+      "ka": {
+        "non_event": [
+          "ბავშვებისთვის",
+          "სასწავლო ვიდეო",
+          "როგორ ხდება",
+          "ვიდეოების კრებული"
+        ],
+        "match": [
+          "მეწყერი"
+        ]
+      },
+      "hu": {
+        "non_event": [
+          "gyerekeknek",
+          "oktatóvideó",
+          "hogyan alakul ki",
+          "válogatás"
+        ],
+        "match": [
+          "földcsuszamlás"
+        ]
+      },
+      "is": {
+        "non_event": [
+          "fyrir börn",
+          "fræðslumyndband",
+          "hvernig verður",
+          "myndbandasafn"
+        ],
+        "match": [
+          "aurskriða"
+        ]
+      },
+      "iw": {
+        "non_event": [
+          "לילדים",
+          "סרטון לימודי",
+          "איך נוצר",
+          "אוסף סרטונים"
+        ],
+        "match": [
+          "מפולת אדמה"
+        ]
+      },
+      "kk": {
+        "non_event": [
+          "балаларға арналған",
+          "оқу бейнесі",
+          "қалай пайда болады",
+          "бейне жинағы"
+        ],
+        "match": [
+          "жер көшкіні"
+        ]
+      },
+      "sw": {
+        "non_event": [
+          "kwa watoto",
+          "video ya elimu",
+          "jinsi inavyotokea",
+          "mkusanyiko wa video"
+        ],
+        "match": [
+          "maporomoko ya ardhi"
+        ]
+      },
+      "lv": {
+        "non_event": [
+          "bērniem",
+          "mācību video",
+          "kā rodas",
+          "video apkopojums"
+        ],
+        "match": [
+          "zemes nogruvums"
+        ]
+      },
+      "lt": {
+        "non_event": [
+          "vaikams",
+          "mokomasis vaizdo įrašas",
+          "kaip susidaro",
+          "vaizdo įrašų rinkinys"
+        ],
+        "match": [
+          "nuošliauža"
+        ]
+      },
+      "ms": {
+        "non_event": [
+          "untuk kanak-kanak",
+          "video pendidikan",
+          "bagaimana berlaku",
+          "kompilasi"
+        ],
+        "match": [
+          "tanah runtuh"
+        ]
+      },
+      "mt": {
+        "non_event": [
+          "għat-tfal",
+          "vidjo edukattiv",
+          "kif iseħħ",
+          "ġabra ta’ vidjows"
+        ],
+        "match": [
+          "frana"
+        ]
+      },
+      "sr": {
+        "non_event": [
+          "за децу",
+          "образовни видео",
+          "како настаје",
+          "компилација"
+        ],
+        "match": [
+          "клизиште"
+        ]
+      },
+      "mk": {
+        "non_event": [
+          "за деца",
+          "едукативно видео",
+          "како настанува",
+          "компилација"
+        ],
+        "match": [
+          "свлечиште"
+        ]
+      },
+      "no": {
+        "non_event": [
+          "for barn",
+          "undervisningsvideo",
+          "hvordan oppstår",
+          "samlevideo"
+        ],
+        "match": [
+          "jordskred"
+        ]
+      },
+      "ur": {
+        "non_event": [
+          "بچوں کے لیے",
+          "تعلیمی ویڈیو",
+          "کیسے ہوتا ہے",
+          "ویڈیو مجموعہ"
+        ],
+        "match": [
+          "لینڈ سلائیڈ"
+        ]
+      },
+      "tl": {
+        "non_event": [
+          "para sa mga bata",
+          "bidyong pang-edukasyon",
+          "paano nangyayari",
+          "kompilasyon"
+        ],
+        "match": [
+          "pagguho ng lupa"
+        ]
+      },
+      "ro": {
+        "non_event": [
+          "pentru copii",
+          "video educativ",
+          "cum se produce",
+          "compilație"
+        ],
+        "match": [
+          "alunecare de teren"
+        ]
+      },
+      "sk": {
+        "non_event": [
+          "pre deti",
+          "vzdelávacie video",
+          "ako vzniká",
+          "kompilácia"
+        ],
+        "match": [
+          "zosuv pôdy"
+        ]
+      },
+      "sl": {
+        "non_event": [
+          "za otroke",
+          "izobraževalni video",
+          "kako nastane",
+          "kompilacija"
+        ],
+        "match": [
+          "plaz"
+        ]
+      },
+      "si": {
+        "non_event": [
+          "ළමුන් සඳහා",
+          "අධ්‍යාපනික වීඩියෝ",
+          "වීඩියෝ එකතුව"
+        ],
+        "match": [
+          "නායයෑම"
+        ]
+      },
+      "sv": {
+        "non_event": [
+          "för barn",
+          "utbildningsvideo",
+          "hur uppstår",
+          "sammanställning"
+        ],
+        "match": [
+          "jordskred"
+        ]
+      },
+      "uk": {
+        "non_event": [
+          "для дітей",
+          "навчальне відео",
+          "як виникає",
+          "добірка відео"
+        ],
+        "match": [
+          "зсув"
+        ]
+      },
+      "zh-TW": {
+        "non_event": [
+          "兒童版",
+          "給小朋友",
+          "教學影片",
+          "如何形成",
+          "影片合集",
+          "紀錄片"
+        ],
+        "match": [
+          "山崩"
+        ]
+      }
+    },
+    "search_terms": {
+      "en": "landslide news",
+      "ar": "انهيار أرضي أخبار",
+      "es": "deslizamiento de tierra noticias",
+      "de": "Erdrutsch Nachrichten",
+      "az": "torpaq sürüşməsi xəbərlər",
+      "bn": "ভূমিধস খবর",
+      "be": "апалзень навіны",
+      "nl": "aardverschuiving nieuws",
+      "bs": "klizište vijesti",
+      "pt": "deslizamento de terra notícias",
+      "bg": "свлачище новини",
+      "hr": "klizište vijesti",
+      "el": "κατολίσθηση ειδήσεις",
+      "cs": "sesuv půdy zprávy",
+      "da": "jordskred nyheder",
+      "et": "maalihe uudised",
+      "fi": "maanvyörymä uutiset",
+      "fr": "glissement de terrain actualités",
+      "ka": "მეწყერი ახალი ამბები",
+      "hu": "földcsuszamlás hírek",
+      "is": "aurskriða fréttir",
+      "hi": "भूस्खलन समाचार",
+      "id": "tanah longsor berita",
+      "iw": "מפולת אדמה חדשות",
+      "it": "frana notizie",
+      "ja": "土砂崩れ ニュース",
+      "kk": "жер көшкіні жаңалықтар",
+      "sw": "maporomoko ya ardhi habari",
+      "lv": "zemes nogruvums ziņas",
+      "lt": "nuošliauža naujienos",
+      "ms": "tanah runtuh berita",
+      "mt": "frana aħbarijiet",
+      "sr": "клизиште вести",
+      "ne": "पहिरो समाचार",
+      "mk": "свлечиште вести",
+      "no": "jordskred nyheter",
+      "ur": "لینڈ سلائیڈ خبریں",
+      "tl": "pagguho ng lupa balita",
+      "pl": "osuwisko wiadomości",
+      "ro": "alunecare de teren știri",
+      "ru": "оползень новости",
+      "sk": "zosuv pôdy správy",
+      "sl": "plaz novice",
+      "ko": "산사태 뉴스",
+      "si": "නායයෑම පුවත්",
+      "sv": "jordskred nyheter",
+      "th": "ดินถล่ม ข่าว",
+      "tr": "heyelan haberleri",
+      "uk": "зсув новини",
+      "vi": "sạt lở đất tin tức",
+      "zh-TW": "山崩 新聞"
+    }
+  },
+  "countries": {
+    "DZ": {
+      "name": "Algeria",
+      "language": "ar"
+    },
+    "AR": {
+      "name": "Argentina",
+      "language": "es"
+    },
+    "AU": {
+      "name": "Australia",
+      "language": "en"
+    },
+    "AT": {
+      "name": "Austria",
+      "language": "de"
+    },
+    "AZ": {
+      "name": "Azerbaijan",
+      "language": "az"
+    },
+    "BH": {
+      "name": "Bahrain",
+      "language": "ar"
+    },
+    "BD": {
+      "name": "Bangladesh",
+      "language": "bn"
+    },
+    "BY": {
+      "name": "Belarus",
+      "language": "be"
+    },
+    "BE": {
+      "name": "Belgium",
+      "language": "nl"
+    },
+    "BO": {
+      "name": "Bolivia",
+      "language": "es"
+    },
+    "BA": {
+      "name": "Bosnia and Herzegovina",
+      "language": "bs"
+    },
+    "BR": {
+      "name": "Brazil",
+      "language": "pt"
+    },
+    "BG": {
+      "name": "Bulgaria",
+      "language": "bg"
+    },
+    "CA": {
+      "name": "Canada",
+      "language": "en"
+    },
+    "CL": {
+      "name": "Chile",
+      "language": "es"
+    },
+    "CO": {
+      "name": "Colombia",
+      "language": "es"
+    },
+    "CR": {
+      "name": "Costa Rica",
+      "language": "es"
+    },
+    "HR": {
+      "name": "Croatia",
+      "language": "hr"
+    },
+    "CY": {
+      "name": "Cyprus",
+      "language": "el"
+    },
+    "CZ": {
+      "name": "Czechia",
+      "language": "cs"
+    },
+    "DK": {
+      "name": "Denmark",
+      "language": "da"
+    },
+    "DO": {
+      "name": "Dominican Republic",
+      "language": "es"
+    },
+    "EC": {
+      "name": "Ecuador",
+      "language": "es"
+    },
+    "EG": {
+      "name": "Egypt",
+      "language": "ar"
+    },
+    "SV": {
+      "name": "El Salvador",
+      "language": "es"
+    },
+    "EE": {
+      "name": "Estonia",
+      "language": "et"
+    },
+    "FI": {
+      "name": "Finland",
+      "language": "fi"
+    },
+    "FR": {
+      "name": "France",
+      "language": "fr"
+    },
+    "GE": {
+      "name": "Georgia",
+      "language": "ka"
+    },
+    "DE": {
+      "name": "Germany",
+      "language": "de"
+    },
+    "GH": {
+      "name": "Ghana",
+      "language": "en"
+    },
+    "GR": {
+      "name": "Greece",
+      "language": "el"
+    },
+    "GT": {
+      "name": "Guatemala",
+      "language": "es"
+    },
+    "HN": {
+      "name": "Honduras",
+      "language": "es"
+    },
+    "HK": {
+      "name": "Hong Kong",
+      "language": "zh-TW"
+    },
+    "HU": {
+      "name": "Hungary",
+      "language": "hu"
+    },
+    "IS": {
+      "name": "Iceland",
+      "language": "is"
+    },
+    "IN": {
+      "name": "India",
+      "language": "hi"
+    },
+    "ID": {
+      "name": "Indonesia",
+      "language": "id"
+    },
+    "IQ": {
+      "name": "Iraq",
+      "language": "ar"
+    },
+    "IE": {
+      "name": "Ireland",
+      "language": "en"
+    },
+    "IL": {
+      "name": "Israel",
+      "language": "iw"
+    },
+    "IT": {
+      "name": "Italy",
+      "language": "it"
+    },
+    "JM": {
+      "name": "Jamaica",
+      "language": "en"
+    },
+    "JP": {
+      "name": "Japan",
+      "language": "ja"
+    },
+    "JO": {
+      "name": "Jordan",
+      "language": "ar"
+    },
+    "KZ": {
+      "name": "Kazakhstan",
+      "language": "kk"
+    },
+    "KE": {
+      "name": "Kenya",
+      "language": "sw"
+    },
+    "KW": {
+      "name": "Kuwait",
+      "language": "ar"
+    },
+    "LV": {
+      "name": "Latvia",
+      "language": "lv"
+    },
+    "LB": {
+      "name": "Lebanon",
+      "language": "ar"
+    },
+    "LY": {
+      "name": "Libya",
+      "language": "ar"
+    },
+    "LI": {
+      "name": "Liechtenstein",
+      "language": "de"
+    },
+    "LT": {
+      "name": "Lithuania",
+      "language": "lt"
+    },
+    "LU": {
+      "name": "Luxembourg",
+      "language": "fr"
+    },
+    "MY": {
+      "name": "Malaysia",
+      "language": "ms"
+    },
+    "MT": {
+      "name": "Malta",
+      "language": "mt"
+    },
+    "MX": {
+      "name": "Mexico",
+      "language": "es"
+    },
+    "ME": {
+      "name": "Montenegro",
+      "language": "sr"
+    },
+    "MA": {
+      "name": "Morocco",
+      "language": "ar"
+    },
+    "NP": {
+      "name": "Nepal",
+      "language": "ne"
+    },
+    "NL": {
+      "name": "Netherlands",
+      "language": "nl"
+    },
+    "NZ": {
+      "name": "New Zealand",
+      "language": "en"
+    },
+    "NI": {
+      "name": "Nicaragua",
+      "language": "es"
+    },
+    "NG": {
+      "name": "Nigeria",
+      "language": "en"
+    },
+    "MK": {
+      "name": "North Macedonia",
+      "language": "mk"
+    },
+    "NO": {
+      "name": "Norway",
+      "language": "no"
+    },
+    "OM": {
+      "name": "Oman",
+      "language": "ar"
+    },
+    "PK": {
+      "name": "Pakistan",
+      "language": "ur"
+    },
+    "PA": {
+      "name": "Panama",
+      "language": "es"
+    },
+    "PG": {
+      "name": "Papua New Guinea",
+      "language": "en"
+    },
+    "PY": {
+      "name": "Paraguay",
+      "language": "es"
+    },
+    "PE": {
+      "name": "Peru",
+      "language": "es"
+    },
+    "PH": {
+      "name": "Philippines",
+      "language": "tl"
+    },
+    "PL": {
+      "name": "Poland",
+      "language": "pl"
+    },
+    "PT": {
+      "name": "Portugal",
+      "language": "pt"
+    },
+    "PR": {
+      "name": "Puerto Rico",
+      "language": "es"
+    },
+    "QA": {
+      "name": "Qatar",
+      "language": "ar"
+    },
+    "RO": {
+      "name": "Romania",
+      "language": "ro"
+    },
+    "RU": {
+      "name": "Russia",
+      "language": "ru"
+    },
+    "SA": {
+      "name": "Saudi Arabia",
+      "language": "ar"
+    },
+    "SN": {
+      "name": "Senegal",
+      "language": "fr"
+    },
+    "RS": {
+      "name": "Serbia",
+      "language": "sr"
+    },
+    "SG": {
+      "name": "Singapore",
+      "language": "en"
+    },
+    "SK": {
+      "name": "Slovakia",
+      "language": "sk"
+    },
+    "SI": {
+      "name": "Slovenia",
+      "language": "sl"
+    },
+    "ZA": {
+      "name": "South Africa",
+      "language": "en"
+    },
+    "KR": {
+      "name": "South Korea",
+      "language": "ko"
+    },
+    "ES": {
+      "name": "Spain",
+      "language": "es"
+    },
+    "LK": {
+      "name": "Sri Lanka",
+      "language": "si"
+    },
+    "SE": {
+      "name": "Sweden",
+      "language": "sv"
+    },
+    "CH": {
+      "name": "Switzerland",
+      "language": "de"
+    },
+    "TW": {
+      "name": "Taiwan",
+      "language": "zh-TW"
+    },
+    "TZ": {
+      "name": "Tanzania",
+      "language": "sw"
+    },
+    "TH": {
+      "name": "Thailand",
+      "language": "th"
+    },
+    "TN": {
+      "name": "Tunisia",
+      "language": "ar"
+    },
+    "TR": {
+      "name": "Turkey",
+      "language": "tr"
+    },
+    "UG": {
+      "name": "Uganda",
+      "language": "en"
+    },
+    "UA": {
+      "name": "Ukraine",
+      "language": "uk"
+    },
+    "AE": {
+      "name": "United Arab Emirates",
+      "language": "ar"
+    },
+    "GB": {
+      "name": "United Kingdom",
+      "language": "en"
+    },
+    "US": {
+      "name": "United States",
+      "language": "en"
+    },
+    "UY": {
+      "name": "Uruguay",
+      "language": "es"
+    },
+    "VE": {
+      "name": "Venezuela",
+      "language": "es"
+    },
+    "VN": {
+      "name": "Vietnam",
+      "language": "vi"
+    },
+    "YE": {
+      "name": "Yemen",
+      "language": "ar"
+    },
+    "ZW": {
+      "name": "Zimbabwe",
+      "language": "en"
+    }
+  },
+  "limit": 5,
+  "candidates": 15,
+  "transcripts": true,
+  "comment_sample": 5
+}

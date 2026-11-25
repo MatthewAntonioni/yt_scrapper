@@ -1,0 +1,4 @@
+﻿country,code,requested_language,search_language,translation_status,search_term,requested,candidate_limit,returned,selected,excluded,deferred,unexamined,collection_finished,metadata_ok,status,error,searched_at
+Canada,CA,en,en,original,landslide news,5,15,15,5,0,0,10,True,5,ok,,2026-11-24T23:28:43+00:00
+Japan,JP,ja,ja,translated,土砂崩れ ニュース,5,15,15,5,0,0,10,True,5,ok,,2026-11-24T23:30:07+00:00
+Brazil,BR,pt,pt,translated,deslizamento de terra notícias,5,15,15,5,0,0,10,True,5,ok,,2026-11-24T23:31:25+00:00

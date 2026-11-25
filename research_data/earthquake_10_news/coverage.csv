@@ -1,0 +1,108 @@
+﻿country,code,requested_language,search_language,translation_status,search_term,requested,candidate_limit,returned,selected,excluded,deferred,unexamined,collection_finished,metadata_ok,status,error,searched_at
+Algeria,DZ,ar,ar,translated,زلزال أخبار,10,30,30,10,0,0,20,True,18,ok,,2026-11-25T17:38:51+00:00
+Argentina,AR,es,es,translated,terremoto noticias,10,30,30,10,0,0,20,True,16,ok,,2026-11-25T17:41:24+00:00
+Australia,AU,en,en,original,earthquake news,10,30,30,10,0,1,19,True,15,ok,,2026-11-25T17:43:41+00:00
+Austria,AT,de,de,translated,Erdbeben Nachrichten,10,30,30,10,0,1,19,True,14,ok,,2026-11-25T17:46:03+00:00
+Azerbaijan,AZ,az,az,translated,zəlzələ xəbərlər,10,30,30,10,0,0,20,True,10,ok,,2026-11-25T17:48:42+00:00
+Bahrain,BH,ar,ar,translated,زلزال أخبار,10,30,30,10,0,0,20,True,20,ok,,2026-11-25T17:51:15+00:00
+Bangladesh,BD,bn,bn,translated,ভূমিকম্প খবর,10,30,30,10,0,0,20,True,10,ok,,2026-11-25T17:51:20+00:00
+Belarus,BY,be,be,translated,землятрус навіны,10,30,30,10,0,1,19,True,12,ok,,2026-11-25T17:53:24+00:00
+Belgium,BE,nl,nl,translated,aardbeving nieuws,10,30,30,10,0,0,20,True,11,ok,,2026-11-25T17:55:14+00:00
+Bolivia,BO,es,es,translated,terremoto noticias,10,30,30,10,0,0,20,True,15,ok,,2026-11-25T17:57:42+00:00
+Bosnia and Herzegovina,BA,bs,bs,translated,zemljotres vijesti,10,30,30,10,0,0,20,True,14,ok,,2026-11-25T17:58:02+00:00
+Brazil,BR,pt,pt,translated,terremoto notícias,10,30,30,10,0,0,20,True,12,ok,,2026-11-25T18:00:30+00:00
+Bulgaria,BG,bg,bg,translated,земетресение новини,10,30,30,10,0,0,20,True,12,ok,,2026-11-25T18:02:37+00:00
+Canada,CA,en,en,original,earthquake news,10,30,30,10,0,1,19,True,16,ok,,2026-11-25T18:05:07+00:00
+Chile,CL,es,es,translated,terremoto noticias,10,30,30,10,0,0,20,True,15,ok,,2026-11-25T18:05:30+00:00
+Colombia,CO,es,es,translated,terremoto noticias,10,30,30,10,0,0,20,True,15,ok,,2026-11-25T18:05:35+00:00
+Costa Rica,CR,es,es,translated,terremoto noticias,10,30,30,10,0,0,20,True,16,ok,,2026-11-25T18:05:55+00:00
+Croatia,HR,hr,hr,translated,potres vijesti,10,30,30,10,0,0,20,True,17,ok,,2026-11-25T18:06:00+00:00
+Cyprus,CY,el,el,translated,σεισμός ειδήσεις,10,30,30,10,0,0,20,True,15,ok,,2026-11-25T18:08:19+00:00
+Czechia,CZ,cs,cs,translated,zemětřesení zprávy,10,30,30,10,0,3,17,True,13,ok,,2026-11-25T18:10:52+00:00
+Denmark,DK,da,da,translated,jordskælv nyheder,10,30,30,10,0,0,20,True,14,ok,,2026-11-25T18:13:42+00:00
+Dominican Republic,DO,es,es,translated,terremoto noticias,10,30,30,10,0,0,20,True,15,ok,,2026-11-25T18:15:14+00:00
+Ecuador,EC,es,es,translated,terremoto noticias,10,30,30,10,0,0,20,True,15,ok,,2026-11-25T18:15:20+00:00
+Egypt,EG,ar,ar,translated,زلزال أخبار,10,30,30,10,0,0,20,True,18,ok,,2026-11-25T18:15:27+00:00
+El Salvador,SV,es,es,translated,terremoto noticias,10,30,30,10,0,0,20,True,16,ok,,2026-11-25T18:15:32+00:00
+Estonia,EE,et,et,translated,maavärin uudised,10,30,30,10,0,3,17,True,13,ok,,2026-11-25T18:15:53+00:00
+Finland,FI,fi,fi,translated,maanjäristys uutiset,10,30,30,10,0,1,19,True,16,ok,,2026-11-25T18:18:44+00:00
+France,FR,fr,fr,translated,séisme actualités,10,30,30,10,0,1,19,True,18,ok,,2026-11-25T18:20:07+00:00
+Georgia,GE,ka,ka,translated,მიწისძვრა ახალი ამბები,10,30,30,10,0,0,20,True,10,ok,,2026-11-25T18:22:13+00:00
+Germany,DE,de,de,translated,Erdbeben Nachrichten,10,30,30,10,0,1,19,True,14,ok,,2026-11-25T18:24:14+00:00
+Ghana,GH,en,en,original,earthquake news,10,30,30,10,0,1,19,True,16,ok,,2026-11-25T18:24:49+00:00
+Greece,GR,el,el,translated,σεισμός ειδήσεις,10,30,30,10,0,0,20,True,16,ok,,2026-11-25T18:25:09+00:00
+Guatemala,GT,es,es,translated,terremoto noticias,10,30,30,10,0,0,20,True,15,ok,,2026-11-25T18:25:44+00:00
+Honduras,HN,es,es,translated,terremoto noticias,10,30,30,10,0,0,20,True,16,ok,,2026-11-25T18:25:50+00:00
+Hong Kong,HK,zh-TW,zh,translated,地震 新聞,10,30,30,10,0,0,20,True,10,ok,,2026-11-25T18:26:10+00:00
+Hungary,HU,hu,hu,translated,földrengés hírek,10,30,30,10,0,0,20,True,16,ok,,2026-11-25T18:28:26+00:00
+Iceland,IS,is,is,translated,jarðskjálfti fréttir,10,30,30,10,0,0,20,True,13,ok,,2026-11-25T18:31:00+00:00
+India,IN,hi,hi,translated,भूकंप समाचार,10,30,30,10,0,0,20,True,11,ok,,2026-11-25T18:32:19+00:00
+Indonesia,ID,id,id,translated,gempa bumi berita,10,30,30,10,0,0,20,True,11,ok,,2026-11-25T18:34:58+00:00
+Iraq,IQ,ar,ar,translated,زلزال أخبار,10,30,30,10,0,1,19,True,19,ok,,2026-11-25T18:37:34+00:00
+Ireland,IE,en,en,original,earthquake news,10,30,30,10,0,1,19,True,16,ok,,2026-11-25T18:38:04+00:00
+Israel,IL,iw,he,translated,רעידת אדמה חדשות,10,30,30,10,0,0,20,True,10,ok,,2026-11-25T18:38:11+00:00
+Italy,IT,it,it,translated,terremoto notizie,10,30,30,10,0,0,20,True,10,ok,,2026-11-25T18:40:44+00:00
+Jamaica,JM,en,en,original,earthquake news,10,30,30,10,0,1,19,True,15,ok,,2026-11-25T18:43:19+00:00
+Japan,JP,ja,ja,translated,地震 ニュース,10,30,30,10,0,0,20,True,10,ok,,2026-11-25T18:43:26+00:00
+Jordan,JO,ar,ar,translated,زلزال أخبار,10,30,30,10,0,0,20,True,18,ok,,2026-11-25T18:46:02+00:00
+Kazakhstan,KZ,kk,kk,translated,жер сілкінісі жаңалықтар,10,30,30,10,0,0,20,True,10,ok,,2026-11-25T18:46:09+00:00
+Kenya,KE,sw,sw,translated,tetemeko la ardhi habari,10,30,30,10,0,0,20,True,11,ok,,2026-11-25T18:48:42+00:00
+Kuwait,KW,ar,ar,translated,زلزال أخبار,10,30,30,10,0,0,20,True,20,ok,,2026-11-25T18:51:16+00:00
+Latvia,LV,lv,lv,translated,zemestrīce ziņas,10,30,30,10,0,0,20,True,16,ok,,2026-11-25T18:51:52+00:00
+Lebanon,LB,ar,ar,translated,زلزال أخبار,10,30,30,10,0,0,20,True,18,ok,,2026-11-25T18:52:58+00:00
+Libya,LY,ar,ar,translated,زلزال أخبار,10,30,30,10,0,0,20,True,16,ok,,2026-11-25T18:53:05+00:00
+Liechtenstein,LI,de,de,translated,Erdbeben Nachrichten,10,30,30,10,0,1,19,True,13,ok,,2026-11-25T18:53:13+00:00
+Lithuania,LT,lt,lt,translated,žemės drebėjimas naujienos,10,30,30,10,0,0,20,True,19,ok,,2026-11-25T18:53:36+00:00
+Luxembourg,LU,fr,fr,translated,séisme actualités,10,30,30,10,0,1,19,True,18,ok,,2026-11-25T18:54:57+00:00
+Malaysia,MY,ms,ms,translated,gempa bumi berita,10,30,30,10,0,0,20,True,13,ok,,2026-11-25T18:55:04+00:00
+Malta,MT,mt,en,translated,terremot aħbarijiet,10,30,30,10,0,3,17,True,10,ok,,2026-11-25T18:56:11+00:00
+Mexico,MX,es,es,translated,terremoto noticias,10,30,30,10,0,0,20,True,15,ok,,2026-11-25T18:58:47+00:00
+Montenegro,ME,sr,sr,translated,земљотрес вести,10,30,30,10,0,0,20,True,12,ok,,2026-11-25T18:59:09+00:00
+Morocco,MA,ar,ar,translated,زلزال أخبار,10,30,30,10,0,0,20,True,18,ok,,2026-11-25T19:00:56+00:00
+Nepal,NP,ne,ne,translated,भूकम्प समाचार,10,30,30,10,0,0,20,True,11,ok,,2026-11-25T19:01:03+00:00
+Netherlands,NL,nl,nl,translated,aardbeving nieuws,10,30,30,10,0,0,20,True,14,ok,,2026-11-25T19:03:36+00:00
+New Zealand,NZ,en,en,original,earthquake news,10,30,30,10,0,1,19,True,17,ok,,2026-11-25T19:03:57+00:00
+Nicaragua,NI,es,es,translated,terremoto noticias,10,30,30,10,0,0,20,True,16,ok,,2026-11-25T19:04:33+00:00
+Nigeria,NG,en,en,original,earthquake news,10,30,30,10,0,1,19,True,16,ok,,2026-11-25T19:04:54+00:00
+North Macedonia,MK,mk,mk,translated,земјотрес вести,10,30,30,10,0,0,20,True,14,ok,,2026-11-25T19:05:00+00:00
+Norway,NO,no,no,translated,jordskjelv nyheter,10,30,30,10,0,0,20,True,16,ok,,2026-11-25T19:07:17+00:00
+Oman,OM,ar,ar,translated,زلزال أخبار,10,30,30,10,0,0,20,True,18,ok,,2026-11-25T19:08:52+00:00
+Pakistan,PK,ur,ur,translated,زلزلہ خبریں,10,30,30,10,0,0,20,True,10,ok,,2026-11-25T19:08:59+00:00
+Panama,PA,es,es,translated,terremoto noticias,10,30,30,10,0,0,20,True,16,ok,,2026-11-25T19:11:32+00:00
+Papua New Guinea,PG,en,en,original,earthquake news,10,30,30,10,0,2,18,True,18,ok,,2026-11-25T19:11:39+00:00
+Paraguay,PY,es,es,translated,terremoto noticias,10,30,30,10,0,0,20,True,16,ok,,2026-11-25T19:11:59+00:00
+Peru,PE,es,es,translated,terremoto noticias,10,30,30,10,0,0,20,True,17,ok,,2026-11-25T19:12:07+00:00
+Philippines,PH,tl,tl,translated,lindol balita,10,30,30,10,0,0,20,True,10,ok,,2026-11-25T19:12:13+00:00
+Poland,PL,pl,pl,translated,trzęsienie ziemi wiadomości,10,30,30,10,0,0,20,True,11,ok,,2026-11-25T19:14:52+00:00
+Portugal,PT,pt,pt,translated,terremoto notícias,10,30,30,10,0,0,20,True,11,ok,,2026-11-25T19:17:25+00:00
+Puerto Rico,PR,es,es,translated,terremoto noticias,10,30,30,10,0,0,20,True,17,ok,,2026-11-25T19:17:47+00:00
+Qatar,QA,ar,ar,translated,زلزال أخبار,10,30,30,10,0,0,20,True,19,ok,,2026-11-25T19:17:55+00:00
+Romania,RO,ro,ro,translated,cutremur știri,10,30,30,10,0,0,20,True,10,ok,,2026-11-25T19:18:18+00:00
+Russia,RU,ru,ru,translated,землетрясение новости,10,30,30,10,0,0,20,True,10,ok,,2026-11-25T19:20:55+00:00
+Saudi Arabia,SA,ar,ar,translated,زلزال أخبار,10,30,30,10,0,0,20,True,19,ok,,2026-11-25T19:23:01+00:00
+Senegal,SN,fr,fr,translated,séisme actualités,10,30,30,10,0,1,19,True,13,ok,,2026-11-25T19:23:09+00:00
+Serbia,RS,sr,sr,translated,земљотрес вести,10,30,30,10,0,0,20,True,14,ok,,2026-11-25T19:24:01+00:00
+Singapore,SG,en,en,original,earthquake news,10,30,30,10,0,2,18,True,16,ok,,2026-11-25T19:24:37+00:00
+Slovakia,SK,sk,sk,translated,zemetrasenie správy,10,30,30,10,0,2,18,True,16,ok,,2026-11-25T19:24:45+00:00
+Slovenia,SI,sl,sl,translated,potres novice,10,30,30,10,0,0,20,True,17,ok,,2026-11-25T19:26:50+00:00
+South Africa,ZA,en,en,original,earthquake news,10,30,30,10,0,4,16,True,16,ok,,2026-11-25T19:27:55+00:00
+South Korea,KR,ko,ko,translated,지진 뉴스,10,30,30,10,0,0,20,True,10,ok,,2026-11-25T19:28:02+00:00
+Spain,ES,es,es,translated,terremoto noticias,10,30,30,10,0,0,20,True,16,ok,,2026-11-25T19:30:42+00:00
+Sri Lanka,LK,si,si,translated,භූමිකම්පාව පුවත්,10,30,30,10,0,0,20,True,16,ok,,2026-11-25T19:30:49+00:00
+Sweden,SE,sv,sv,translated,jordbävning nyheter,10,30,30,10,0,0,20,True,15,ok,,2026-11-25T19:32:10+00:00
+Switzerland,CH,de,de,translated,Erdbeben Nachrichten,10,30,30,10,0,1,19,True,14,ok,,2026-11-25T19:33:15+00:00
+Taiwan,TW,zh-TW,zh,translated,地震 新聞,10,30,30,10,0,0,20,True,11,ok,,2026-11-25T19:33:38+00:00
+Tanzania,TZ,sw,sw,translated,tetemeko la ardhi habari,10,30,30,10,0,0,20,True,12,ok,,2026-11-25T19:34:01+00:00
+Thailand,TH,th,th,translated,แผ่นดินไหว ข่าว,10,30,30,10,0,0,20,True,10,ok,,2026-11-25T19:34:38+00:00
+Tunisia,TN,ar,ar,translated,زلزال أخبار,10,30,30,10,0,0,20,True,18,ok,,2026-11-25T19:37:01+00:00
+Turkey,TR,tr,tr,translated,deprem haberleri,10,30,30,10,0,0,20,True,10,ok,,2026-11-25T19:37:09+00:00
+Uganda,UG,en,en,original,earthquake news,10,30,30,10,0,2,18,True,19,ok,,2026-11-25T19:39:49+00:00
+Ukraine,UA,uk,uk,translated,землетрус новини,10,30,30,10,0,0,20,True,12,ok,,2026-11-25T19:40:14+00:00
+United Arab Emirates,AE,ar,ar,translated,زلزال أخبار,10,30,30,10,0,0,20,True,19,ok,,2026-11-25T19:42:35+00:00
+United Kingdom,GB,en,en,original,earthquake news,10,30,30,10,0,2,18,True,17,ok,,2026-11-25T19:42:43+00:00
+United States,US,en,en,original,earthquake news,10,30,30,10,0,1,19,True,21,ok,,2026-11-25T19:42:52+00:00
+Uruguay,UY,es,es,translated,terremoto noticias,10,30,30,10,0,0,20,True,12,ok,,2026-11-25T19:43:32+00:00
+Venezuela,VE,es,es,translated,terremoto noticias,10,30,30,10,0,0,20,True,16,ok,,2026-11-25T19:44:24+00:00
+Vietnam,VN,vi,vi,translated,động đất tin tức,10,30,30,10,0,0,20,True,10,ok,,2026-11-25T19:44:32+00:00
+Yemen,YE,ar,ar,translated,زلزال أخبار,10,30,30,10,0,0,20,True,17,ok,,2026-11-25T19:47:09+00:00
+Zimbabwe,ZW,en,en,original,earthquake news,10,30,30,10,0,1,19,True,17,ok,,2026-11-25T19:47:18+00:00
