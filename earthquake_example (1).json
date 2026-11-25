@@ -1,0 +1,60 @@
+{
+  "keyword": "earthquake",
+  "translations": {
+    "ja": "地震",
+    "pt": "terremoto",
+    "fr": "séisme",
+    "es": "terremoto",
+    "de": "Erdbeben",
+    "id": "gempa bumi",
+    "hi": "भूकंप",
+    "ar": "زلزال",
+    "zh-TW": "地震"
+  },
+  "terms": {
+    "en": {
+      "match": [
+        "earthquake",
+        "aftershock",
+        "seismic tremor"
+      ],
+      "context": [
+        "struck",
+        "shook",
+        "damage",
+        "collapsed",
+        "rescue",
+        "evacuat",
+        "reported",
+        "recorded"
+      ],
+      "offtopic": [
+        "music video",
+        "lyrics",
+        "video game"
+      ]
+    },
+    "ja": {
+      "match": [
+        "地震",
+        "余震"
+      ],
+      "context": [
+        "発生",
+        "被害",
+        "揺れ"
+      ]
+    },
+    "pt": {
+      "match": [
+        "terremoto",
+        "sismo"
+      ],
+      "context": [
+        "atingiu",
+        "danos",
+        "desabamento"
+      ]
+    }
+  }
+}

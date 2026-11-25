@@ -1,0 +1,108 @@
+﻿keyword,country,code,rows,keep,review,toss,views_known,views_sum,views_median,likes_known,likes_sum,likes_median,comments_known,comments_sum,comments_median
+landslide,Algeria,DZ,10,3,7,0,3,25596,4360,3,81,5,1,3,3
+landslide,Argentina,AR,10,6,4,0,6,101293,2684.0,5,372,29,5,17,2
+landslide,Australia,AU,10,5,5,0,5,658928,36320,4,7282,1620.0,3,2424,119
+landslide,Austria,AT,10,7,3,0,7,66746,200,7,463,11,1,2,2
+landslide,Azerbaijan,AZ,10,0,10,0,0,,,0,,,0,,
+landslide,Bahrain,BH,10,3,7,0,3,25596,4360,3,81,5,1,3,3
+landslide,Bangladesh,BD,10,3,7,0,3,263611,355,1,1185,1185,1,37,37
+landslide,Belgium,BE,11,1,10,0,1,9114,9114,1,83,83,1,9,9
+landslide,Bolivia,BO,10,6,4,0,6,101293,2684.0,5,372,29,5,17,2
+landslide,Bosnia and Herzegovina,BA,10,2,8,0,2,171300,85650.0,2,1206,603.0,0,,
+landslide,Brazil,BR,10,8,2,0,8,897097,46364.0,8,4535,285.5,8,260,17.0
+landslide,Bulgaria,BG,10,1,9,0,1,578,578,1,10,10,1,1,1
+landslide,Canada,CA,10,6,4,0,6,1037141,143462.5,6,9671,1265.0,5,3008,119
+landslide,Chile,CL,10,6,4,0,6,93932,2684.0,5,206,29,5,14,2
+landslide,Colombia,CO,10,6,4,0,6,101293,2684.0,5,372,29,5,17,2
+landslide,Costa Rica,CR,10,6,4,0,6,101293,2684.0,5,372,29,5,17,2
+landslide,Croatia,HR,10,2,8,0,2,171300,85650.0,2,1206,603.0,0,,
+landslide,Cyprus,CY,10,0,10,0,0,,,0,,,0,,
+landslide,Czechia,CZ,10,7,3,0,7,329466,19080,7,2951,115,2,358,179.0
+landslide,Denmark,DK,10,5,5,0,5,568399,102217,5,3109,361,1,64,64
+landslide,Dominican Republic,DO,10,6,4,0,6,1342004,2684.0,5,4304,29,5,205,2
+landslide,Ecuador,EC,10,6,4,0,6,1342004,2684.0,5,4304,29,5,205,2
+landslide,Egypt,EG,10,3,7,0,3,25596,4360,3,81,5,1,3,3
+landslide,El Salvador,SV,10,5,5,0,5,100398,3623,4,359,67.5,4,16,4.0
+landslide,Estonia,EE,10,3,7,0,3,24832,1252,3,188,69,3,42,15
+landslide,Finland,FI,10,5,5,0,5,489095,102217,5,3038,361,1,64,64
+landslide,France,FR,10,6,4,0,6,73811,9097.0,4,254,47.0,4,53,12.5
+landslide,Georgia,GE,10,0,10,0,0,,,0,,,0,,
+landslide,Germany,DE,10,8,2,0,8,66822,177.0,7,463,11,1,2,2
+landslide,Ghana,GH,10,7,3,0,7,1235020,153577,7,8963,543,6,2633,79.0
+landslide,Greece,GR,10,0,10,0,0,,,0,,,0,,
+landslide,Guatemala,GT,10,2,8,0,2,78470,39235.0,2,132,66.0,2,8,4.0
+landslide,Honduras,HN,10,6,4,0,6,101293,2684.0,5,372,29,5,17,2
+landslide,Hong Kong,HK,10,1,9,0,1,3876,3876,1,17,17,1,5,5
+landslide,Hungary,HU,10,7,3,0,7,732744,102217,7,4101,371,2,219,109.5
+landslide,Iceland,IS,10,2,8,0,2,95504,47752.0,2,479,239.5,0,,
+landslide,India,IN,10,3,7,0,3,65286,18660,3,261,76,2,7,3.5
+landslide,Indonesia,ID,10,10,0,0,10,192205,11078.0,10,587,50.5,10,92,6.0
+landslide,Iraq,IQ,10,4,6,0,4,26806,2785.0,4,97,10.5,2,4,2.0
+landslide,Ireland,IE,10,4,6,0,4,140420,18512.5,3,3242,167,2,124,62.0
+landslide,Israel,IL,10,2,8,0,2,205898,102949.0,2,1242,621.0,1,64,64
+landslide,Italy,IT,10,3,7,0,3,49240,1564,3,139,7,2,31,15.5
+landslide,Jamaica,JM,10,6,4,0,6,368552,18512.5,4,3613,269.0,3,220,96
+landslide,Japan,JP,10,8,2,0,8,18396007,27500.0,8,58644,65.5,7,5153,11
+landslide,Jordan,JO,10,2,8,0,2,21236,10618.0,2,76,38.0,1,3,3
+landslide,Kazakhstan,KZ,10,1,9,0,1,1142,1142,1,11,11,1,2,2
+landslide,Kenya,KE,10,1,9,0,1,15,15,0,,,0,,
+landslide,Kuwait,KW,10,2,8,0,2,4844,2422.0,2,8,4.0,0,,
+landslide,Latvia,LV,10,5,5,0,5,439326,102217,5,2559,371,2,219,109.5
+landslide,Lebanon,LB,10,3,7,0,3,22446,1210,3,92,16,2,4,2.0
+landslide,Libya,LY,10,3,7,0,3,25596,4360,3,81,5,1,3,3
+landslide,Liechtenstein,LI,10,8,2,0,8,70818,867.0,7,487,13,1,2,2
+landslide,Lithuania,LT,10,6,4,0,6,661740,96734.5,6,3739,495.5,2,169,84.5
+landslide,Luxembourg,LU,10,6,4,0,6,73811,9097.0,4,254,47.0,4,53,12.5
+landslide,Malaysia,MY,10,0,10,0,0,,,0,,,0,,
+landslide,Malta,MT,11,2,9,0,2,7180,3590.0,2,224,112.0,2,45,22.5
+landslide,Mexico,MX,10,6,4,0,6,101293,2684.0,5,372,29,5,17,2
+landslide,Montenegro,ME,10,4,6,0,4,644173,168947.5,4,3773,1046.5,1,449,449
+landslide,Morocco,MA,10,3,7,0,3,25596,4360,3,81,5,1,3,3
+landslide,Nepal,NP,10,2,8,0,2,64165,32082.5,2,370,185.0,1,19,19
+landslide,Netherlands,NL,11,3,8,0,3,169071,57740,3,1294,330,1,9,9
+landslide,New Zealand,NZ,10,6,4,0,6,1081443,164884.5,6,8420,639.5,5,2578,96
+landslide,Nicaragua,NI,10,5,5,0,5,90536,1745,4,167,27.5,4,16,4.0
+landslide,Nigeria,NG,10,4,6,0,4,776172,128479.5,4,7658,1808.0,3,2474,119
+landslide,North Macedonia,MK,10,0,10,0,0,,,0,,,0,,
+landslide,Norway,NO,10,7,3,0,7,732744,102217,7,4101,371,2,219,109.5
+landslide,Oman,OM,10,4,6,0,4,21265,254.5,2,76,38.0,1,3,3
+landslide,Pakistan,PK,11,1,10,0,1,132,132,1,1,1,0,,
+landslide,Panama,PA,10,6,4,0,6,93326,2684.0,5,203,29,5,17,2
+landslide,Papua New Guinea,PG,10,5,5,0,5,658928,36320,4,7282,1620.0,3,2424,119
+landslide,Paraguay,PY,10,3,7,0,3,88416,9946,3,161,29,3,15,6
+landslide,Peru,PE,10,6,4,0,6,93326,2684.0,5,203,29,5,17,2
+landslide,Philippines,PH,10,3,7,0,3,16210,716,3,77,5,1,36,36
+landslide,Poland,PL,10,1,9,0,1,80492,80492,1,1109,1109,1,350,350
+landslide,Portugal,PT,10,7,3,0,7,475473,23451,7,2265,265,7,103,14
+landslide,Puerto Rico,PR,10,5,5,0,5,82761,1745,4,140,16.0,3,9,2
+landslide,Qatar,QA,10,4,6,0,4,21265,254.5,2,76,38.0,1,3,3
+landslide,Romania,RO,10,2,8,0,2,203557,101778.5,1,2051,2051,2,162,81.0
+landslide,Russia,RU,10,4,6,0,4,115847,22409.5,4,1232,149.5,3,744,65
+landslide,Saudi Arabia,SA,10,4,6,0,4,26806,2785.0,4,97,10.5,2,4,2.0
+landslide,Senegal,SN,10,6,4,0,6,73811,9097.0,4,254,47.0,4,53,12.5
+landslide,Serbia,RS,10,1,9,0,1,46348,46348,0,,,0,,
+landslide,Singapore,SG,10,4,6,0,4,140420,18512.5,3,3242,167,2,124,62.0
+landslide,Slovakia,SK,10,5,5,0,5,489095,102217,5,3038,361,1,64,64
+landslide,Slovenia,SI,10,0,10,0,0,,,0,,,0,,
+landslide,South Africa,ZA,10,6,4,0,6,1081831,128479.5,6,8808,725.5,5,2567,62
+landslide,South Korea,KR,10,6,4,0,6,2258480,4009.0,6,6892,54.5,5,1322,6
+landslide,Spain,ES,10,6,4,0,6,93326,2684.0,5,203,29,5,17,2
+landslide,Sri Lanka,LK,10,2,8,0,2,70013,35006.5,2,330,165.0,0,,
+landslide,Sweden,SE,10,2,8,0,2,159957,79978.5,2,1211,605.5,0,,
+landslide,Switzerland,CH,10,7,3,0,7,82970,2272,7,536,18,1,2,2
+landslide,Taiwan,TW,10,1,9,0,1,3876,3876,1,17,17,1,5,5
+landslide,Tanzania,TZ,10,1,9,0,1,15,15,0,,,0,,
+landslide,Thailand,TH,10,6,4,0,6,196042,17519.0,6,999,129.0,4,87,22.0
+landslide,Tunisia,TN,10,3,7,0,3,25596,4360,3,81,5,1,3,3
+landslide,Turkey,TR,10,3,7,0,3,14488,4482,3,94,29,3,26,10
+landslide,Uganda,UG,10,6,4,0,6,886773,69851.0,5,7653,371,4,2520,107.5
+landslide,Ukraine,UA,10,0,10,0,0,,,0,,,0,,
+landslide,United Arab Emirates,AE,10,3,7,0,3,25596,4360,3,81,5,1,3,3
+landslide,United Kingdom,GB,10,5,5,0,5,658928,36320,4,7282,1620.0,3,2424,119
+landslide,United States,US,10,6,4,0,6,395492,32502.5,5,4342,192,4,202,39.0
+landslide,Uruguay,UY,10,5,5,0,5,90536,1745,4,167,27.5,4,16,4.0
+landslide,Venezuela,VE,10,6,4,0,6,101293,2684.0,5,372,29,5,17,2
+landslide,Vietnam,VN,10,8,2,0,8,105477,16835.5,6,1008,86.0,1,3,3
+landslide,Yemen,YE,10,3,7,0,3,25596,4360,3,81,5,1,3,3
+landslide,Zimbabwe,ZW,10,6,4,0,6,819170,32502.5,6,4817,179.5,5,2423,16
+landslide,Belarus,BY,0,0,0,0,0,,,0,,,0,,
