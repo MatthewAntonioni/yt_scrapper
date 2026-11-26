@@ -1,0 +1,2254 @@
+{
+  "profile": {
+    "keyword": "flood",
+    "translations": {
+      "ar": "فيضانات",
+      "az": "daşqın",
+      "be": "паводка",
+      "bg": "наводнение",
+      "bn": "বন্যা",
+      "bs": "poplava",
+      "cs": "povodeň",
+      "da": "oversvømmelse",
+      "de": "Überschwemmung",
+      "el": "πλημμύρα",
+      "es": "inundación",
+      "et": "üleujutus",
+      "fi": "tulva",
+      "fr": "inondation",
+      "hi": "बाढ़",
+      "hr": "poplava",
+      "hu": "árvíz",
+      "id": "banjir",
+      "is": "flóð",
+      "it": "alluvione",
+      "iw": "שיטפון",
+      "ja": "洪水",
+      "ka": "წყალდიდობა",
+      "kk": "су тасқыны",
+      "ko": "홍수",
+      "lt": "potvynis",
+      "lv": "plūdi",
+      "mk": "поплава",
+      "ms": "banjir",
+      "mt": "għargħar",
+      "ne": "बाढी",
+      "nl": "overstroming",
+      "no": "flom",
+      "pl": "powódź",
+      "pt": "inundação",
+      "ro": "inundație",
+      "ru": "наводнение",
+      "si": "ගංවතුර",
+      "sk": "povodeň",
+      "sl": "poplava",
+      "sr": "поплава",
+      "sv": "översvämning",
+      "sw": "mafuriko",
+      "th": "น้ำท่วม",
+      "tl": "baha",
+      "tr": "sel",
+      "uk": "повінь",
+      "ur": "سیلاب",
+      "vi": "lũ lụt",
+      "zh-TW": "洪水"
+    },
+    "terms": {
+      "ar": {
+        "match": [
+          "فيضانات",
+          "فيضان",
+          "سيول"
+        ],
+        "context": [
+          "أضرار",
+          "دمار",
+          "إجلاء",
+          "إنقاذ",
+          "ضحايا",
+          "ضربت",
+          "أمطار غزيرة",
+          "ارتفاع منسوب المياه",
+          "غمرت المياه"
+        ],
+        "related": [],
+        "offtopic": [
+          "فيديو كليب",
+          "كلمات الأغنية",
+          "لعبة فيديو"
+        ],
+        "human": [],
+        "non_event": [
+          "محاكاة",
+          "تجربة علمية",
+          "ما هو",
+          "كيف يحدث",
+          "تحذير من",
+          "للأطفال",
+          "فيديو تعليمي",
+          "شرح مبسط",
+          "تجميع مقاطع"
+        ]
+      },
+      "az": {
+        "match": [
+          "daşqın",
+          "sel"
+        ],
+        "context": [
+          "dağıntı",
+          "zərər",
+          "təxliyə",
+          "xilasetmə",
+          "baş verib"
+        ],
+        "related": [],
+        "offtopic": [
+          "mahnı sözləri",
+          "musiqi klipi",
+          "video oyun"
+        ],
+        "human": [],
+        "non_event": [
+          "simulyasiya",
+          "nədir",
+          "xəbərdarlıq",
+          "uşaqlar üçün",
+          "maarifləndirici video",
+          "necə baş verir",
+          "video toplusu"
+        ]
+      },
+      "be": {
+        "match": [
+          "паводка",
+          "паводак",
+          "паводкі",
+          "навадненне"
+        ],
+        "context": [
+          "разбурэнні",
+          "эвакуацыя",
+          "пашкоджанні",
+          "пацярпелыя",
+          "выратаванне"
+        ],
+        "related": [],
+        "offtopic": [
+          "тэкст песні",
+          "музычны кліп",
+          "відэагульня"
+        ],
+        "human": [],
+        "non_event": [
+          "сімуляцыя",
+          "што такое",
+          "папярэджанне",
+          "для дзяцей",
+          "навучальнае відэа",
+          "як адбываецца",
+          "падборка відэа"
+        ]
+      },
+      "bg": {
+        "match": [
+          "наводнение",
+          "наводнения"
+        ],
+        "context": [
+          "щети",
+          "разрушения",
+          "евакуация",
+          "спасяване",
+          "пострадали"
+        ],
+        "related": [],
+        "offtopic": [
+          "текст на песен",
+          "музикален клип",
+          "видеоигра"
+        ],
+        "human": [],
+        "non_event": [
+          "симулация",
+          "какво е",
+          "предупреждение",
+          "за деца",
+          "образователно видео",
+          "как възниква",
+          "компилация"
+        ]
+      },
+      "bn": {
+        "match": [
+          "বন্যা",
+          "প্লাবন"
+        ],
+        "context": [
+          "ক্ষয়ক্ষতি",
+          "ধ্বংস",
+          "উদ্ধার",
+          "নিহত",
+          "আহত",
+          "ভারী বৃষ্টি",
+          "নদীর পানি বৃদ্ধি",
+          "পানিতে তলিয়ে"
+        ],
+        "related": [],
+        "offtopic": [
+          "গানের কথা",
+          "মিউজিক ভিডিও",
+          "ভিডিও গেম"
+        ],
+        "human": [],
+        "non_event": [
+          "সিমুলেশন",
+          "কীভাবে হয়",
+          "সতর্কতা",
+          "শিশুদের জন্য",
+          "শিক্ষামূলক ভিডিও",
+          "কীভাবে ঘটে",
+          "ভিডিও সংকলন"
+        ]
+      },
+      "bs": {
+        "match": [
+          "poplava",
+          "poplave"
+        ],
+        "context": [
+          "šteta",
+          "razaranje",
+          "evakuacija",
+          "spašavanje",
+          "pogođeni"
+        ],
+        "related": [],
+        "offtopic": [
+          "tekst pjesme",
+          "muzički spot",
+          "videoigra"
+        ],
+        "human": [],
+        "non_event": [
+          "simulacija",
+          "šta je",
+          "upozorenje",
+          "za djecu",
+          "edukativni video",
+          "kako nastaje",
+          "kompilacija"
+        ]
+      },
+      "cs": {
+        "match": [
+          "povodeň",
+          "povodně",
+          "záplavy"
+        ],
+        "context": [
+          "škody",
+          "evakuace",
+          "záchranáři",
+          "oběti",
+          "zasáhlo"
+        ],
+        "related": [],
+        "offtopic": [
+          "text písně",
+          "hudební video",
+          "videohra"
+        ],
+        "human": [],
+        "non_event": [
+          "simulace",
+          "co je",
+          "varování",
+          "pro děti",
+          "výukové video",
+          "jak vzniká",
+          "kompilace"
+        ]
+      },
+      "da": {
+        "match": [
+          "oversvømmelse",
+          "oversvømmelser"
+        ],
+        "context": [
+          "skader",
+          "ødelæggelser",
+          "evakuering",
+          "redning",
+          "ramte"
+        ],
+        "related": [],
+        "offtopic": [
+          "sangtekst",
+          "musikvideo",
+          "videospil"
+        ],
+        "human": [],
+        "non_event": [
+          "simulering",
+          "hvad er",
+          "advarsel",
+          "for børn",
+          "undervisningsvideo",
+          "hvordan opstår",
+          "samlevideo"
+        ]
+      },
+      "de": {
+        "match": [
+          "Überschwemmung",
+          "Hochwasser",
+          "Überflutung",
+          "Sturzflut"
+        ],
+        "context": [
+          "Schäden",
+          "Zerstörung",
+          "Evakuierung",
+          "Rettung",
+          "Verletzte",
+          "traf",
+          "Starkregen",
+          "über die Ufer",
+          "unter Wasser"
+        ],
+        "related": [],
+        "offtopic": [
+          "Songtext",
+          "Musikvideo",
+          "Videospiel"
+        ],
+        "human": [],
+        "non_event": [
+          "Simulation",
+          "was ist",
+          "Warnung",
+          "Erklärung",
+          "für Kinder",
+          "Lernvideo",
+          "wie entsteht",
+          "Zusammenschnitt",
+          "Dokumentation"
+        ]
+      },
+      "el": {
+        "match": [
+          "πλημμύρα",
+          "πλημμύρες",
+          "πλημμύρισε"
+        ],
+        "context": [
+          "ζημιές",
+          "καταστροφές",
+          "εκκένωση",
+          "διάσωση",
+          "θύματα"
+        ],
+        "related": [],
+        "offtopic": [
+          "στίχοι",
+          "μουσικό βίντεο",
+          "βιντεοπαιχνίδι"
+        ],
+        "human": [],
+        "non_event": [
+          "προσομοίωση",
+          "τι είναι",
+          "προειδοποίηση",
+          "για παιδιά",
+          "εκπαιδευτικό βίντεο",
+          "πώς συμβαίνει",
+          "συλλογή βίντεο"
+        ]
+      },
+      "en": {
+        "match": [
+          "flood",
+          "flooding",
+          "flash flood",
+          "inundation"
+        ],
+        "context": [
+          "damage",
+          "destroyed",
+          "destruction",
+          "evacuat",
+          "rescue",
+          "collapsed",
+          "injured",
+          "victims",
+          "struck",
+          "hit the",
+          "occurred",
+          "reported",
+          "swept away",
+          "displaced",
+          "heavy rain",
+          "rainfall",
+          "river overflowed",
+          "streets flooded",
+          "submerged",
+          "water levels rose",
+          "flash flooding"
+        ],
+        "related": [
+          "heavy rain",
+          "river overflow",
+          "storm surge",
+          "hurricane",
+          "tsunami",
+          "landslide"
+        ],
+        "offtopic": [
+          "music video",
+          "lyric video",
+          "song lyrics",
+          "gameplay",
+          "video game",
+          "karaoke",
+          "flood of emails",
+          "flood of messages",
+          "flood of tears",
+          "flood fill algorithm",
+          "flood insurance tutorial"
+        ],
+        "human": [
+          "burst water main",
+          "pipe burst",
+          "deliberate flooding"
+        ],
+        "non_event": [
+          "what is",
+          "how does",
+          "how do",
+          "simulation",
+          "explained",
+          "science experiment",
+          "warning issued",
+          "forecast",
+          "prediction",
+          "anniversary",
+          "compilation",
+          "top 10",
+          "for kids",
+          "learning videos",
+          "dr. binocs",
+          "peekaboo kidz",
+          "warning levels",
+          "disaster preparedness",
+          "top 5",
+          "largest in the world",
+          "biggest ever",
+          "documentary",
+          "how to stay safe",
+          "school lesson",
+          "flood preparedness",
+          "flood simulation",
+          "types of floods"
+        ]
+      },
+      "es": {
+        "match": [
+          "inundación",
+          "inundaciones",
+          "crecida",
+          "riada"
+        ],
+        "context": [
+          "daños",
+          "destrucción",
+          "evacuación",
+          "rescate",
+          "heridos",
+          "afectados",
+          "golpeó",
+          "lluvias torrenciales",
+          "río desbordado",
+          "calles inundadas"
+        ],
+        "related": [],
+        "offtopic": [
+          "video musical",
+          "letra de la canción",
+          "videojuego"
+        ],
+        "human": [],
+        "non_event": [
+          "simulación",
+          "qué es",
+          "cómo se forma",
+          "alerta",
+          "pronóstico",
+          "para niños",
+          "video educativo",
+          "vídeo educativo",
+          "cómo se produce",
+          "recopilación",
+          "los más grandes del mundo"
+        ]
+      },
+      "et": {
+        "match": [
+          "üleujutus",
+          "üleujutused"
+        ],
+        "context": [
+          "kahju",
+          "purustused",
+          "evakueerimine",
+          "päästetööd",
+          "kannatanud"
+        ],
+        "related": [],
+        "offtopic": [
+          "laulusõnad",
+          "muusikavideo",
+          "videomäng"
+        ],
+        "human": [],
+        "non_event": [
+          "simulatsioon",
+          "mis on",
+          "hoiatus",
+          "lastele",
+          "õppevideo",
+          "kuidas tekib",
+          "videokogumik"
+        ]
+      },
+      "fi": {
+        "match": [
+          "tulva",
+          "tulvat",
+          "tulviminen"
+        ],
+        "context": [
+          "vahingot",
+          "tuhoja",
+          "evakuointi",
+          "pelastus",
+          "loukkaantuneet"
+        ],
+        "related": [],
+        "offtopic": [
+          "laulun sanat",
+          "musiikkivideo",
+          "videopeli"
+        ],
+        "human": [],
+        "non_event": [
+          "simulaatio",
+          "mikä on",
+          "varoitus",
+          "lapsille",
+          "opetusvideo",
+          "miten syntyy",
+          "kooste"
+        ]
+      },
+      "fr": {
+        "match": [
+          "inondation",
+          "inondations",
+          "crue"
+        ],
+        "context": [
+          "dégâts",
+          "destruction",
+          "évacuation",
+          "secours",
+          "victimes",
+          "frappé",
+          "sinistrés",
+          "pluies torrentielles",
+          "rivière a débordé",
+          "rues inondées"
+        ],
+        "related": [],
+        "offtopic": [
+          "clip musical",
+          "paroles de chanson",
+          "jeu vidéo"
+        ],
+        "human": [],
+        "non_event": [
+          "simulation",
+          "qu'est-ce",
+          "comment se forme",
+          "alerte",
+          "prévision",
+          "pour enfants",
+          "vidéo éducative",
+          "comment se produit",
+          "compilation",
+          "les plus grands du monde"
+        ]
+      },
+      "hi": {
+        "match": [
+          "बाढ़",
+          "बाढ़"
+        ],
+        "context": [
+          "नुकसान",
+          "तबाही",
+          "बचाव",
+          "मलबा",
+          "घायल",
+          "मौत",
+          "भारी बारिश",
+          "नदी में उफान",
+          "जलमग्न"
+        ],
+        "related": [],
+        "offtopic": [
+          "गाने के बोल",
+          "म्यूजिक वीडियो",
+          "वीडियो गेम"
+        ],
+        "human": [],
+        "non_event": [
+          "सिमुलेशन",
+          "क्या है",
+          "कैसे आता है",
+          "चेतावनी",
+          "बच्चों के लिए",
+          "शैक्षिक वीडियो",
+          "कैसे होता है",
+          "वीडियो संकलन"
+        ]
+      },
+      "hr": {
+        "match": [
+          "poplava",
+          "poplave"
+        ],
+        "context": [
+          "šteta",
+          "razaranje",
+          "evakuacija",
+          "spašavanje",
+          "ozlijeđeni"
+        ],
+        "related": [],
+        "offtopic": [
+          "tekst pjesme",
+          "glazbeni spot",
+          "videoigra"
+        ],
+        "human": [],
+        "non_event": [
+          "simulacija",
+          "što je",
+          "upozorenje",
+          "za djecu",
+          "edukativni video",
+          "kako nastaje",
+          "kompilacija"
+        ]
+      },
+      "hu": {
+        "match": [
+          "árvíz",
+          "áradás",
+          "elöntés"
+        ],
+        "context": [
+          "károk",
+          "pusztítás",
+          "evakuálás",
+          "mentés",
+          "sérültek"
+        ],
+        "related": [],
+        "offtopic": [
+          "dalszöveg",
+          "zenei videó",
+          "videójáték"
+        ],
+        "human": [],
+        "non_event": [
+          "szimuláció",
+          "mi az",
+          "figyelmeztetés",
+          "gyerekeknek",
+          "oktatóvideó",
+          "hogyan alakul ki",
+          "válogatás"
+        ]
+      },
+      "id": {
+        "match": [
+          "banjir",
+          "banjir bandang"
+        ],
+        "context": [
+          "kerusakan",
+          "evakuasi",
+          "korban",
+          "melanda",
+          "penyelamatan",
+          "hancur",
+          "hujan deras",
+          "sungai meluap",
+          "terendam"
+        ],
+        "related": [],
+        "offtopic": [
+          "lirik lagu",
+          "video musik",
+          "gim video"
+        ],
+        "human": [],
+        "non_event": [
+          "simulasi",
+          "apa itu",
+          "peringatan",
+          "prakiraan",
+          "untuk anak",
+          "video edukasi",
+          "bagaimana terjadi",
+          "kompilasi"
+        ]
+      },
+      "is": {
+        "match": [
+          "flóð",
+          "vatnsflóð"
+        ],
+        "context": [
+          "skemmdir",
+          "eyðilegging",
+          "rýming",
+          "björgun",
+          "særðir"
+        ],
+        "related": [],
+        "offtopic": [
+          "lagatexti",
+          "tónlistarmyndband",
+          "tölvuleikur"
+        ],
+        "human": [],
+        "non_event": [
+          "hermun",
+          "hvað er",
+          "viðvörun",
+          "fyrir börn",
+          "fræðslumyndband",
+          "hvernig verður",
+          "myndbandasafn"
+        ]
+      },
+      "it": {
+        "match": [
+          "alluvione",
+          "inondazione",
+          "allagamento"
+        ],
+        "context": [
+          "danni",
+          "distruzione",
+          "evacuazione",
+          "soccorsi",
+          "vittime",
+          "colpito"
+        ],
+        "related": [],
+        "offtopic": [
+          "video musicale",
+          "testo della canzone",
+          "videogioco"
+        ],
+        "human": [],
+        "non_event": [
+          "simulazione",
+          "che cos'è",
+          "allerta",
+          "previsioni",
+          "per bambini",
+          "video educativo",
+          "come si forma",
+          "compilation"
+        ]
+      },
+      "iw": {
+        "match": [
+          "שיטפון",
+          "שיטפונות",
+          "הצפה",
+          "שטפונות"
+        ],
+        "context": [
+          "נזקים",
+          "הרס",
+          "פינוי",
+          "חילוץ",
+          "נפגעים"
+        ],
+        "related": [],
+        "offtopic": [
+          "מילות השיר",
+          "קליפ מוזיקלי",
+          "משחק וידאו"
+        ],
+        "human": [],
+        "non_event": [
+          "הדמיה",
+          "מה זה",
+          "אזהרה",
+          "לילדים",
+          "סרטון לימודי",
+          "איך נוצר",
+          "אוסף סרטונים"
+        ]
+      },
+      "ja": {
+        "match": [
+          "洪水",
+          "水害",
+          "浸水",
+          "氾濫"
+        ],
+        "context": [
+          "被害",
+          "発生",
+          "倒壊",
+          "避難",
+          "救助",
+          "負傷",
+          "襲った",
+          "大雨",
+          "豪雨",
+          "冠水",
+          "河川氾濫"
+        ],
+        "related": [],
+        "offtopic": [
+          "歌詞",
+          "ミュージックビデオ",
+          "ゲーム実況"
+        ],
+        "human": [],
+        "non_event": [
+          "シミュレーション",
+          "とは",
+          "仕組み",
+          "警報",
+          "予報",
+          "子供版",
+          "子ども向け",
+          "子供向け",
+          "学習動画",
+          "警戒レベルに関する映像",
+          "防災教育",
+          "総集編",
+          "とは何",
+          "ドキュメンタリー",
+          "洪水の仕組み",
+          "水害対策"
+        ]
+      },
+      "ka": {
+        "match": [
+          "წყალდიდობა",
+          "წყალმოვარდნა"
+        ],
+        "context": [
+          "ზარალი",
+          "ნგრევა",
+          "ევაკუაცია",
+          "მაშველები",
+          "დაშავებული"
+        ],
+        "related": [],
+        "offtopic": [
+          "სიმღერის ტექსტი",
+          "მუსიკალური კლიპი",
+          "ვიდეოთამაში"
+        ],
+        "human": [],
+        "non_event": [
+          "სიმულაცია",
+          "რა არის",
+          "გაფრთხილება",
+          "ბავშვებისთვის",
+          "სასწავლო ვიდეო",
+          "როგორ ხდება",
+          "ვიდეოების კრებული"
+        ]
+      },
+      "kk": {
+        "match": [
+          "су тасқыны",
+          "су басу"
+        ],
+        "context": [
+          "залал",
+          "қирау",
+          "эвакуация",
+          "құтқару",
+          "зардап шеккен"
+        ],
+        "related": [],
+        "offtopic": [
+          "ән мәтіні",
+          "музыкалық бейне",
+          "бейнеойын"
+        ],
+        "human": [],
+        "non_event": [
+          "симуляция",
+          "деген не",
+          "ескерту",
+          "балаларға арналған",
+          "оқу бейнесі",
+          "қалай пайда болады",
+          "бейне жинағы"
+        ]
+      },
+      "ko": {
+        "match": [
+          "홍수",
+          "침수"
+        ],
+        "context": [
+          "피해",
+          "발생",
+          "붕괴",
+          "대피",
+          "구조",
+          "부상",
+          "폭우",
+          "집중호우",
+          "하천 범람"
+        ],
+        "related": [],
+        "offtopic": [
+          "가사",
+          "뮤직비디오",
+          "게임 영상"
+        ],
+        "human": [],
+        "non_event": [
+          "시뮬레이션",
+          "원리",
+          "경보",
+          "예보",
+          "어린이용",
+          "교육 영상",
+          "어떻게 발생",
+          "영상 모음",
+          "다큐멘터리"
+        ]
+      },
+      "lt": {
+        "match": [
+          "potvynis",
+          "potvyniai",
+          "užliejimas"
+        ],
+        "context": [
+          "žala",
+          "nuostoliai",
+          "evakuacija",
+          "gelbėjimas",
+          "nukentėję"
+        ],
+        "related": [],
+        "offtopic": [
+          "dainos žodžiai",
+          "muzikinis klipas",
+          "vaizdo žaidimas"
+        ],
+        "human": [],
+        "non_event": [
+          "simuliacija",
+          "kas yra",
+          "perspėjimas",
+          "vaikams",
+          "mokomasis vaizdo įrašas",
+          "kaip susidaro",
+          "vaizdo įrašų rinkinys"
+        ]
+      },
+      "lv": {
+        "match": [
+          "plūdi",
+          "applūšana"
+        ],
+        "context": [
+          "postījumi",
+          "zaudējumi",
+          "evakuācija",
+          "glābšana",
+          "cietušie"
+        ],
+        "related": [],
+        "offtopic": [
+          "dziesmas vārdi",
+          "mūzikas video",
+          "videospēle"
+        ],
+        "human": [],
+        "non_event": [
+          "simulācija",
+          "kas ir",
+          "brīdinājums",
+          "bērniem",
+          "mācību video",
+          "kā rodas",
+          "video apkopojums"
+        ]
+      },
+      "mk": {
+        "match": [
+          "поплава",
+          "поплави"
+        ],
+        "context": [
+          "штета",
+          "разурнување",
+          "евакуација",
+          "спасување",
+          "повредени"
+        ],
+        "related": [],
+        "offtopic": [
+          "текст на песна",
+          "музичко видео",
+          "видеоигра"
+        ],
+        "human": [],
+        "non_event": [
+          "симулација",
+          "што е",
+          "предупредување",
+          "за деца",
+          "едукативно видео",
+          "како настанува",
+          "компилација"
+        ]
+      },
+      "ms": {
+        "match": [
+          "banjir",
+          "banjir kilat"
+        ],
+        "context": [
+          "kerosakan",
+          "kemusnahan",
+          "pemindahan",
+          "menyelamat",
+          "mangsa"
+        ],
+        "related": [],
+        "offtopic": [
+          "lirik lagu",
+          "video muzik",
+          "permainan video"
+        ],
+        "human": [],
+        "non_event": [
+          "simulasi",
+          "apa itu",
+          "amaran",
+          "ramalan",
+          "untuk kanak-kanak",
+          "video pendidikan",
+          "bagaimana berlaku",
+          "kompilasi"
+        ]
+      },
+      "mt": {
+        "match": [
+          "għargħar"
+        ],
+        "context": [
+          "ħsarat",
+          "qerda",
+          "evakwazzjoni",
+          "salvataġġ",
+          "vittmi"
+        ],
+        "related": [],
+        "offtopic": [
+          "lirika tal-kanzunetta",
+          "vidjo mużikali",
+          "logħba tal-vidjo"
+        ],
+        "human": [],
+        "non_event": [
+          "simulazzjoni",
+          "x'inhu",
+          "twissija",
+          "għat-tfal",
+          "vidjo edukattiv",
+          "kif iseħħ",
+          "ġabra ta’ vidjows"
+        ]
+      },
+      "ne": {
+        "match": [
+          "बाढी",
+          "डुबान"
+        ],
+        "context": [
+          "क्षति",
+          "विनाश",
+          "उद्धार",
+          "घाइते",
+          "प्रभावित"
+        ],
+        "related": [],
+        "offtopic": [
+          "गीतका शब्द",
+          "म्युजिक भिडियो",
+          "भिडियो गेम"
+        ],
+        "human": [],
+        "non_event": [
+          "सिमुलेशन",
+          "के हो",
+          "चेतावनी",
+          "बालबालिकाका लागि",
+          "शैक्षिक भिडियो",
+          "कसरी हुन्छ",
+          "भिडियो सङ्कलन"
+        ]
+      },
+      "nl": {
+        "match": [
+          "overstroming",
+          "overstromingen",
+          "wateroverlast"
+        ],
+        "context": [
+          "schade",
+          "verwoesting",
+          "evacuatie",
+          "redding",
+          "gewonden",
+          "getroffen"
+        ],
+        "related": [],
+        "offtopic": [
+          "songtekst",
+          "muziekvideo",
+          "videospel"
+        ],
+        "human": [],
+        "non_event": [
+          "simulatie",
+          "wat is",
+          "waarschuwing",
+          "voorspelling",
+          "voor kinderen",
+          "educatieve video",
+          "hoe ontstaat",
+          "compilatie"
+        ]
+      },
+      "no": {
+        "match": [
+          "flom",
+          "oversvømmelse"
+        ],
+        "context": [
+          "skader",
+          "ødeleggelser",
+          "evakuering",
+          "redning",
+          "rammet"
+        ],
+        "related": [],
+        "offtopic": [
+          "sangtekst",
+          "musikkvideo",
+          "videospill"
+        ],
+        "human": [],
+        "non_event": [
+          "simulering",
+          "hva er",
+          "varsel",
+          "for barn",
+          "undervisningsvideo",
+          "hvordan oppstår",
+          "samlevideo"
+        ]
+      },
+      "pl": {
+        "match": [
+          "powódź",
+          "powodzie",
+          "podtopienia"
+        ],
+        "context": [
+          "szkody",
+          "zniszczenia",
+          "ewakuacja",
+          "ratownicy",
+          "ofiary",
+          "uderzył"
+        ],
+        "related": [],
+        "offtopic": [
+          "tekst piosenki",
+          "teledysk",
+          "gra wideo"
+        ],
+        "human": [],
+        "non_event": [
+          "symulacja",
+          "co to jest",
+          "ostrzeżenie",
+          "prognoza",
+          "dla dzieci",
+          "film edukacyjny",
+          "jak powstaje",
+          "kompilacja"
+        ]
+      },
+      "pt": {
+        "match": [
+          "inundação",
+          "inundações",
+          "enchente",
+          "alagamento",
+          "cheias"
+        ],
+        "context": [
+          "danos",
+          "destruição",
+          "evacuação",
+          "resgate",
+          "feridos",
+          "atingiu",
+          "desabamento",
+          "chuvas fortes",
+          "rios transbordaram",
+          "ruas alagadas"
+        ],
+        "related": [],
+        "offtopic": [
+          "videoclipe",
+          "letra da música",
+          "jogo eletrônico"
+        ],
+        "human": [],
+        "non_event": [
+          "simulação",
+          "o que é",
+          "como se forma",
+          "alerta",
+          "previsão",
+          "para crianças",
+          "vídeo educativo",
+          "como acontece",
+          "maiores do mundo",
+          "compilação",
+          "documentário",
+          "desastres naturais em",
+          "movimentos de massa",
+          "tipos de enchentes",
+          "simulação de inundação"
+        ]
+      },
+      "ro": {
+        "match": [
+          "inundație",
+          "inundații",
+          "viitură"
+        ],
+        "context": [
+          "pagube",
+          "distrugeri",
+          "evacuare",
+          "salvare",
+          "victime",
+          "lovit"
+        ],
+        "related": [],
+        "offtopic": [
+          "versuri",
+          "videoclip muzical",
+          "joc video"
+        ],
+        "human": [],
+        "non_event": [
+          "simulare",
+          "ce este",
+          "avertizare",
+          "pentru copii",
+          "video educativ",
+          "cum se produce",
+          "compilație"
+        ]
+      },
+      "ru": {
+        "match": [
+          "наводнение",
+          "паводок",
+          "затопление"
+        ],
+        "context": [
+          "разрушения",
+          "ущерб",
+          "эвакуация",
+          "спасатели",
+          "пострадавшие",
+          "обрушился",
+          "сильные дожди",
+          "река вышла из берегов",
+          "затопило улицы"
+        ],
+        "related": [],
+        "offtopic": [
+          "текст песни",
+          "музыкальный клип",
+          "видеоигра"
+        ],
+        "human": [],
+        "non_event": [
+          "симуляция",
+          "что такое",
+          "предупреждение",
+          "прогноз",
+          "для детей",
+          "обучающее видео",
+          "как происходит",
+          "подборка видео",
+          "документальный фильм"
+        ]
+      },
+      "si": {
+        "match": [
+          "ගංවතුර"
+        ],
+        "context": [
+          "හානි",
+          "විනාශ",
+          "ඉවත් කිරීම",
+          "ගලවා ගැනීම",
+          "තුවාල"
+        ],
+        "related": [],
+        "offtopic": [
+          "ගීත පද",
+          "සංගීත වීඩියෝ",
+          "වීඩියෝ ක්‍රීඩා"
+        ],
+        "human": [],
+        "non_event": [
+          "අනුකරණය",
+          "යනු කුමක්ද",
+          "අනතුරු ඇඟවීම",
+          "ළමුන් සඳහා",
+          "අධ්‍යාපනික වීඩියෝ",
+          "වීඩියෝ එකතුව"
+        ]
+      },
+      "sk": {
+        "match": [
+          "povodeň",
+          "povodne",
+          "záplavy"
+        ],
+        "context": [
+          "škody",
+          "evakuácia",
+          "záchranári",
+          "obete",
+          "zasiahlo"
+        ],
+        "related": [],
+        "offtopic": [
+          "text piesne",
+          "hudobné video",
+          "videohra"
+        ],
+        "human": [],
+        "non_event": [
+          "simulácia",
+          "čo je",
+          "varovanie",
+          "pre deti",
+          "vzdelávacie video",
+          "ako vzniká",
+          "kompilácia"
+        ]
+      },
+      "sl": {
+        "match": [
+          "poplava",
+          "poplave"
+        ],
+        "context": [
+          "škoda",
+          "uničenje",
+          "evakuacija",
+          "reševanje",
+          "poškodovani"
+        ],
+        "related": [],
+        "offtopic": [
+          "besedilo pesmi",
+          "glasbeni video",
+          "videoigra"
+        ],
+        "human": [],
+        "non_event": [
+          "simulacija",
+          "kaj je",
+          "opozorilo",
+          "za otroke",
+          "izobraževalni video",
+          "kako nastane",
+          "kompilacija"
+        ]
+      },
+      "sr": {
+        "match": [
+          "поплава",
+          "поплаве",
+          "poplava",
+          "poplave"
+        ],
+        "context": [
+          "штета",
+          "разарање",
+          "евакуација",
+          "спасавање",
+          "повређени",
+          "šteta",
+          "evakuacija",
+          "spasavanje"
+        ],
+        "related": [],
+        "offtopic": [
+          "текст песме",
+          "музички спот",
+          "видео игра",
+          "tekst pesme",
+          "muzički spot",
+          "video igra"
+        ],
+        "human": [],
+        "non_event": [
+          "симулација",
+          "шта је",
+          "упозорење",
+          "simulacija",
+          "šta je",
+          "upozorenje",
+          "за децу",
+          "образовни видео",
+          "како настаје",
+          "компилација"
+        ]
+      },
+      "sv": {
+        "match": [
+          "översvämning",
+          "översvämningar"
+        ],
+        "context": [
+          "skador",
+          "förstörelse",
+          "evakuering",
+          "räddning",
+          "drabbade"
+        ],
+        "related": [],
+        "offtopic": [
+          "sångtext",
+          "musikvideo",
+          "tv-spel"
+        ],
+        "human": [],
+        "non_event": [
+          "simulering",
+          "vad är",
+          "varning",
+          "för barn",
+          "utbildningsvideo",
+          "hur uppstår",
+          "sammanställning"
+        ]
+      },
+      "sw": {
+        "match": [
+          "mafuriko"
+        ],
+        "context": [
+          "uharibifu",
+          "maafa",
+          "uokoaji",
+          "waathirika",
+          "majeruhi"
+        ],
+        "related": [],
+        "offtopic": [
+          "maneno ya wimbo",
+          "video ya muziki",
+          "mchezo wa video"
+        ],
+        "human": [],
+        "non_event": [
+          "uigaji",
+          "ni nini",
+          "onyo",
+          "kwa watoto",
+          "video ya elimu",
+          "jinsi inavyotokea",
+          "mkusanyiko wa video"
+        ]
+      },
+      "th": {
+        "match": [
+          "น้ำท่วม",
+          "อุทกภัย",
+          "น้ำป่าไหลหลาก"
+        ],
+        "context": [
+          "ความเสียหาย",
+          "ถล่ม",
+          "อพยพ",
+          "กู้ภัย",
+          "บาดเจ็บ",
+          "เกิดขึ้น",
+          "ฝนตกหนัก",
+          "น้ำล้นตลิ่ง",
+          "น้ำท่วมถนน"
+        ],
+        "related": [],
+        "offtopic": [
+          "เนื้อเพลง",
+          "มิวสิกวิดีโอ",
+          "วิดีโอเกม"
+        ],
+        "human": [],
+        "non_event": [
+          "การจำลอง",
+          "คืออะไร",
+          "เตือนภัย",
+          "พยากรณ์",
+          "สำหรับเด็ก",
+          "วิดีโอการศึกษา",
+          "เกิดขึ้นได้อย่างไร",
+          "รวมคลิป"
+        ]
+      },
+      "tl": {
+        "match": [
+          "baha",
+          "pagbaha",
+          "biglaang pagbaha"
+        ],
+        "context": [
+          "pinsala",
+          "nasira",
+          "paglikas",
+          "pagsagip",
+          "nasugatan",
+          "tumama",
+          "malakas na ulan",
+          "umapaw ang ilog",
+          "lubog sa baha"
+        ],
+        "related": [],
+        "offtopic": [
+          "lyrics ng kanta",
+          "music video",
+          "video game"
+        ],
+        "human": [],
+        "non_event": [
+          "simulasyon",
+          "ano ang",
+          "babala",
+          "pagtataya",
+          "para sa mga bata",
+          "bidyong pang-edukasyon",
+          "paano nangyayari",
+          "kompilasyon"
+        ]
+      },
+      "tr": {
+        "match": [
+          "sel",
+          "su baskını",
+          "taşkın"
+        ],
+        "context": [
+          "hasar",
+          "yıkım",
+          "tahliye",
+          "kurtarma",
+          "yaralı",
+          "hayatını kaybetti",
+          "şiddetli yağış",
+          "nehir taştı",
+          "sular altında"
+        ],
+        "related": [],
+        "offtopic": [
+          "şarkı sözleri",
+          "müzik klibi",
+          "video oyunu"
+        ],
+        "human": [],
+        "non_event": [
+          "simülasyon",
+          "nedir",
+          "uyarı",
+          "tahmin",
+          "çocuklar için",
+          "eğitici video",
+          "nasıl oluşur",
+          "derleme"
+        ]
+      },
+      "uk": {
+        "match": [
+          "повінь",
+          "паводок",
+          "затоплення"
+        ],
+        "context": [
+          "руйнування",
+          "збитки",
+          "евакуація",
+          "рятувальники",
+          "постраждалі"
+        ],
+        "related": [],
+        "offtopic": [
+          "текст пісні",
+          "музичний кліп",
+          "відеогра"
+        ],
+        "human": [],
+        "non_event": [
+          "симуляція",
+          "що таке",
+          "попередження",
+          "прогноз",
+          "для дітей",
+          "навчальне відео",
+          "як виникає",
+          "добірка відео"
+        ]
+      },
+      "ur": {
+        "match": [
+          "سیلاب",
+          "طغیانی"
+        ],
+        "context": [
+          "نقصان",
+          "تباہی",
+          "انخلا",
+          "امدادی کارروائی",
+          "زخمی"
+        ],
+        "related": [],
+        "offtopic": [
+          "گانے کے بول",
+          "میوزک ویڈیو",
+          "ویڈیو گیم"
+        ],
+        "human": [],
+        "non_event": [
+          "سیمولیشن",
+          "کیا ہے",
+          "انتباہ",
+          "پیش گوئی",
+          "بچوں کے لیے",
+          "تعلیمی ویڈیو",
+          "کیسے ہوتا ہے",
+          "ویڈیو مجموعہ"
+        ]
+      },
+      "vi": {
+        "match": [
+          "lũ lụt",
+          "lũ quét",
+          "ngập lụt"
+        ],
+        "context": [
+          "thiệt hại",
+          "tàn phá",
+          "sơ tán",
+          "cứu hộ",
+          "nạn nhân",
+          "đổ bộ",
+          "mưa lớn",
+          "nước dâng",
+          "ngập sâu"
+        ],
+        "related": [],
+        "offtopic": [
+          "lời bài hát",
+          "video ca nhạc",
+          "trò chơi điện tử"
+        ],
+        "human": [],
+        "non_event": [
+          "mô phỏng",
+          "là gì",
+          "cảnh báo",
+          "dự báo",
+          "cho trẻ em",
+          "video giáo dục",
+          "hình thành như thế nào",
+          "tổng hợp video"
+        ]
+      },
+      "zh-TW": {
+        "match": [
+          "洪水",
+          "水災",
+          "水灾",
+          "淹水",
+          "洪災"
+        ],
+        "context": [
+          "災情",
+          "灾情",
+          "損失",
+          "损失",
+          "撤離",
+          "撤离",
+          "救援",
+          "倒塌",
+          "受傷",
+          "受伤",
+          "暴雨",
+          "河流泛濫",
+          "河流泛滥",
+          "道路積水",
+          "道路积水"
+        ],
+        "related": [],
+        "offtopic": [
+          "歌詞",
+          "歌词",
+          "音樂影片",
+          "音乐视频",
+          "遊戲實況",
+          "游戏实况"
+        ],
+        "human": [],
+        "non_event": [
+          "模擬",
+          "模拟",
+          "是什麼",
+          "是什么",
+          "警報",
+          "预警",
+          "預報",
+          "兒童版",
+          "給小朋友",
+          "教學影片",
+          "如何形成",
+          "影片合集",
+          "紀錄片"
+        ]
+      }
+    },
+    "search_terms": {
+      "en": "flooding news",
+      "ar": "فيضانات أخبار",
+      "az": "daşqın xəbərlər",
+      "be": "паводка навіны",
+      "bg": "наводнение новини",
+      "bn": "বন্যা খবর",
+      "bs": "poplava vijesti",
+      "cs": "povodeň zprávy",
+      "da": "oversvømmelse nyheder",
+      "de": "Überschwemmung Nachrichten",
+      "el": "πλημμύρα ειδήσεις",
+      "es": "inundación noticias",
+      "et": "üleujutus uudised",
+      "fi": "tulva uutiset",
+      "fr": "inondation actualités",
+      "hi": "बाढ़ समाचार",
+      "hr": "poplava vijesti",
+      "hu": "árvíz hírek",
+      "id": "banjir berita",
+      "is": "flóð fréttir",
+      "it": "alluvione notizie",
+      "iw": "שיטפון חדשות",
+      "ja": "洪水 ニュース",
+      "ka": "წყალდიდობა ახალი ამბები",
+      "kk": "су тасқыны жаңалықтар",
+      "ko": "홍수 뉴스",
+      "lt": "potvynis naujienos",
+      "lv": "plūdi ziņas",
+      "mk": "поплава вести",
+      "ms": "banjir berita",
+      "mt": "għargħar aħbarijiet",
+      "ne": "बाढी समाचार",
+      "nl": "overstroming nieuws",
+      "no": "flom nyheter",
+      "pl": "powódź wiadomości",
+      "pt": "enchente notícias",
+      "ro": "inundație știri",
+      "ru": "наводнение новости",
+      "si": "ගංවතුර පුවත්",
+      "sk": "povodeň správy",
+      "sl": "poplava novice",
+      "sr": "поплава вести",
+      "sv": "översvämning nyheter",
+      "sw": "mafuriko habari",
+      "th": "น้ำท่วม ข่าว",
+      "tl": "baha balita",
+      "tr": "sel haberleri",
+      "uk": "повінь новини",
+      "ur": "سیلاب خبریں",
+      "vi": "lũ lụt tin tức",
+      "zh-TW": "洪水 新聞"
+    }
+  },
+  "countries": {
+    "DZ": {
+      "name": "Algeria",
+      "language": "ar"
+    },
+    "AR": {
+      "name": "Argentina",
+      "language": "es"
+    },
+    "AU": {
+      "name": "Australia",
+      "language": "en"
+    },
+    "AT": {
+      "name": "Austria",
+      "language": "de"
+    },
+    "AZ": {
+      "name": "Azerbaijan",
+      "language": "az"
+    },
+    "BH": {
+      "name": "Bahrain",
+      "language": "ar"
+    },
+    "BD": {
+      "name": "Bangladesh",
+      "language": "bn"
+    },
+    "BY": {
+      "name": "Belarus",
+      "language": "be"
+    },
+    "BE": {
+      "name": "Belgium",
+      "language": "nl"
+    },
+    "BO": {
+      "name": "Bolivia",
+      "language": "es"
+    },
+    "BA": {
+      "name": "Bosnia and Herzegovina",
+      "language": "bs"
+    },
+    "BR": {
+      "name": "Brazil",
+      "language": "pt"
+    },
+    "BG": {
+      "name": "Bulgaria",
+      "language": "bg"
+    },
+    "CA": {
+      "name": "Canada",
+      "language": "en"
+    },
+    "CL": {
+      "name": "Chile",
+      "language": "es"
+    },
+    "CO": {
+      "name": "Colombia",
+      "language": "es"
+    },
+    "CR": {
+      "name": "Costa Rica",
+      "language": "es"
+    },
+    "HR": {
+      "name": "Croatia",
+      "language": "hr"
+    },
+    "CY": {
+      "name": "Cyprus",
+      "language": "el"
+    },
+    "CZ": {
+      "name": "Czechia",
+      "language": "cs"
+    },
+    "DK": {
+      "name": "Denmark",
+      "language": "da"
+    },
+    "DO": {
+      "name": "Dominican Republic",
+      "language": "es"
+    },
+    "EC": {
+      "name": "Ecuador",
+      "language": "es"
+    },
+    "EG": {
+      "name": "Egypt",
+      "language": "ar"
+    },
+    "SV": {
+      "name": "El Salvador",
+      "language": "es"
+    },
+    "EE": {
+      "name": "Estonia",
+      "language": "et"
+    },
+    "FI": {
+      "name": "Finland",
+      "language": "fi"
+    },
+    "FR": {
+      "name": "France",
+      "language": "fr"
+    },
+    "GE": {
+      "name": "Georgia",
+      "language": "ka"
+    },
+    "DE": {
+      "name": "Germany",
+      "language": "de"
+    },
+    "GH": {
+      "name": "Ghana",
+      "language": "en"
+    },
+    "GR": {
+      "name": "Greece",
+      "language": "el"
+    },
+    "GT": {
+      "name": "Guatemala",
+      "language": "es"
+    },
+    "HN": {
+      "name": "Honduras",
+      "language": "es"
+    },
+    "HK": {
+      "name": "Hong Kong",
+      "language": "zh-TW"
+    },
+    "HU": {
+      "name": "Hungary",
+      "language": "hu"
+    },
+    "IS": {
+      "name": "Iceland",
+      "language": "is"
+    },
+    "IN": {
+      "name": "India",
+      "language": "hi"
+    },
+    "ID": {
+      "name": "Indonesia",
+      "language": "id"
+    },
+    "IQ": {
+      "name": "Iraq",
+      "language": "ar"
+    },
+    "IE": {
+      "name": "Ireland",
+      "language": "en"
+    },
+    "IL": {
+      "name": "Israel",
+      "language": "iw"
+    },
+    "IT": {
+      "name": "Italy",
+      "language": "it"
+    },
+    "JM": {
+      "name": "Jamaica",
+      "language": "en"
+    },
+    "JP": {
+      "name": "Japan",
+      "language": "ja"
+    },
+    "JO": {
+      "name": "Jordan",
+      "language": "ar"
+    },
+    "KZ": {
+      "name": "Kazakhstan",
+      "language": "kk"
+    },
+    "KE": {
+      "name": "Kenya",
+      "language": "sw"
+    },
+    "KW": {
+      "name": "Kuwait",
+      "language": "ar"
+    },
+    "LV": {
+      "name": "Latvia",
+      "language": "lv"
+    },
+    "LB": {
+      "name": "Lebanon",
+      "language": "ar"
+    },
+    "LY": {
+      "name": "Libya",
+      "language": "ar"
+    },
+    "LI": {
+      "name": "Liechtenstein",
+      "language": "de"
+    },
+    "LT": {
+      "name": "Lithuania",
+      "language": "lt"
+    },
+    "LU": {
+      "name": "Luxembourg",
+      "language": "fr"
+    },
+    "MY": {
+      "name": "Malaysia",
+      "language": "ms"
+    },
+    "MT": {
+      "name": "Malta",
+      "language": "mt"
+    },
+    "MX": {
+      "name": "Mexico",
+      "language": "es"
+    },
+    "ME": {
+      "name": "Montenegro",
+      "language": "sr"
+    },
+    "MA": {
+      "name": "Morocco",
+      "language": "ar"
+    },
+    "NP": {
+      "name": "Nepal",
+      "language": "ne"
+    },
+    "NL": {
+      "name": "Netherlands",
+      "language": "nl"
+    },
+    "NZ": {
+      "name": "New Zealand",
+      "language": "en"
+    },
+    "NI": {
+      "name": "Nicaragua",
+      "language": "es"
+    },
+    "NG": {
+      "name": "Nigeria",
+      "language": "en"
+    },
+    "MK": {
+      "name": "North Macedonia",
+      "language": "mk"
+    },
+    "NO": {
+      "name": "Norway",
+      "language": "no"
+    },
+    "OM": {
+      "name": "Oman",
+      "language": "ar"
+    },
+    "PK": {
+      "name": "Pakistan",
+      "language": "ur"
+    },
+    "PA": {
+      "name": "Panama",
+      "language": "es"
+    },
+    "PG": {
+      "name": "Papua New Guinea",
+      "language": "en"
+    },
+    "PY": {
+      "name": "Paraguay",
+      "language": "es"
+    },
+    "PE": {
+      "name": "Peru",
+      "language": "es"
+    },
+    "PH": {
+      "name": "Philippines",
+      "language": "tl"
+    },
+    "PL": {
+      "name": "Poland",
+      "language": "pl"
+    },
+    "PT": {
+      "name": "Portugal",
+      "language": "pt"
+    },
+    "PR": {
+      "name": "Puerto Rico",
+      "language": "es"
+    },
+    "QA": {
+      "name": "Qatar",
+      "language": "ar"
+    },
+    "RO": {
+      "name": "Romania",
+      "language": "ro"
+    },
+    "RU": {
+      "name": "Russia",
+      "language": "ru"
+    },
+    "SA": {
+      "name": "Saudi Arabia",
+      "language": "ar"
+    },
+    "SN": {
+      "name": "Senegal",
+      "language": "fr"
+    },
+    "RS": {
+      "name": "Serbia",
+      "language": "sr"
+    },
+    "SG": {
+      "name": "Singapore",
+      "language": "en"
+    },
+    "SK": {
+      "name": "Slovakia",
+      "language": "sk"
+    },
+    "SI": {
+      "name": "Slovenia",
+      "language": "sl"
+    },
+    "ZA": {
+      "name": "South Africa",
+      "language": "en"
+    },
+    "KR": {
+      "name": "South Korea",
+      "language": "ko"
+    },
+    "ES": {
+      "name": "Spain",
+      "language": "es"
+    },
+    "LK": {
+      "name": "Sri Lanka",
+      "language": "si"
+    },
+    "SE": {
+      "name": "Sweden",
+      "language": "sv"
+    },
+    "CH": {
+      "name": "Switzerland",
+      "language": "de"
+    },
+    "TW": {
+      "name": "Taiwan",
+      "language": "zh-TW"
+    },
+    "TZ": {
+      "name": "Tanzania",
+      "language": "sw"
+    },
+    "TH": {
+      "name": "Thailand",
+      "language": "th"
+    },
+    "TN": {
+      "name": "Tunisia",
+      "language": "ar"
+    },
+    "TR": {
+      "name": "Turkey",
+      "language": "tr"
+    },
+    "UG": {
+      "name": "Uganda",
+      "language": "en"
+    },
+    "UA": {
+      "name": "Ukraine",
+      "language": "uk"
+    },
+    "AE": {
+      "name": "United Arab Emirates",
+      "language": "ar"
+    },
+    "GB": {
+      "name": "United Kingdom",
+      "language": "en"
+    },
+    "US": {
+      "name": "United States",
+      "language": "en"
+    },
+    "UY": {
+      "name": "Uruguay",
+      "language": "es"
+    },
+    "VE": {
+      "name": "Venezuela",
+      "language": "es"
+    },
+    "VN": {
+      "name": "Vietnam",
+      "language": "vi"
+    },
+    "YE": {
+      "name": "Yemen",
+      "language": "ar"
+    },
+    "ZW": {
+      "name": "Zimbabwe",
+      "language": "en"
+    }
+  },
+  "limit": 10,
+  "candidates": 30,
+  "transcripts": true,
+  "comment_sample": 5
+}
