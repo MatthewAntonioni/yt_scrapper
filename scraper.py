@@ -106,7 +106,9 @@ def search_country(yt, term, limit):
     from ytscrape import SearchFilter
     hits, seen = [], set()
     for rank,v in enumerate(yt.search(term,filter=SearchFilter.VIDEOS,max_results=limit),1):
-        vid = v.video_id
+        vid = getattr(v, 'video_id', None)
+        if not vid:
+            continue
         if not re.fullmatch(r'[A-Za-z0-9_-]{11}',vid) or vid in seen: continue
         seen.add(vid)
         hits.append(dict(video_id=vid,rank=rank,search_title=v.title,title=v.title,channel=v.channel,

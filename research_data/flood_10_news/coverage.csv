@@ -1,0 +1,108 @@
+﻿country,code,requested_language,search_language,translation_status,search_term,requested,candidate_limit,returned,selected,excluded,deferred,unexamined,collection_finished,metadata_ok,status,error,searched_at
+Algeria,DZ,ar,ar,translated,فيضانات أخبار,10,30,30,10,0,0,20,True,18,ok,,2026-11-25T23:15:29+00:00
+Argentina,AR,es,es,translated,inundación noticias,10,30,30,10,0,0,20,True,14,ok,,2026-11-25T23:18:00+00:00
+Australia,AU,en,en,original,flooding news,10,30,30,10,0,0,20,True,12,ok,,2026-11-25T23:20:31+00:00
+Austria,AT,de,de,translated,Überschwemmung Nachrichten,10,30,30,10,0,0,20,True,14,ok,,2026-11-25T23:23:04+00:00
+Azerbaijan,AZ,az,az,translated,daşqın xəbərlər,10,30,30,10,0,0,20,True,10,ok,,2026-11-25T23:25:04+00:00
+Bahrain,BH,ar,ar,translated,فيضانات أخبار,10,30,30,10,0,0,20,True,17,ok,,2026-11-25T23:27:30+00:00
+Bangladesh,BD,bn,bn,translated,বন্যা খবর,10,30,30,10,0,0,20,True,10,ok,,2026-11-25T23:28:19+00:00
+Belarus,BY,be,be,translated,паводка навіны,10,30,30,10,0,0,20,True,10,ok,,2026-11-25T23:30:46+00:00
+Belgium,BE,nl,nl,translated,overstroming nieuws,10,30,30,10,0,0,20,True,18,ok,,2026-11-25T23:33:12+00:00
+Bolivia,BO,es,es,translated,inundación noticias,10,30,30,10,0,0,20,True,14,ok,,2026-11-25T23:34:58+00:00
+Bosnia and Herzegovina,BA,bs,bs,translated,poplava vijesti,10,30,30,10,0,0,20,True,17,ok,,2026-11-25T23:35:32+00:00
+Brazil,BR,pt,pt,translated,enchente notícias,10,30,30,10,0,0,20,True,10,ok,,2026-11-25T23:37:43+00:00
+Bulgaria,BG,bg,bg,translated,наводнение новини,10,30,30,10,0,0,20,True,11,ok,,2026-11-25T23:40:12+00:00
+Canada,CA,en,en,original,flooding news,10,30,30,10,0,0,20,True,12,ok,,2026-11-25T23:42:36+00:00
+Chile,CL,es,es,translated,inundación noticias,10,30,30,10,0,0,20,True,14,ok,,2026-11-25T23:43:11+00:00
+Colombia,CO,es,es,translated,inundación noticias,10,30,30,10,0,0,20,True,15,ok,,2026-11-25T23:43:16+00:00
+Costa Rica,CR,es,es,translated,inundación noticias,10,30,30,10,0,0,20,True,14,ok,,2026-11-25T23:43:35+00:00
+Croatia,HR,hr,hr,translated,poplava vijesti,10,30,30,10,0,0,20,True,18,ok,,2026-11-25T23:43:40+00:00
+Cyprus,CY,el,el,translated,πλημμύρα ειδήσεις,10,30,30,10,0,0,20,True,14,ok,,2026-11-25T23:44:27+00:00
+Czechia,CZ,cs,cs,translated,povodeň zprávy,10,30,30,10,0,0,20,True,10,ok,,2026-11-25T23:46:52+00:00
+Denmark,DK,da,da,translated,oversvømmelse nyheder,10,30,30,10,0,0,20,True,19,ok,,2026-11-25T23:49:23+00:00
+Dominican Republic,DO,es,es,translated,inundación noticias,10,30,30,10,0,0,20,True,14,ok,,2026-11-25T23:50:25+00:00
+Ecuador,EC,es,es,translated,inundación noticias,10,30,30,10,0,0,20,True,14,ok,,2026-11-25T23:50:30+00:00
+Egypt,EG,ar,ar,translated,فيضانات أخبار,10,30,30,10,0,0,20,True,15,ok,,2026-11-25T23:50:35+00:00
+El Salvador,SV,es,es,translated,inundación noticias,10,30,30,10,0,0,20,True,14,ok,,2026-11-25T23:51:55+00:00
+Estonia,EE,et,et,translated,üleujutus uudised,10,30,30,10,0,0,20,True,10,ok,,2026-11-25T23:51:59+00:00
+Finland,FI,fi,fi,translated,tulva uutiset,10,30,30,10,0,0,20,True,16,ok,,2026-11-25T23:54:27+00:00
+France,FR,fr,fr,translated,inondation actualités,10,30,30,10,0,0,20,True,11,ok,,2026-11-25T23:55:31+00:00
+Georgia,GE,ka,ka,translated,წყალდიდობა ახალი ამბები,10,30,30,10,0,0,20,True,13,ok,,2026-11-25T23:57:59+00:00
+Germany,DE,de,de,translated,Überschwemmung Nachrichten,10,30,30,10,0,0,20,True,16,ok,,2026-11-25T23:59:55+00:00
+Ghana,GH,en,en,original,flooding news,10,30,30,10,0,1,19,True,12,ok,,2026-11-26T00:00:15+00:00
+Greece,GR,el,el,translated,πλημμύρα ειδήσεις,10,30,30,10,0,0,20,True,14,ok,,2026-11-26T00:00:34+00:00
+Guatemala,GT,es,es,translated,inundación noticias,10,30,30,10,0,0,20,True,14,ok,,2026-11-26T00:00:40+00:00
+Honduras,HN,es,es,translated,inundación noticias,10,30,30,10,0,0,20,True,14,ok,,2026-11-26T00:00:46+00:00
+Hong Kong,HK,zh-TW,zh,translated,洪水 新聞,10,30,30,10,0,0,20,True,14,ok,,2026-11-26T00:00:51+00:00
+Hungary,HU,hu,hu,translated,árvíz hírek,10,30,30,10,0,0,20,True,18,ok,,2026-11-26T00:03:02+00:00
+Iceland,IS,is,is,translated,flóð fréttir,10,30,30,10,0,0,20,True,17,ok,,2026-11-26T00:05:01+00:00
+India,IN,hi,hi,translated,बाढ़ समाचार,10,30,30,10,0,0,20,True,10,ok,,2026-11-26T00:05:51+00:00
+Indonesia,ID,id,id,translated,banjir berita,10,30,30,10,0,0,20,True,11,ok,,2026-11-26T00:08:24+00:00
+Iraq,IQ,ar,ar,translated,فيضانات أخبار,10,30,30,10,0,0,20,True,20,ok,,2026-11-26T00:10:39+00:00
+Ireland,IE,en,en,original,flooding news,10,30,30,10,0,1,19,True,14,ok,,2026-11-26T00:10:59+00:00
+Israel,IL,iw,he,translated,שיטפון חדשות,10,30,30,10,0,0,20,True,19,ok,,2026-11-26T00:11:05+00:00
+Italy,IT,it,it,translated,alluvione notizie,10,30,30,10,0,0,20,True,12,ok,,2026-11-26T00:13:19+00:00
+Jamaica,JM,en,en,original,flooding news,10,30,30,10,0,0,20,True,13,ok,,2026-11-26T00:15:50+00:00
+Japan,JP,ja,ja,translated,洪水 ニュース,10,30,30,10,0,0,20,True,10,ok,,2026-11-26T00:16:24+00:00
+Jordan,JO,ar,ar,translated,فيضانات أخبار,10,30,30,10,0,0,20,True,19,ok,,2026-11-26T00:18:55+00:00
+Kazakhstan,KZ,kk,kk,translated,су тасқыны жаңалықтар,10,30,30,10,0,0,20,True,10,ok,,2026-11-26T00:19:30+00:00
+Kenya,KE,sw,sw,translated,mafuriko habari,10,30,30,10,0,0,20,True,11,ok,,2026-11-26T00:21:58+00:00
+Kuwait,KW,ar,ar,translated,فيضانات أخبار,10,30,30,10,0,0,20,True,19,ok,,2026-11-26T00:23:59+00:00
+Latvia,LV,lv,lv,translated,plūdi ziņas,10,30,30,10,0,0,20,True,19,ok,,2026-11-26T00:24:05+00:00
+Lebanon,LB,ar,ar,translated,فيضانات أخبار,10,30,30,10,0,0,20,True,14,ok,,2026-11-26T00:25:53+00:00
+Libya,LY,ar,ar,translated,فيضانات أخبار,10,30,30,10,0,0,20,True,18,ok,,2026-11-26T00:26:13+00:00
+Liechtenstein,LI,de,de,translated,Überschwemmung Nachrichten,10,30,30,10,0,0,20,True,16,ok,,2026-11-26T00:26:33+00:00
+Lithuania,LT,lt,lt,translated,potvynis naujienos,10,30,30,10,0,0,20,True,15,ok,,2026-11-26T00:26:39+00:00
+Luxembourg,LU,fr,fr,translated,inondation actualités,10,30,30,10,0,0,20,True,12,ok,,2026-11-26T00:27:16+00:00
+Malaysia,MY,ms,ms,translated,banjir berita,10,30,30,10,0,0,20,True,12,ok,,2026-11-26T00:27:51+00:00
+Malta,MT,mt,en,translated,għargħar aħbarijiet,10,30,30,10,0,0,20,True,10,ok,,2026-11-26T00:28:56+00:00
+Mexico,MX,es,es,translated,inundación noticias,10,30,30,10,0,0,20,True,15,ok,,2026-11-26T00:31:29+00:00
+Montenegro,ME,sr,sr,translated,поплава вести,10,30,30,10,0,0,20,True,14,ok,,2026-11-26T00:31:35+00:00
+Morocco,MA,ar,ar,translated,فيضانات أخبار,10,30,30,10,0,0,20,True,19,ok,,2026-11-26T00:34:01+00:00
+Nepal,NP,ne,ne,translated,बाढी समाचार,10,30,30,10,0,2,18,True,13,ok,,2026-11-26T00:34:06+00:00
+Netherlands,NL,nl,nl,translated,overstroming nieuws,10,30,30,10,0,0,20,True,17,ok,,2026-11-26T00:36:38+00:00
+New Zealand,NZ,en,en,original,flooding news,10,30,30,10,0,1,19,True,14,ok,,2026-11-26T00:36:44+00:00
+Nicaragua,NI,es,es,translated,inundación noticias,10,30,30,10,0,0,20,True,15,ok,,2026-11-26T00:37:19+00:00
+Nigeria,NG,en,en,original,flooding news,10,30,30,10,0,1,19,True,14,ok,,2026-11-26T00:37:39+00:00
+North Macedonia,MK,mk,mk,translated,поплава вести,10,30,30,10,0,0,20,True,14,ok,,2026-11-26T00:37:45+00:00
+Norway,NO,no,no,translated,flom nyheter,10,30,30,10,0,0,20,True,18,ok,,2026-11-26T00:40:13+00:00
+Oman,OM,ar,ar,translated,فيضانات أخبار,10,30,30,10,0,0,20,True,18,ok,,2026-11-26T00:41:02+00:00
+Pakistan,PK,ur,ur,translated,سیلاب خبریں,10,30,30,10,0,0,20,True,10,ok,,2026-11-26T00:41:08+00:00
+Panama,PA,es,es,translated,inundación noticias,10,30,30,10,0,0,20,True,15,ok,,2026-11-26T00:43:41+00:00
+Papua New Guinea,PG,en,en,original,flooding news,10,30,30,10,0,1,19,True,14,ok,,2026-11-26T00:43:47+00:00
+Paraguay,PY,es,es,translated,inundación noticias,10,30,30,10,0,0,20,True,15,ok,,2026-11-26T00:43:53+00:00
+Peru,PE,es,es,translated,inundación noticias,10,30,30,10,0,0,20,True,15,ok,,2026-11-26T03:21:47+00:00
+Philippines,PH,tl,tl,translated,baha balita,10,30,30,10,0,0,20,True,10,ok,,2026-11-26T03:22:08+00:00
+Poland,PL,pl,pl,translated,powódź wiadomości,10,30,30,10,0,0,20,True,14,ok,,2026-11-26T03:24:28+00:00
+Portugal,PT,pt,pt,translated,enchente notícias,10,30,30,10,0,0,20,True,11,ok,,2026-11-26T03:26:58+00:00
+Puerto Rico,PR,es,es,translated,inundación noticias,10,30,30,10,0,0,20,True,14,ok,,2026-11-26T03:27:03+00:00
+Qatar,QA,ar,ar,translated,فيضانات أخبار,10,30,30,10,0,0,20,True,19,ok,,2026-11-26T03:27:09+00:00
+Romania,RO,ro,ro,translated,inundație știri,10,30,30,10,0,0,20,True,10,ok,,2026-11-26T03:27:15+00:00
+Russia,RU,ru,ru,translated,наводнение новости,10,30,30,10,0,0,20,True,11,ok,,2026-11-26T03:29:43+00:00
+Saudi Arabia,SA,ar,ar,translated,فيضانات أخبار,10,30,30,10,0,0,20,True,17,ok,,2026-11-26T03:32:14+00:00
+Senegal,SN,fr,fr,translated,inondation actualités,10,30,30,10,0,0,20,True,10,ok,,2026-11-26T03:32:22+00:00
+Serbia,RS,sr,sr,translated,поплава вести,10,30,30,10,0,0,20,True,12,ok,,2026-11-26T03:32:44+00:00
+Singapore,SG,en,en,original,flooding news,10,30,30,10,0,1,19,True,17,ok,,2026-11-26T03:33:20+00:00
+Slovakia,SK,sk,sk,translated,povodeň správy,10,30,30,10,0,0,20,True,15,ok,,2026-11-26T03:33:58+00:00
+Slovenia,SI,sl,sl,translated,poplava novice,10,30,30,10,0,0,20,True,15,ok,,2026-11-26T04:11:46+00:00
+South Africa,ZA,en,en,original,flooding news,10,30,30,10,0,0,20,True,18,ok,,2026-11-26T04:13:19+00:00
+South Korea,KR,ko,ko,translated,홍수 뉴스,10,30,30,10,0,0,20,True,10,ok,,2026-11-26T04:14:13+00:00
+Spain,ES,es,es,translated,inundación noticias,10,30,30,10,0,0,20,True,14,ok,,2026-11-26T04:16:45+00:00
+Sri Lanka,LK,si,si,translated,ගංවතුර පුවත්,10,30,30,10,0,0,20,True,10,ok,,2026-11-26T04:17:06+00:00
+Sweden,SE,sv,sv,translated,översvämning nyheter,10,30,30,10,0,0,20,True,24,ok,,2026-11-26T04:19:38+00:00
+Switzerland,CH,de,de,translated,Überschwemmung Nachrichten,10,30,30,10,0,0,20,True,16,ok,,2026-11-26T04:20:12+00:00
+Taiwan,TW,zh-TW,zh,translated,洪水 新聞,10,30,30,10,0,0,20,True,14,ok,,2026-11-26T04:20:19+00:00
+Tanzania,TZ,sw,sw,translated,mafuriko habari,10,30,30,10,0,0,20,True,11,ok,,2026-11-26T04:20:54+00:00
+Thailand,TH,th,th,translated,น้ำท่วม ข่าว,10,30,30,10,0,0,20,True,10,ok,,2026-11-26T04:21:15+00:00
+Tunisia,TN,ar,ar,translated,فيضانات أخبار,10,30,30,10,0,0,20,True,18,ok,,2026-11-26T04:23:52+00:00
+Turkey,TR,tr,tr,translated,sel haberleri,10,30,30,10,0,0,20,True,10,ok,,2026-11-26T04:23:58+00:00
+Uganda,UG,en,en,original,flooding news,10,30,30,10,0,0,20,True,16,ok,,2026-11-26T04:26:31+00:00
+Ukraine,UA,uk,uk,translated,повінь новини,10,30,30,10,0,0,20,True,13,ok,,2026-11-26T04:26:54+00:00
+United Arab Emirates,AE,ar,ar,translated,فيضانات أخبار,10,30,30,10,0,0,20,True,20,ok,,2026-11-26T04:29:27+00:00
+United Kingdom,GB,en,en,original,flooding news,10,30,30,10,0,0,20,True,18,ok,,2026-11-26T04:29:33+00:00
+United States,US,en,en,original,flooding news,10,30,30,10,0,0,20,True,19,ok,,2026-11-26T04:29:40+00:00
+Uruguay,UY,es,es,translated,inundación noticias,10,30,30,10,0,0,20,True,14,ok,,2026-11-26T04:29:47+00:00
+Venezuela,VE,es,es,translated,inundación noticias,10,30,30,10,0,0,20,True,13,ok,,2026-11-26T04:29:54+00:00
+Vietnam,VN,vi,vi,translated,lũ lụt tin tức,10,30,30,10,0,0,20,True,10,ok,,2026-11-26T04:30:01+00:00
+Yemen,YE,ar,ar,translated,فيضانات أخبار,10,30,30,10,0,0,20,True,18,ok,,2026-11-26T04:32:36+00:00
+Zimbabwe,ZW,en,en,original,flooding news,10,30,30,10,0,0,20,True,19,ok,,2026-11-26T04:32:58+00:00

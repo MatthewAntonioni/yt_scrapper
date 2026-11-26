@@ -1,0 +1,108 @@
+﻿keyword,country,code,rows,keep,review,toss,views_known,views_sum,views_median,likes_known,likes_sum,likes_median,comments_known,comments_sum,comments_median
+earthquake,Algeria,DZ,10,3,7,0,3,150001,49122,3,1634,399,3,95,35
+earthquake,Argentina,AR,10,10,0,0,10,1590110,125063.5,10,7483,294.0,9,437,14
+earthquake,Australia,AU,11,8,3,0,8,722012,64386.5,8,2552,173.0,7,199,25
+earthquake,Austria,AT,11,9,2,0,9,258798,25944,9,4336,271,6,272,19.5
+earthquake,Azerbaijan,AZ,10,7,3,0,7,51351,5698,7,573,75,6,160,25.0
+earthquake,Bahrain,BH,10,3,7,0,3,150001,49122,3,1634,399,3,95,35
+earthquake,Bangladesh,BD,10,10,0,0,10,2673311,110806.0,10,21431,460.5,9,2196,44
+earthquake,Belarus,BY,11,5,6,0,5,649392,49122,5,3935,125,2,366,183.0
+earthquake,Belgium,BE,10,7,3,0,7,2087344,8875,7,26517,83,5,1743,14
+earthquake,Bolivia,BO,10,10,0,0,10,1735517,160004.0,10,7832,458.5,9,465,42
+earthquake,Bosnia and Herzegovina,BA,10,1,9,0,1,2380,2380,1,17,17,1,3,3
+earthquake,Brazil,BR,10,8,2,0,8,1045414,85216.5,7,13459,415,8,1282,25.0
+earthquake,Bulgaria,BG,10,5,5,0,5,46383,6322,5,269,61,4,29,8.0
+earthquake,Canada,CA,11,9,2,0,9,729308,58791,9,2569,163,8,202,23.5
+earthquake,Chile,CL,10,10,0,0,10,1735517,160004.0,10,7832,458.5,9,465,42
+earthquake,Colombia,CO,10,10,0,0,10,1550785,150233.0,10,7797,444.0,9,489,42
+earthquake,Costa Rica,CR,10,10,0,0,10,1405378,118273.5,10,7448,294.0,9,461,14
+earthquake,Croatia,HR,10,3,7,0,3,57171,278,2,398,199.0,0,,
+earthquake,Cyprus,CY,10,6,4,0,6,52553,7246.0,5,266,25,2,4,2.0
+earthquake,Czechia,CZ,13,6,7,0,6,58635,1056.0,4,499,84.0,1,136,136
+earthquake,Denmark,DK,10,5,5,0,5,1004427,152230,5,4862,459,1,428,428
+earthquake,Dominican Republic,DO,10,10,0,0,10,1735517,160004.0,10,7832,458.5,9,465,42
+earthquake,Ecuador,EC,10,10,0,0,10,1550785,150233.0,10,7797,444.0,9,489,42
+earthquake,Egypt,EG,10,3,7,0,3,150001,49122,3,1634,399,3,95,35
+earthquake,El Salvador,SV,10,10,0,0,10,1665459,151488.0,10,11346,459.5,9,518,42
+earthquake,Estonia,EE,13,4,9,0,4,7099,660.0,2,127,63.5,2,20,10.0
+earthquake,Finland,FI,11,9,2,0,9,21584417,85039,9,308858,387,3,7758,244
+earthquake,France,FR,11,9,2,0,9,1684517,41674,9,24740,202,8,944,51.5
+earthquake,Georgia,GE,10,5,5,0,5,17890,3841,5,107,26,4,11,2.5
+earthquake,Germany,DE,11,9,2,0,9,240278,24362,9,2978,134,7,253,11
+earthquake,Ghana,GH,11,8,3,0,8,723033,64386.5,8,2525,173.0,7,192,25
+earthquake,Greece,GR,10,5,5,0,5,45459,7398,5,266,25,1,1,1
+earthquake,Guatemala,GT,10,10,0,0,10,1735517,160004.0,10,7832,458.5,9,465,42
+earthquake,Honduras,HN,10,10,0,0,10,1538491,144086.0,10,7902,458.5,9,526,42
+earthquake,Hong Kong,HK,10,5,5,0,5,89367,8764,5,214,20,5,21,2
+earthquake,Hungary,HU,10,5,5,0,5,14356,2380,5,136,31,3,11,4
+earthquake,Iceland,IS,10,6,4,0,6,430781,31940.0,4,2670,270.0,3,265,25
+earthquake,India,IN,10,9,1,0,9,447788,24001,9,1502,108,6,97,8.0
+earthquake,Indonesia,ID,10,9,1,0,9,274747,29003,9,659,72,7,78,9
+earthquake,Iraq,IQ,11,3,8,0,3,150001,49122,3,1634,399,3,95,35
+earthquake,Ireland,IE,11,9,2,0,9,622103,56846,9,2532,163,7,177,22
+earthquake,Israel,IL,10,2,8,0,2,76735,38367.5,2,433,216.5,2,93,46.5
+earthquake,Italy,IT,10,8,2,0,8,245077,20770.5,8,2104,246.0,8,505,54.5
+earthquake,Jamaica,JM,11,9,2,0,9,779879,58791,9,2903,183,7,192,25
+earthquake,Japan,JP,10,6,4,0,6,1215878,74448.0,5,3198,699,3,12,3
+earthquake,Jordan,JO,10,3,7,0,3,150001,49122,3,1634,399,3,95,35
+earthquake,Kazakhstan,KZ,10,5,5,0,5,20727,674,5,226,9,4,48,7.0
+earthquake,Kenya,KE,10,6,4,0,6,59258,5826.0,6,236,11.0,5,54,6
+earthquake,Kuwait,KW,10,5,5,0,5,629882,79969,5,4519,415,5,348,35
+earthquake,Latvia,LV,10,6,4,0,6,784827,25764.5,5,3899,125,3,443,14
+earthquake,Lebanon,LB,10,3,7,0,3,150001,49122,3,1634,399,3,95,35
+earthquake,Libya,LY,10,3,7,0,3,150001,49122,3,1634,399,3,95,35
+earthquake,Liechtenstein,LI,11,9,2,0,9,185690,24362,9,1524,134,6,61,7.5
+earthquake,Lithuania,LT,10,4,6,0,4,359576,67080.5,4,3233,504.0,3,279,39
+earthquake,Luxembourg,LU,11,9,2,0,9,1684517,41674,9,24740,202,8,944,51.5
+earthquake,Malaysia,MY,10,10,0,0,10,577320,34226.0,10,1951,90.0,8,672,26.5
+earthquake,Malta,MT,13,5,8,0,5,9961,963,3,370,86,3,87,28
+earthquake,Mexico,MX,10,10,0,0,10,1595643,132199.5,10,7611,392.0,9,479,42
+earthquake,Montenegro,ME,10,0,10,0,0,,,0,,,0,,
+earthquake,Morocco,MA,10,3,7,0,3,150001,49122,3,1634,399,3,95,35
+earthquake,Nepal,NP,10,8,2,0,8,107703,789.5,7,1667,3,2,103,51.5
+earthquake,Netherlands,NL,10,7,3,0,7,2113433,8875,7,26487,53,6,1762,16.5
+earthquake,New Zealand,NZ,11,9,2,0,9,746595,58791,9,2687,177,7,191,25
+earthquake,Nicaragua,NI,10,10,0,0,10,1479470,144698.0,10,10988,444.0,9,480,35
+earthquake,Nigeria,NG,11,9,2,0,9,753232,58791,9,2702,177,8,194,23.5
+earthquake,North Macedonia,MK,10,3,7,0,3,258,93,0,,,0,,
+earthquake,Norway,NO,10,4,6,0,4,215533,31650.0,2,745,372.5,0,,
+earthquake,Oman,OM,10,3,7,0,3,150001,49122,3,1634,399,3,95,35
+earthquake,Pakistan,PK,10,6,4,0,6,3134,130.5,2,14,7.0,4,72,14.5
+earthquake,Panama,PA,10,10,0,0,10,1057227,118273.5,10,2989,294.0,9,307,13
+earthquake,Papua New Guinea,PG,12,9,3,0,9,565664,49122,9,2156,125,7,177,22
+earthquake,Paraguay,PY,10,10,0,0,10,1364796,118273.5,10,7439,294.0,9,451,13
+earthquake,Peru,PE,10,10,0,0,10,1496807,125063.5,10,7386,294.0,9,456,42
+earthquake,Philippines,PH,10,9,1,0,9,4012184,58243,9,23952,548,8,2501,96.0
+earthquake,Poland,PL,10,4,6,0,4,59224,17559.0,4,790,215.0,3,114,49
+earthquake,Portugal,PT,10,7,3,0,7,970502,95521,6,12234,381.0,7,1090,25
+earthquake,Puerto Rico,PR,10,10,0,0,10,1270475,71113.0,10,7119,135.0,9,366,13
+earthquake,Qatar,QA,10,3,7,0,3,150001,49122,3,1634,399,3,95,35
+earthquake,Romania,RO,10,4,6,0,4,401492,71628.5,4,2099,339.0,4,410,114.5
+earthquake,Russia,RU,10,9,1,0,9,414539,11614,9,4853,55,7,504,18
+earthquake,Saudi Arabia,SA,10,3,7,0,3,150001,49122,3,1634,399,3,95,35
+earthquake,Senegal,SN,11,10,1,0,10,5196468,42880.0,10,48073,222.5,9,4178,85
+earthquake,Serbia,RS,10,0,10,0,0,,,0,,,0,,
+earthquake,Singapore,SG,12,9,3,0,9,582951,49122,9,2274,163,6,166,24.0
+earthquake,Slovakia,SK,12,6,6,0,6,205920,9760.0,5,2790,116,4,281,25.0
+earthquake,Slovenia,SI,10,7,3,0,7,1073135,85039,7,6363,368,3,668,226
+earthquake,South Africa,ZA,14,9,5,0,9,802782,58791,9,3063,183,7,191,25
+earthquake,South Korea,KR,10,9,1,0,9,7455815,31557,9,27315,187,9,5031,19
+earthquake,Spain,ES,10,10,0,0,10,1364796,118273.5,10,7439,294.0,9,451,13
+earthquake,Sri Lanka,LK,10,4,6,0,4,733696,127507.0,4,2803,475.5,1,27,27
+earthquake,Sweden,SE,10,7,3,0,7,805898,14758,7,3925,30,2,442,221.0
+earthquake,Switzerland,CH,11,9,2,0,9,476714,25944,9,11132,134,8,1146,19.5
+earthquake,Taiwan,TW,10,4,6,0,4,86867,15576.0,4,194,26.0,4,20,2.5
+earthquake,Tanzania,TZ,10,6,4,0,6,45379,2057.5,5,169,6,4,43,3.5
+earthquake,Thailand,TH,10,10,0,0,10,564031,49537.5,10,3965,356.5,10,274,14.5
+earthquake,Tunisia,TN,10,3,7,0,3,150001,49122,3,1634,399,3,95,35
+earthquake,Turkey,TR,10,6,4,0,6,169485,27302.0,6,498,73.0,6,111,14.5
+earthquake,Uganda,UG,12,8,4,0,8,3132296,86728.0,8,7274,287.5,7,1043,26
+earthquake,Ukraine,UA,10,6,4,0,6,795552,117883.0,6,6695,863.5,5,344,70
+earthquake,United Arab Emirates,AE,10,3,7,0,3,150001,49122,3,1634,399,3,95,35
+earthquake,United Kingdom,GB,12,9,3,0,9,746595,58791,9,2687,177,7,191,25
+earthquake,United States,US,11,10,1,0,10,1088466,47987.0,10,3205,235.0,8,269,19.5
+earthquake,Uruguay,UY,10,10,0,0,10,1077479,68020.0,10,3532,256.0,9,392,14
+earthquake,Venezuela,VE,10,10,0,0,10,910291,71113.0,10,2552,135.0,9,283,13
+earthquake,Vietnam,VN,10,6,4,0,6,194034,20391.0,6,999,85.0,1,3,3
+earthquake,Yemen,YE,10,3,7,0,3,150001,49122,3,1634,399,3,95,35
+earthquake,Zimbabwe,ZW,11,9,2,0,9,1503426,49122,9,3095,293,8,448,19.5

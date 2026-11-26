@@ -1,0 +1,108 @@
+﻿country,code,requested_language,search_language,translation_status,search_term,requested,candidate_limit,returned,selected,excluded,deferred,unexamined,collection_finished,metadata_ok,status,error,searched_at
+Algeria,DZ,ar,ar,translated,إعصار مداري أخبار,10,30,30,10,0,0,20,True,13,ok,,2026-11-26T04:34:21+00:00
+Argentina,AR,es,es,translated,ciclón tropical noticias,10,30,30,10,0,0,20,True,16,ok,,2026-11-26T04:36:45+00:00
+Australia,AU,en,en,original,hurricane news,10,30,30,10,0,0,20,True,18,ok,,2026-11-26T04:39:13+00:00
+Austria,AT,de,de,translated,tropischer Wirbelsturm Nachrichten,10,30,30,10,0,1,19,True,17,ok,,2026-11-26T04:41:33+00:00
+Azerbaijan,AZ,az,az,translated,tropik siklon xəbərlər,10,30,30,10,0,0,20,True,20,ok,,2026-11-26T04:43:26+00:00
+Bahrain,BH,ar,ar,translated,إعصار مداري أخبار,10,30,30,10,0,0,20,True,13,ok,,2026-11-26T04:45:12+00:00
+Bangladesh,BD,bn,bn,translated,ঘূর্ণিঝড় খবর,10,30,30,10,0,0,20,True,10,ok,,2026-11-26T04:45:16+00:00
+Belarus,BY,be,be,translated,трапічны цыклон навіны,10,30,30,10,0,0,20,True,22,ok,,2026-11-26T04:47:19+00:00
+Belgium,BE,nl,nl,translated,tropische cycloon nieuws,10,30,30,10,0,0,20,True,14,ok,,2026-11-26T04:48:10+00:00
+Bolivia,BO,es,es,translated,ciclón tropical noticias,10,30,30,10,0,0,20,True,15,ok,,2026-11-26T04:49:49+00:00
+Bosnia and Herzegovina,BA,bs,bs,translated,tropski ciklon vijesti,10,30,30,10,0,0,20,True,16,ok,,2026-11-26T04:50:22+00:00
+Brazil,BR,pt,pt,translated,ciclone tropical notícias,10,30,30,10,0,0,20,True,12,ok,,2026-11-26T04:51:10+00:00
+Bulgaria,BG,bg,bg,translated,тропически циклон новини,10,30,30,10,0,0,20,True,15,ok,,2026-11-26T04:53:24+00:00
+Canada,CA,en,en,original,hurricane news,10,30,30,10,0,1,19,True,16,ok,,2026-11-26T04:55:36+00:00
+Chile,CL,es,es,translated,ciclón tropical noticias,10,30,30,10,0,0,20,True,16,ok,,2026-11-26T04:56:30+00:00
+Colombia,CO,es,es,translated,ciclón tropical noticias,10,30,30,10,0,0,20,True,16,ok,,2026-11-26T04:57:04+00:00
+Costa Rica,CR,es,es,translated,ciclón tropical noticias,10,30,30,10,0,0,20,True,15,ok,,2026-11-26T04:57:24+00:00
+Croatia,HR,hr,hr,translated,tropska ciklona vijesti,10,30,30,10,0,0,20,True,15,ok,,2026-11-26T04:57:29+00:00
+Cyprus,CY,el,el,translated,τροπικός κυκλώνας ειδήσεις,10,30,30,10,0,0,20,True,19,ok,,2026-11-26T04:57:49+00:00
+Czechia,CZ,cs,cs,translated,tropická cyklóna zprávy,10,30,30,10,0,0,20,True,16,ok,,2026-11-26T04:59:46+00:00
+Denmark,DK,da,da,translated,tropisk cyklon nyheder,10,30,30,10,0,0,20,True,15,ok,,2026-11-26T05:00:35+00:00
+Dominican Republic,DO,es,es,translated,ciclón tropical noticias,10,30,30,10,0,0,20,True,16,ok,,2026-11-26T05:01:24+00:00
+Ecuador,EC,es,es,translated,ciclón tropical noticias,10,30,30,10,0,0,20,True,17,ok,,2026-11-26T05:01:29+00:00
+Egypt,EG,ar,ar,translated,إعصار مداري أخبار,10,30,30,10,0,0,20,True,13,ok,,2026-11-26T05:01:35+00:00
+El Salvador,SV,es,es,translated,ciclón tropical noticias,10,30,30,10,0,0,20,True,15,ok,,2026-11-26T05:01:40+00:00
+Estonia,EE,et,et,translated,troopiline tsüklon uudised,10,30,30,10,0,0,20,True,11,ok,,2026-11-26T05:01:59+00:00
+Finland,FI,fi,fi,translated,trooppinen sykloni uutiset,10,30,30,10,0,0,20,True,25,ok,,2026-11-26T05:04:27+00:00
+France,FR,fr,fr,translated,cyclone tropical actualités,10,30,30,10,0,0,20,True,17,ok,,2026-11-26T05:05:15+00:00
+Georgia,GE,ka,ka,translated,ტროპიკული ციკლონი ახალი ამბები,10,30,30,10,0,0,20,True,22,ok,,2026-11-26T05:08:14+00:00
+Germany,DE,de,de,translated,tropischer Wirbelsturm Nachrichten,10,30,30,10,0,1,19,True,16,ok,,2026-11-26T05:09:02+00:00
+Ghana,GH,en,en,original,hurricane news,10,30,30,10,0,1,19,True,16,ok,,2026-11-26T05:18:00+00:00
+Greece,GR,el,el,translated,τροπικός κυκλώνας ειδήσεις,10,30,30,10,0,0,20,True,17,ok,,2026-11-26T05:18:33+00:00
+Guatemala,GT,es,es,translated,ciclón tropical noticias,10,30,30,10,0,0,20,True,15,ok,,2026-11-26T05:18:53+00:00
+Honduras,HN,es,es,translated,ciclón tropical noticias,10,30,30,10,0,0,20,True,15,ok,,2026-11-26T05:18:58+00:00
+Hong Kong,HK,zh-TW,zh,translated,颱風 新聞,10,30,30,10,0,0,20,True,11,ok,,2026-11-26T05:19:03+00:00
+Hungary,HU,hu,hu,translated,trópusi ciklon hírek,10,30,30,10,0,0,20,True,17,ok,,2026-11-26T05:21:30+00:00
+Iceland,IS,is,is,translated,hitabeltishvirfilbylur fréttir,10,30,0,0,0,0,0,True,0,ok,,2026-11-26T05:22:02+00:00
+India,IN,hi,hi,translated,उष्णकटिबंधीय चक्रवात समाचार,10,30,30,10,0,1,19,True,11,ok,,2026-11-26T05:22:07+00:00
+Indonesia,ID,id,id,translated,siklon tropis berita,10,30,30,10,0,0,20,True,10,ok,,2026-11-26T05:24:21+00:00
+Iraq,IQ,ar,ar,translated,إعصار مداري أخبار,10,30,30,10,0,0,20,True,13,ok,,2026-11-26T05:27:00+00:00
+Ireland,IE,en,en,original,hurricane news,10,30,30,10,0,0,20,True,17,ok,,2026-11-26T05:27:19+00:00
+Israel,IL,iw,he,translated,ציקלון טרופי חדשות,10,30,30,10,0,0,20,True,19,ok,,2026-11-26T05:27:40+00:00
+Italy,IT,it,it,translated,ciclone tropicale notizie,10,30,30,10,0,0,20,True,13,ok,,2026-11-26T05:29:34+00:00
+Jamaica,JM,en,en,original,hurricane news,10,30,30,10,0,1,19,True,16,ok,,2026-11-26T05:30:51+00:00
+Japan,JP,ja,ja,translated,台風 ニュース,10,30,30,10,0,0,20,True,10,ok,,2026-11-26T05:31:28+00:00
+Jordan,JO,ar,ar,translated,إعصار مداري أخبار,10,30,30,10,0,0,20,True,12,ok,,2026-11-26T05:33:58+00:00
+Kazakhstan,KZ,kk,kk,translated,тропикалық циклон жаңалықтар,10,30,30,10,0,0,20,True,10,ok,,2026-11-26T05:34:03+00:00
+Kenya,KE,sw,sw,translated,kimbunga cha kitropiki habari,10,30,30,10,0,0,20,True,19,ok,,2026-11-26T05:36:32+00:00
+Kuwait,KW,ar,ar,translated,إعصار مداري أخبار,10,30,30,10,0,0,20,True,13,ok,,2026-11-26T05:37:06+00:00
+Latvia,LV,lv,lv,translated,tropiskais ciklons ziņas,10,30,30,10,0,0,20,True,22,ok,,2026-11-26T05:37:12+00:00
+Lebanon,LB,ar,ar,translated,إعصار مداري أخبار,10,30,30,10,0,0,20,True,12,ok,,2026-11-26T05:37:17+00:00
+Libya,LY,ar,ar,translated,إعصار مداري أخبار,10,30,30,10,0,0,20,True,12,ok,,2026-11-26T05:37:23+00:00
+Liechtenstein,LI,de,de,translated,tropischer Wirbelsturm Nachrichten,10,30,30,10,0,1,19,True,17,ok,,2026-11-26T05:37:29+00:00
+Lithuania,LT,lt,lt,translated,atogrąžų ciklonas naujienos,10,30,30,10,0,0,20,True,20,ok,,2026-11-26T05:37:34+00:00
+Luxembourg,LU,fr,fr,translated,cyclone tropical actualités,10,30,30,10,0,0,20,True,18,ok,,2026-11-26T05:37:54+00:00
+Malaysia,MY,ms,ms,translated,siklon tropika berita,10,30,30,10,0,0,20,True,17,ok,,2026-11-26T05:38:28+00:00
+Malta,MT,mt,en,translated,ċiklun tropikali aħbarijiet,10,30,28,10,2,4,12,True,16,ok,,2026-11-26T06:25:50+00:00
+Mexico,MX,es,es,translated,ciclón tropical noticias,10,30,30,10,0,0,20,True,16,ok,,2026-11-26T06:29:02+00:00
+Montenegro,ME,sr,sr,translated,тропски циклон вести,10,30,30,10,0,0,20,True,10,ok,,2026-11-26T06:29:08+00:00
+Morocco,MA,ar,ar,translated,إعصار مداري أخبار,10,30,30,10,0,0,20,True,12,ok,,2026-11-26T06:31:31+00:00
+Nepal,NP,ne,ne,translated,उष्णकटिबन्धीय चक्रवात समाचार,10,30,30,10,0,0,20,True,10,ok,,2026-11-26T06:31:37+00:00
+Netherlands,NL,nl,nl,translated,tropische cycloon nieuws,10,30,30,10,0,1,19,True,15,ok,,2026-11-26T06:34:05+00:00
+New Zealand,NZ,en,en,original,hurricane news,10,30,30,10,0,4,16,True,10,ok,,2026-11-26T06:35:45+00:00
+Nicaragua,NI,es,es,translated,ciclón tropical noticias,10,30,30,10,0,0,20,True,16,ok,,2026-11-26T06:38:02+00:00
+Nigeria,NG,en,en,original,hurricane news,10,30,30,10,0,2,18,True,15,ok,,2026-11-26T06:38:08+00:00
+North Macedonia,MK,mk,mk,translated,тропски циклон вести,10,30,30,10,0,0,20,True,23,ok,,2026-11-26T06:38:14+00:00
+Norway,NO,no,no,translated,tropisk syklon nyheter,10,30,30,10,0,0,20,True,22,ok,,2026-11-26T06:38:34+00:00
+Oman,OM,ar,ar,translated,إعصار مداري أخبار,10,30,30,10,0,0,20,True,12,ok,,2026-11-26T06:38:40+00:00
+Pakistan,PK,ur,ur,translated,سمندری طوفان خبریں,10,30,30,10,0,0,20,True,10,ok,,2026-11-26T06:39:00+00:00
+Panama,PA,es,es,translated,ciclón tropical noticias,10,30,30,10,0,0,20,True,16,ok,,2026-11-26T06:41:26+00:00
+Papua New Guinea,PG,en,en,original,hurricane news,10,30,30,10,0,0,20,True,18,ok,,2026-11-26T06:41:32+00:00
+Paraguay,PY,es,es,translated,ciclón tropical noticias,10,30,30,10,0,0,20,True,16,ok,,2026-11-26T06:41:54+00:00
+Peru,PE,es,es,translated,ciclón tropical noticias,10,30,30,10,0,0,20,True,15,ok,,2026-11-26T06:42:00+00:00
+Philippines,PH,tl,tl,translated,bagyo balita,10,30,30,10,0,0,20,True,10,ok,,2026-11-26T06:42:06+00:00
+Poland,PL,pl,pl,translated,cyklon tropikalny wiadomości,10,30,30,10,0,0,20,True,17,ok,,2026-11-26T06:44:40+00:00
+Portugal,PT,pt,pt,translated,ciclone tropical notícias,10,30,30,10,0,0,20,True,13,ok,,2026-11-26T06:46:29+00:00
+Puerto Rico,PR,es,es,translated,ciclón tropical noticias,10,30,30,10,0,0,20,True,16,ok,,2026-11-26T06:47:03+00:00
+Qatar,QA,ar,ar,translated,إعصار مداري أخبار,10,30,30,10,0,0,20,True,12,ok,,2026-11-26T06:47:09+00:00
+Romania,RO,ro,ro,translated,ciclon tropical știri,10,30,30,10,0,0,20,True,21,ok,,2026-11-26T06:47:16+00:00
+Russia,RU,ru,ru,translated,тропический циклон новости,10,30,30,10,0,0,20,True,11,ok,,2026-11-26T06:48:32+00:00
+Saudi Arabia,SA,ar,ar,translated,إعصار مداري أخبار,10,30,30,10,0,0,20,True,12,ok,,2026-11-26T06:50:19+00:00
+Senegal,SN,fr,fr,translated,cyclone tropical actualités,10,30,30,10,0,0,20,True,17,ok,,2026-11-26T06:50:25+00:00
+Serbia,RS,sr,sr,translated,тропски циклон вести,10,30,30,10,0,0,20,True,10,ok,,2026-11-26T06:50:47+00:00
+Singapore,SG,en,en,original,hurricane news,10,30,30,10,0,2,18,True,15,ok,,2026-11-26T06:50:53+00:00
+Slovakia,SK,sk,sk,translated,tropická cyklóna správy,10,30,30,10,0,1,19,True,15,ok,,2026-11-26T06:50:59+00:00
+Slovenia,SI,sl,sl,translated,tropski ciklon novice,10,30,30,10,0,0,20,True,22,ok,,2026-11-26T06:51:36+00:00
+South Africa,ZA,en,en,original,hurricane news,10,30,30,10,0,2,18,True,15,ok,,2026-11-26T06:52:10+00:00
+South Korea,KR,ko,ko,translated,태풍 뉴스,10,30,30,10,0,0,20,True,10,ok,,2026-11-26T06:52:16+00:00
+Spain,ES,es,es,translated,ciclón tropical noticias,10,30,30,10,0,0,20,True,16,ok,,2026-11-26T06:54:47+00:00
+Sri Lanka,LK,si,si,translated,නිවර්තන සුළි කුණාටුව පුවත්,10,30,30,10,0,0,20,True,12,ok,,2026-11-26T06:54:54+00:00
+Sweden,SE,sv,sv,translated,tropisk cyklon nyheter,10,30,30,10,0,0,20,True,19,ok,,2026-11-26T06:57:21+00:00
+Switzerland,CH,de,de,translated,tropischer Wirbelsturm Nachrichten,10,30,30,10,0,1,19,True,15,ok,,2026-11-26T06:57:41+00:00
+Taiwan,TW,zh-TW,zh,translated,颱風 新聞,10,30,30,10,0,0,20,True,10,ok,,2026-11-26T06:57:47+00:00
+Tanzania,TZ,sw,sw,translated,kimbunga cha kitropiki habari,10,30,30,10,0,0,20,True,18,ok,,2026-11-26T06:58:08+00:00
+Thailand,TH,th,th,translated,พายุหมุนเขตร้อน ข่าว,10,30,30,10,0,0,20,True,10,ok,,2026-11-26T06:58:28+00:00
+Tunisia,TN,ar,ar,translated,إعصار مداري أخبار,10,30,30,10,0,0,20,True,12,ok,,2026-11-26T07:00:58+00:00
+Turkey,TR,tr,tr,translated,tropikal siklon haberleri,10,30,30,10,0,0,20,True,11,ok,,2026-11-26T07:01:04+00:00
+Uganda,UG,en,en,original,hurricane news,10,30,30,10,0,2,18,True,15,ok,,2026-11-26T07:03:18+00:00
+Ukraine,UA,uk,uk,translated,тропічний циклон новини,10,30,30,10,0,0,20,True,13,ok,,2026-11-26T07:03:24+00:00
+United Arab Emirates,AE,ar,ar,translated,إعصار مداري أخبار,10,30,30,10,0,0,20,True,11,ok,,2026-11-26T07:04:27+00:00
+United Kingdom,GB,en,en,original,hurricane news,10,30,30,10,0,0,20,True,16,ok,,2026-11-26T07:04:33+00:00
+United States,US,en,en,original,hurricane news,10,30,30,10,0,0,20,True,17,ok,,2026-11-26T07:04:40+00:00
+Uruguay,UY,es,es,translated,ciclón tropical noticias,10,30,30,10,0,0,20,True,15,ok,,2026-11-26T07:04:46+00:00
+Venezuela,VE,es,es,translated,ciclón tropical noticias,10,30,30,10,0,0,20,True,16,ok,,2026-11-26T07:04:52+00:00
+Vietnam,VN,vi,vi,translated,bão nhiệt đới tin tức,10,30,30,10,0,0,20,True,10,ok,,2026-11-26T07:04:59+00:00
+Yemen,YE,ar,ar,translated,إعصار مداري أخبار,10,30,30,10,0,0,20,True,13,ok,,2026-11-26T07:07:29+00:00
+Zimbabwe,ZW,en,en,original,hurricane news,10,30,30,10,0,0,20,True,17,ok,,2026-11-26T07:07:50+00:00
